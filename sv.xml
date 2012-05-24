@@ -25,19 +25,19 @@
   <Text Key="Delete.Failed">Borttagning lyckades inte</Text>
   <Text Key="Validation.Errors">Valideringsfel inträffade</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
-  <Text Key="Save.ErrorsOccurred.Title">Validation errors</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Ett valideringsfel inträffade | valideringsfel inträffade}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Valideringsfel</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Please correct the errors and try again.</Text>
+  <Text Key="Save.ValidationSummary.Title">Rätta till felen och försök igen.</Text>
   
-  <Text Key="Content.Save.Title">Content saved</Text>
-  <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
-  <Text Key="Content.SaveUnathorized.Title">Content not saved</Text>
-  <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
-  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
+  <Text Key="Content.Save.Title">Innehåll sparat</Text>
+  <Text Key="Content.Save.Message">Kom ihåg att publisera för att ändringen ska synas</Text>
+  <Text Key="Content.SaveUnathorized.Title">Innehåll ej sparat</Text>
+  <Text Key="Content.SaveUnathorized.Message">Innehållert kunde inte sparas pga otillräckliga rättigheter</Text>
+  <Text Key="Content.UnSaved.Message">Detta innehåll är inte sprat. Kom ihåg att spara ändringar om du vill återgå till innehållet senare.</Text>
+  <Text Key="Content.NoTemplates.Message">Det finns inga mallar tillgängliga för detta innehåll</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunde inte genereras för denna nod eftersom den gren den innefattas av måste ha ett tilldelat hostname</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Denna innehållstyp har inga tillåtna undertyper.</Text>
 
   <Text Key="User.Save.Title">User saved</Text>
   <Text Key="User.Save.Message">The user information has been successfully saved</Text>
