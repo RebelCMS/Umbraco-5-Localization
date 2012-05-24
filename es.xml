@@ -39,34 +39,34 @@
   <Text Key="Content.UrlResolutionFailedHostname.Message">No se pudo generar una URL para este contenido porque se requiere asignar un hostname.</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">Este tipo de contenido no permite asignar otros tipos de contenidos hijos.</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="User.Save.Title">Usuario guardado</Text>
+  <Text Key="User.Save.Message">Los datos del usuario han sido guardados correctamente</Text>
+  <Text Key="User.UnSaved.Message">Este usuario no está guardado todavía. Recuerda guardar los datos si quieres poder editarlos más delante.</Text>
 
-  <Text Key="UserGroup.Save.Title">User group saved</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
-  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
-  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
+  <Text Key="UserGroup.Save.Title">Grupo de usuarios guardado</Text>
+  <Text Key="UserGroup.Save.Message">Los datos del grupo de usuarios ha sido guardado correctamente</Text>
+  <Text Key="UserGroup.UnSaved.Message">Este grupo de usuarios no está guardado todavía. Recuerda guardar los datos si quieres poder editarlos más delante.</Text>
+  <Text Key="UserGroup.Inherit.Message">Por favor, ten en cuenta que los permisos configurados para heredarse, por defecto estarán denegados hasta que no se hayan heredado</Text>
   
-  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
-  <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
-  <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="MemberGroup.Save.Title">Grupo de miembros guardado</Text>
+  <Text Key="MemberGroup.Save.Message">Los datos del grupo de miembros ha sido guardado correctamente</Text>
+  <Text Key="MemberGroup.UnSaved.Message">Este grupo de miembros no está guardado todavía. Recuerda guardar los datos si quieres poder editarlos más delante.</Text>
 
-  <Text Key="DataType.Save.Title">Data type saved</Text>
-  <Text Key="DataType.Save.Message">Data type has been saved</Text>
-  <Text Key="DataType.UnSaved.Message">This data type is currently un-saved. Remember to save this data type if you would like to be able to come back and edit it later.</Text>
+  <Text Key="DataType.Save.Title">Tipo de datos guardado</Text>
+  <Text Key="DataType.Save.Message">El tipo de datos ha sido guardado correctamente.</Text>
+  <Text Key="DataType.UnSaved.Message">Este tipo de datos no está guardado todavía. Recuerda guardar los datos si quieres poder editarlos más delante.</Text>
 
-  <Text Key="DocumentType.Save.Title">Document type saved</Text>
-  <Text Key="DocumentType.Save.Message">Document type has been successfully saved</Text>
-  <Text Key="DocumentType.UnSaved.Message">This document type is currently un-saved. Remember to save this document type if you would like to be able to come back and edit it later.</Text>
-  <Text Key="DocumentType.PropertyDeleted.Title">Property deleted</Text>
-  <Text Key="DocumentType.PropertyDeleted.Message">Document type property has been deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Title">Tab deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Message">Document type tab has been deleted</Text>
-  <Text Key="DocumentType.TabAdded.Title">Tab added</Text>
-  <Text Key="DocumentType.TabAdded.Message">Document type tab has been added</Text>
-  <Text Key="DocumentType.Validation.DuplicateTab">The tab name entered already exists</Text>
-  <Text Key="DocumentType.Validation.RequiredTabName">A tab name must be specified</Text>
+  <Text Key="DocumentType.Save.Title">Tìpo de documento guardado</Text>
+  <Text Key="DocumentType.Save.Message">El tipo de documento ha sido guardado correctamente.</Text>
+  <Text Key="DocumentType.UnSaved.Message">Este tipo de documento no está guardado todavía. Recuerda guardar los datos si quieres poder editarlos más delante.</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Propiedad eliminada</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">La propiedad del tipo de documento ha sido eliminada</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Pestaña borrada</Text>
+  <Text Key="DocumentType.TabDeleted.Message">La pestaña del tipo de documento ha sido eliminada</Text>
+  <Text Key="DocumentType.TabAdded.Title">Pestaña añadida</Text>
+  <Text Key="DocumentType.TabAdded.Message">La pestaña del tipo de documento ha sido añadida</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">Ya existe una pestaña con ese nombre</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">Debes especificar un nombre para la pestaña</Text>
   
   <Text Key="Permissions.Title">Permissions updated</Text>
   <Text Key="Permissions.Success.Message">Permissions successfully saved on node {Name}</Text>
