@@ -9,5 +9,6 @@ The Default.xml file contains the default localization file used to display the 
 
 Once you are done send us a pull request. We will merge your pull request once the translation has been approved by at least one other person who understands the language of your translation ;)
 Please note that you don't *have* to submit a complete translation. We will accept partial translations and merge them untill we have a complete translation of a given language. Complete translations will ultimately be added to the Core.
+Also, remember to update your fork regularly as we receive a lot of partials translations.
 
 All contributors will be awarded the "Core Contributor"-badge on their [our.umbraco.org](http://our.umbraco.org/wiki/about/core-contributor "Umbraco Community Forum") profile.
