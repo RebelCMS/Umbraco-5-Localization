@@ -15,7 +15,7 @@
   <Text Key="CreatedBy">Erstellt von</Text>
   <Text Key="UtcCreated">Erstellt am</Text>
   <Text Key="UtcModified">Geändert am</Text>
-  <Text Key="NodeName">Kontenname</Text>
+  <Text Key="NodeName">Knotenname</Text>
   <Text Key="UpdatedBy">Aktualisiert von</Text>
   <Text Key="ShowLabel">Beschriftung anzeigen</Text>
   
