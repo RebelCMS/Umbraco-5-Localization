@@ -39,14 +39,14 @@
   <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunde inte genereras för denna nod eftersom den gren den innefattas av måste ha ett tilldelat hostname</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">Denna innehållstyp har inga tillåtna undertyper.</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="User.Save.Title">Användare sparad</Text>
+  <Text Key="User.Save.Message">Användarinformation har sprats.</Text>
+  <Text Key="User.UnSaved.Message">Denna användare är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
 
-  <Text Key="UserGroup.Save.Title">User group saved</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
-  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
-  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
+  <Text Key="UserGroup.Save.Title">Användargrupp sparad</Text>
+  <Text Key="UserGroup.Save.Message">Användargruppens information har sprats.</Text>
+  <Text Key="UserGroup.UnSaved.Message">Denna användargrupp är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
+  <Text Key="UserGroup.Inherit.Message">Notera att rättigheter som sätts till ärv kommer sättas till neka om ingen specifik tillåt-rättighet kan ärvas.</Text>
   
   <Text Key="MemberGroup.Save.Title">Member group saved</Text>
   <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
