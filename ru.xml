@@ -34,21 +34,21 @@
   <Text Key="Content.Save.Message">Не забудьте опубликовать чтобы сделать видимым изменение</Text>
   <Text Key="Content.SaveUnathorized.Title">Содержимое не сохранено</Text>
   <Text Key="Content.SaveUnathorized.Message">Содержимое не сохранено из за нехватки полномочий</Text>
-  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
+  <Text Key="Content.UnSaved.Message">Содержимое не сохранено. Не забудьте сохранить содержимоеесли вы не хотите потерять изменения.</Text>
+  <Text Key="Content.NoTemplates.Message">В настоящее время шаблоны для содержимого не доступны.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">Ссылка не может быть сгенерирована для этого обьекта потому что необходимо сопоставить имя хоста к текущей ветке.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Этот тип содержимого не содержит разрешенных дочерних типов соответствующих ему</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="User.Save.Title">Пользователь сохранен</Text>
+  <Text Key="User.Save.Message">Информация пользователя была успешно сохранена</Text>
+  <Text Key="User.UnSaved.Message">Текущий пользователь в настоящее время не сохранен. Не забудьте сохранить его если вы не хотите потерять ваши изменения.</Text>
 
-  <Text Key="UserGroup.Save.Title">User group saved</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
-  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
-  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
+  <Text Key="UserGroup.Save.Title">Группа пользователей сохранена</Text>
+  <Text Key="UserGroup.Save.Message">Информация о группе пользователей была успешно сохранена</Text>
+  <Text Key="UserGroup.UnSaved.Message">Текущая группа пользователей не сохранена. Не забудьте сохранить ее если не хотите потерять изменения.</Text>
+  <Text Key="UserGroup.Inherit.Message">Не забудьте, доступ установлен на отказ по умолчанию если нет явных разрешающих доступов которые могут быть унаследованны.</Text>
   
-  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
+  <Text Key="MemberGroup.Save.Title">Группа пользователей сохранена</Text>
   <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
   <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
 
