@@ -295,7 +295,7 @@
   
   <!-- Partial Editor -->
   <Text Key="Partial.Create.Title">Teilansicht erstellen</Text>
-  <Text Key="Partial.Editor.Title">Teilansichtseditor</Text>
+  <Text Key="Partial.Editor.Title">Teilansichts-Editor</Text>
   <Text Key="Partial.Editor.Title.CurrentPath">Aktueller Pfad</Text>
   <Text Key="Partial.Editor.Label.CreateFile">Datei erstellen</Text>
   <Text Key="Partial.Editor.Label.CreateFolder">Ordner erstellen</Text>
@@ -305,7 +305,7 @@
   <Text Key="DataType.Editor.Tab.Title">Datentyp</Text>
   <Text Key="DataType.Editor.Settings">Einstellungen</Text>
   <Text Key="DataType.Editor.DataTypeGUID">GUID des Datentyps</Text>
-  <Text Key="DataType.Editor.SelectPropEditor">--Eigenschaftseditor auswählen--</Text>
+  <Text Key="DataType.Editor.SelectPropEditor">--Eigenschafts-Editor auswählen--</Text>
   
   <!-- Packaging Editor -->
   <Text Key="Packaging.Editor.Title">Lokales Paket-Repository</Text>
@@ -350,7 +350,7 @@
  
   <!-- Macro Partial Editor-->
   <Text Key="MacroPartial.Create.Title">Neue Teilansicht erstellen</Text>
-  <Text Key="Packaging.Editor.Title">Teilansichtseditor</Text>
+  <Text Key="Packaging.Editor.Title">Teilansichts-Editor</Text>
   
   <!-- User Editor -->
   <Text Key="User.Editor.Tab.NewUser">Neuer Benutzer</Text>
@@ -380,7 +380,7 @@
   
   <Namespace Name="Umbraco.Cms.Web">
     
-    <Text Key="CoreEntityModel.PropertyEditorId">Choose property editor</Text>
+    <Text Key="CoreEntityModel.PropertyEditorId">Eigenschafts-Editor wählen</Text>
     <Text Key="CoreEntityModel.UtcPublished">Veröffentlichungsstatus</Text>
     
     <Text Key="ContentEditorModel.DocumentTypeName">Dokumenttyp</Text>
@@ -431,8 +431,8 @@
     <Text Key="AbstractSchemaEditorModel.Alias">Alias</Text>
     <Text Key="AbstractSchemaEditorModel.Icon">Symbol</Text>
     <Text Key="AbstractSchemaEditorModel.Icon.Description">Das Symbol für die Baumansicht der Inhalte.</Text>
-    <Text Key="AbstractSchemaEditorModel.Thumbnail">Vorschauabbildung</Text>
-    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">Die Vorschauabbildung, die bei 'Erstellen' angezeigt wird.</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail">Vorschaubild</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">Das Vorschaubild, das bei 'Erstellen' angezeigt wird.</Text>
     <Text Key="AbstractSchemaEditorModel.Description">Beschreibung</Text>
     <Text Key="AbstractSchemaEditorModel.Description.Description">Die Beschreibung, die bei 'Erstellen' angezeigt wird.</Text>
     <Text Key="AbstractSchemaEditorModel.InheritFrom">Stammt ab von</Text>
