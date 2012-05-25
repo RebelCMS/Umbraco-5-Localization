@@ -25,7 +25,7 @@
   <Text Key="Delete.Failed">Обьект не был удален</Text>
   <Text Key="Validation.Errors">Произошли ошибки валидации</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Множественное(Количество ошибок){Произошла ошибка валидации | Произошла ошибка валидации}</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Произошла ошибка валидации | Произошли ошибки валидации}</Text>
   <Text Key="Save.ErrorsOccurred.Title">Ошибки валидации</Text>
 
   <Text Key="Save.ValidationSummary.Title">Пожалуйста исправьте ошибки и повторите.</Text>
@@ -97,7 +97,7 @@
   <Text Key="Language.Save.Message">Язык был успешно сохранен</Text>
   <Text Key="Language.UnSaved.Message">Язык не сохранен. Не забудьте сохранить язык если вы не хотите потерять изменения</Text>
   
-  <Text Key="Macro.Save.Title">Macro saved</Text>
+  <Text Key="Macro.Save.Title">Макрос сохранен</Text>
   <Text Key="Macro.Save.Message">Macro has been successfully saved</Text>
   <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
   <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
