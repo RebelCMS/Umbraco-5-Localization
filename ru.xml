@@ -98,73 +98,73 @@
   <Text Key="Language.UnSaved.Message">Язык не сохранен. Не забудьте сохранить язык если вы не хотите потерять изменения</Text>
   
   <Text Key="Macro.Save.Title">Макрос сохранен</Text>
-  <Text Key="Macro.Save.Message">Macro has been successfully saved</Text>
-  <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
-  <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
-  <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
-  <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
-  <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
+  <Text Key="Macro.Save.Message">Макрос был успешно сохранен</Text>
+  <Text Key="Macro.UnSaved.Message">Этот макрос не сохранен. Не забудьте сохранить макрос, если вы не хотите потерять изменения.</Text>
+  <Text Key="Macro.ParamsPopulated.Title">Параметры макроса</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">Параметры макроса успешно получены</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Не могу определить параметры для дочерних действий которые содержат один или более: возвращаемых значений или LCID параметров</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Не могу найти сслыку на совместное представление</Text>
+  <Text Key="Macro.RenderingFailed.Message">Произошла ошибка выполнения макроса '{MacroName}'. Ошибка: '{Error}'. Смотрите лог файлы для детальной информации.</Text>
+  <Text Key="Macro.RenderingFailed.Title">Ошибка макроса</Text>
   
-  <Text Key="Template.Save.Title">Template saved</Text>
-  <Text Key="Template.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Template.Save.Title">Шаблон сохранен</Text>
+  <Text Key="Template.Save.Message">Шаблон был успешно сохранен</Text>
   
-  <Text Key="Partials.Save.Title">Template saved</Text>
-  <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Partials.Save.Title">Шаблон сохранен</Text>
+  <Text Key="Partials.Save.Message">Шаблон был успешно сохранен</Text>
   
-  <Text Key="Script.Save.Title">Script saved</Text>
-  <Text Key="Script.Save.Message">Script has been successfully saved</Text>
+  <Text Key="Script.Save.Title">Скрипт сохранен</Text>
+  <Text Key="Script.Save.Message">Скрипт был успешно сохранен</Text>
   
-  <Text Key="Stylesheet.Save.Title">Stylesheet saved</Text>
-  <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
+  <Text Key="Stylesheet.Save.Title">Таблица стилей сохранена</Text>
+  <Text Key="Stylesheet.Save.Message">Таблица стилей была успешно сохранена</Text>
 
-  <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
+  <Text Key="StylesheetRule.UnSaved.Message">Это правило не сохранено. Не забудьте сохранить правило если не хотите потерять изменения.</Text>
   
-  <Text Key="Folder.Save.Title">Folder created</Text>
-  <Text Key="Folder.Save.Message">Folder has been created successfully</Text>
+  <Text Key="Folder.Save.Title">Папка создана</Text>
+  <Text Key="Folder.Save.Message">Папка была создана успешно</Text>
 
-  <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
+  <Text Key="File.UnSaved.Message">Этот файл не сохранен. Не забудьте сохранить файл если вы не хотите потерять изменения.</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Logout</Text>
-  <Text Key="UI.Button.About">About</Text>
-  <Text Key="UI.Title.Sections">Sections</Text>
-  <Text Key="UI.Title.Search">Search</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UI.Tab.FileProperties">Umbraco Properties</Text>
+  <Text Key="UI.Button.Logout">Выйти</Text>
+  <Text Key="UI.Button.About">О программе</Text>
+  <Text Key="UI.Title.Sections">Выбор</Text>
+  <Text Key="UI.Title.Search">Поиск</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Свойства Umbraco</Text>
+  <Text Key="UI.Tab.FileProperties">Свойства Umbraco</Text>
   <!-- Trees-->
   <!-- TODO -->
   
   <!-- Fixed Tree Nodes -->
-  <Text Key="Local packages">Local packages</Text>
+  <Text Key="Local packages">Локальные пакеты</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Audit</Text>
-  <Text Key="Copy">Copy</Text>
-  <Text Key="CreateFolder">Create Folder</Text>
-  <Text Key="Create">Create</Text>
-  <Text Key="Delete">Delete</Text>
-  <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
-  <Text Key="ExportDocumentType">Export DocumentType</Text>
-  <Text Key="Manage hostnames">Manage hostnames</Text>
-  <Text Key="ImportDocumentType">Impor tDocumentType</Text>
-  <Text Key="Language">Language</Text>
-  <Text Key="Logout">Logout</Text>
-  <Text Key="Move">Move</Text>
-  <Text Key="Notify">Notify</Text>
-  <Text Key="Package">Package</Text>
-  <Text Key="Permissions">Permissions</Text>
-  <Text Key="Public Access">PublicAccess</Text>
-  <Text Key="Publish">Publish</Text>
-  <Text Key="Refresh">Refresh</Text>
-  <Text Key="Rollback">Rollback</Text>
-  <Text Key="Save">Save</Text>
-  <Text Key="SendPublish">Send to publish</Text>
-  <Text Key="SendTranslate">Send to Translate</Text>
-  <Text Key="Sort">Sort</Text>
-  <Text Key="Translate">Translate</Text>
-  <Text Key="Update">Update</Text>
+  <Text Key="Audit">Аудит</Text>
+  <Text Key="Copy">Копировать</Text>
+  <Text Key="CreateFolder">Создать папку</Text>
+  <Text Key="Create">Создать</Text>
+  <Text Key="Delete">Удалить</Text>
+  <Text Key="EmptyRecycleBin">Очистить корзину</Text>
+  <Text Key="ExportDocumentType">Выгрузить тип документа</Text>
+  <Text Key="Manage hostnames">Настройка имен хоста</Text>
+  <Text Key="ImportDocumentType">Загрузить тип документа</Text>
+  <Text Key="Language">Язык</Text>
+  <Text Key="Logout">Выйти</Text>
+  <Text Key="Move">Переместить</Text>
+  <Text Key="Notify">Уведомить</Text>
+  <Text Key="Package">Пакет</Text>
+  <Text Key="Permissions">Настройки доступа</Text>
+  <Text Key="Public Access">Общедоступный доступ</Text>
+  <Text Key="Publish">Опубликовать</Text>
+  <Text Key="Refresh">Обновить</Text>
+  <Text Key="Rollback">Откатить</Text>
+  <Text Key="Save">Сохранить</Text>
+  <Text Key="SendPublish">Послать на публикацию</Text>
+  <Text Key="SendTranslate">Послать на перевод</Text>
+  <Text Key="Sort">Сортировать</Text>
+  <Text Key="Translate">Перевести</Text>
+  <Text Key="Update">Обновить</Text>
   
   <!-- Dashboards -->
   
