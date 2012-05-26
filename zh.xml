@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Localizations Language="zh">
+<Localizations Language="zh-CN">
   <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
 
   <!-- Applications -->
-  <Text Key="content">页面</Text>
-  <Text Key="media">多媒体</Text>
+  <Text Key="content">内容</Text>
+  <Text Key="media">媒体</Text>
   <Text Key="settings">设置</Text>
   <Text Key="developer">开发</Text>
   <Text Key="users">用户</Text>
@@ -20,53 +20,53 @@
   <Text Key="ShowLabel">显示标签</Text>
   
   <!-- Messages -->
-  <Text Key="Login.Invalid">用户名或者密码错误</Text>
-  <Text Key="Delete.Successful">项目删除成功</Text>
+  <Text Key="Login.Invalid">用户名或密码错误</Text>
+  <Text Key="Delete.Successful">成功删除项目</Text>
   <Text Key="Delete.Failed">项目未删除</Text>
   <Text Key="Validation.Errors">出现验证错误</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){一个验证错误出现 | 验证错误出现}</Text>
   <Text Key="Save.ErrorsOccurred.Title">验证错误</Text>
 
   <Text Key="Save.ValidationSummary.Title">请修改错误后再试一次</Text>
   
   <Text Key="Content.Save.Title">内容已经保存</Text>
-  <Text Key="Content.Save.Message">请注意:内容要在发布后才能访问</Text>
+  <Text Key="Content.Save.Message">注意：内容要在发布后才能访问</Text>
   <Text Key="Content.SaveUnathorized.Title">内容未保存</Text>
   <Text Key="Content.SaveUnathorized.Message">权限不足，内容无法保存</Text>
-  <Text Key="Content.UnSaved.Message">当前内容还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="Content.UnSaved.Message">当前内容还未保存，请保存，以防内容丢失。</Text>
   <Text Key="Content.NoTemplates.Message">当前内容还未指定模版</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">页面URL地址无法生成，您需要未当前分支指定一个域名（hostname)。</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">页面地址无法生成，您需要为当前分支指定一个域名（主机名)。</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">还未为当前的内容类型指定子类型</Text>
 
   <Text Key="User.Save.Title">用户已保存</Text>
   <Text Key="User.Save.Message">用户信息保存成功</Text>
-  <Text Key="User.UnSaved.Message">当前用户信息还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="User.UnSaved.Message">当前用户信息还未保存，请保存，以防内容丢失。</Text>
 
   <Text Key="UserGroup.Save.Title">用户组已保存</Text>
   <Text Key="UserGroup.Save.Message">用户组信息保存成功</Text>
-  <Text Key="UserGroup.UnSaved.Message">用户组信息还未保存，请注意保存，以防内容丢失。</Text>
-  <Text Key="UserGroup.Inherit.Message">注意：如果没有任何可继承的权限，那将权限设置为继承将等同于拒绝。</Text>
+  <Text Key="UserGroup.UnSaved.Message">用户组信息还未保存，请保存，以防内容丢失。</Text>
+  <Text Key="UserGroup.Inherit.Message">注意：如果没有任何可继承的权限，那么权限设置为继承将等同于拒绝。</Text>
   
   <Text Key="MemberGroup.Save.Title">会员组已保存</Text>
   <Text Key="MemberGroup.Save.Message">会员组信息保存成功</Text>
-  <Text Key="MemberGroup.UnSaved.Message">当前会员组还未保存。请注意保存，以防内容丢失。</Text>
+  <Text Key="MemberGroup.UnSaved.Message">当前会员组还未保存。请保存，以防内容丢失。</Text>
 
   <Text Key="DataType.Save.Title">数据类型已保存</Text>
   <Text Key="DataType.Save.Message">数据类型保存成功</Text>
-  <Text Key="DataType.UnSaved.Message">当前数据类型还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="DataType.UnSaved.Message">当前数据类型还未保存，请保存，以防内容丢失。</Text>
 
   <Text Key="DocumentType.Save.Title">内容类型已保存</Text>
   <Text Key="DocumentType.Save.Message">内容类型保存成功</Text>
-  <Text Key="DocumentType.UnSaved.Message">当前内容类型还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="DocumentType.UnSaved.Message">当前内容类型还未保存，请保存，以防内容丢失。</Text>
   <Text Key="DocumentType.PropertyDeleted.Title">属性已删除</Text>
   <Text Key="DocumentType.PropertyDeleted.Message">内容类型属性删除成功</Text>
-  <Text Key="DocumentType.TabDeleted.Title">标签已删除</Text>
-  <Text Key="DocumentType.TabDeleted.Message">标签删除成功</Text>
-  <Text Key="DocumentType.TabAdded.Title">添加标签</Text>
-  <Text Key="DocumentType.TabAdded.Message">添加标签成功</Text>
-  <Text Key="DocumentType.Validation.DuplicateTab">标签名称已经存在</Text>
-  <Text Key="DocumentType.Validation.RequiredTabName">请输入标签名称</Text>
+  <Text Key="DocumentType.TabDeleted.Title">选项卡已删除</Text>
+  <Text Key="DocumentType.TabDeleted.Message">选项卡删除成功</Text>
+  <Text Key="DocumentType.TabAdded.Title">添加选项卡</Text>
+  <Text Key="DocumentType.TabAdded.Message">添加选项卡成功</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">选项卡名称已经存在</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">请输入选项卡名称</Text>
   
   <Text Key="Permissions.Title">更新权限</Text>
   <Text Key="Permissions.Success.Message">{Name}节点的权限更新成功</Text>
@@ -74,8 +74,8 @@
   <Text Key="PublicAccess.Title">访问控制已更新</Text>
   <Text Key="PublicAccess.Success.Message">{Name}节点的访问控制更新成功</Text>
   <Text Key="Hostname.Title">主机名称已更新</Text>
-  <Text Key="Hostname.Success.Message">成功为节点{Name}添加了主机名称:{Count}</Text>
-  <Text Key="Language.Title">语音已更新</Text>
+  <Text Key="Hostname.Success.Message">成功为节点{Name}添加了主机名称：{Count}</Text>
+  <Text Key="Language.Title">语言已更新</Text>
   <Text Key="Language.Success.Message">{Name}节点的语言添加成功</Text>
   <Text Key="Sort.Title">正在排序文档</Text>
   <Text Key="Rollback.Title">正在回滚文档</Text>
@@ -85,26 +85,26 @@
   <Text Key="Rollback.Success.Message">文档回滚成功</Text>
   <Text Key="Publish.Title">正在发布文档</Text>
   <Text Key="Publish.SingleSuccess.Message">'{Name}'发布成功</Text>
-  <Text Key="Publish.SingleUnathorized.Message">'{Name}'还未发布，因为没有足够的权限</Text>
+  <Text Key="Publish.SingleUnathorized.Message">'{Name}'还未发布，因为权限不够。</Text>
   <Text Key="Publish.ChildrenSuccess.Message">'{Name}'和子页面发布成功</Text>
   <Text Key="Publish.IncludeChildren.Label">发布'{Name}'和子页面</Text>
   <Text Key="Publish.IncludeUnpublishedChildren.Label">包括所有的子页面</Text>
   <Text Key="Unpublish.Title">正在取消发布文档</Text>
   <Text Key="Unpublish.SingleSuccess.Message">'{Name}'已经取消发布</Text>
-  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}'还未取消发布，因为没有足够的权限</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}'还未取消发布，因为权限不够。</Text>
 
-  <Text Key="Language.Save.Title">语言已保</Text>
+  <Text Key="Language.Save.Title">语言已保存</Text>
   <Text Key="Language.Save.Message">语言保存成功</Text>
-  <Text Key="Language.UnSaved.Message">当前语言还未保存，请注意保存。以防内容丢失。</Text>
+  <Text Key="Language.UnSaved.Message">当前语言还未保存。请保存，以防内容丢失。</Text>
   
   <Text Key="Macro.Save.Title">宏已保存</Text>
   <Text Key="Macro.Save.Message">宏保存成功</Text>
-  <Text Key="Macro.UnSaved.Message">当前宏还未保存，请注意保存。以防内容丢失。</Text>
+  <Text Key="Macro.UnSaved.Message">当前宏还未保存。请保存，以防内容丢失。</Text>
   <Text Key="Macro.ParamsPopulated.Title">宏参数</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">成功读取宏参数</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">不能为child action设定参数,因为包含out、return value、LCID参数</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">不能为child action设定参数，因为包含out、return value、LCID参数。</Text>
   <Text Key="Macro.ParamsFailedPartialView.Message">无法找到部分视图引用</Text>
-  <Text Key="Macro.RenderingFailed.Message">显示宏'{MacroName}'时出现错误。 错误: '{Error}'.详细信息请查看Umbraco日志。</Text>
+  <Text Key="Macro.RenderingFailed.Message">显示宏'{MacroName}'时出现错误。 错误: '{Error}'，详细信息请查看系统日志。</Text>
   <Text Key="Macro.RenderingFailed.Title">宏错误</Text>
   
   <Text Key="Template.Save.Title">模版已保存</Text>
@@ -124,14 +124,14 @@
   <Text Key="Folder.Save.Title">文件夹已创建</Text>
   <Text Key="Folder.Save.Message">文件夹创建成功</Text>
 
-  <Text Key="File.UnSaved.Message">当前文件还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="File.UnSaved.Message">当前文件还未保存。请保存，以防内容丢失。</Text>
 
   <!-- Global UI -->
   <Text Key="UI.Button.Logout">注销</Text>
   <Text Key="UI.Button.About">关于</Text>
-  <Text Key="UI.Title.Sections">章节</Text>
+  <Text Key="UI.Title.Sections">区域</Text>
   <Text Key="UI.Title.Search">搜索</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco属性</Text>
+  <Text Key="UI.Tab.UmbracoProperties">系统属性</Text>
   <Text Key="UI.Tab.FileProperties">文件属性</Text>
   <!-- Trees-->
   <!-- TODO -->
@@ -155,7 +155,7 @@
   <Text Key="Notify">通知</Text>
   <Text Key="Package">扩展包</Text>
   <Text Key="Permissions">权限</Text>
-  <Text Key="Public Access">公开访问设置</Text>
+  <Text Key="Public Access">公众访问</Text>
   <Text Key="Publish">发布</Text>
   <Text Key="Refresh">刷新</Text>
   <Text Key="Rollback">回滚</Text>
@@ -171,7 +171,7 @@
   <!-- Editors -->
   
   <!-- General -->
-  <Text Key="Editors.PleaseSelect">请选择...</Text>
+  <Text Key="Editors.PleaseSelect">请选择……</Text>
   <Text Key="Editors.File">文件</Text>
   <Text Key="Editors.Folder">文件夹</Text>
   <Text Key="Editors.None">空白</Text>
@@ -186,7 +186,7 @@
   <Text Key="Schema.Editor.Tab.Info">信息</Text>
   <Text Key="Schema.Editor.Tab.Composition">组成</Text>
   <Text Key="Schema.Editor.Tab.Properties">属性</Text>
-  <Text Key="Schema.Editor.Tab.Tabs">标签</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">选项卡</Text>
   <Text Key="Schema.Editor.Notice.PropInheritance">更改已生效，请重新保存后查看。</Text>
   <Text Key="Schema.Editor.Notice.TabInheritance">更改已生效，请重新保存后查看。</Text>
 
@@ -212,22 +212,22 @@
   
   <!-- Action - Move Content -->
   <Text Key="Action.Move.Title">移动</Text>
-  <Text Key="Action.Move.HeaderTitle">选择要将文档'{Name}'移动到那个节点下？</Text>
+  <Text Key="Action.Move.HeaderTitle">选择要将文档'{Name}'移动到哪个节点下？</Text>
 
   <!-- Action - Manage Permissions-->
   <Text Key="Action.Permissions.Title">管理权限</Text>
 
   <!-- Action - Public Access-->
-  <Text Key="Action.PublicAccess.Title">管理公开访问设置</Text>
-  <Text Key="Action.PublicAccess.Label.MemberGroups">用户组</Text>
-  <Text Key="Action.PublicAccess.Description.MemberGroups">选择那些用户组可以访问当前页面</Text>
+  <Text Key="Action.PublicAccess.Title">公众访问设置</Text>
+  <Text Key="Action.PublicAccess.Label.MemberGroups">会员组</Text>
+  <Text Key="Action.PublicAccess.Description.MemberGroups">选择哪些会员组可以访问当前页面</Text>
   <Text Key="Action.PublicAccess.Label.Available">可选</Text>
   <Text Key="Action.PublicAccess.Label.Selected">已选</Text>
   <Text Key="Action.PublicAccess.Title.Select">选择登陆页面和出错跳转页面</Text>
   <Text Key="Action.PublicAccess.Label.LoginPage">登陆页面</Text>
-  <Text Key="Action.PublicAccess.Description.LoginPage">选择一个用户登陆页面</Text>
+  <Text Key="Action.PublicAccess.Description.LoginPage">选择一个会员登陆页面</Text>
   <Text Key="Action.PublicAccess.Label.ErrorPage">错误页面</Text>
-  <Text Key="Action.PublicAccess.Description.ErrorPage">选择一个当用户已经登陆，但是没有足够权限浏览时的提示页面</Text>
+  <Text Key="Action.PublicAccess.Description.ErrorPage">为没有足够权限的已登录会员选择一个提示页面</Text>
 
   <!-- Action - Publish-->
   <Text Key="Action.Publish.Title">发布文档</Text>
@@ -242,7 +242,7 @@
   <Text Key="Action.Rollback.Label.Created">创建时间</Text>
   <Text Key="Action.Rollback.Label.LastStatus">最后更新状态</Text>
   <Text Key="Action.Rollback.Label.Target">目标</Text>
-  <Text Key="Action.Rollback.SelectVersion">选择一个版本...</Text>
+  <Text Key="Action.Rollback.SelectVersion">选择一个版本……</Text>
   <Text Key="Action.Rollback.Label.View">查看方式</Text>
   <Text Key="Action.Rollback.Label.Diff">差异</Text>
   <!-- Action - Sort-->
@@ -252,7 +252,7 @@
   <Text Key="Action.Sort.Table.SortOrder">排序方式</Text>
 
   <!-- Media Editor -->
-  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
+  <Text Key="Media.Editor.Tab.UmbracoProperties">系统属性</Text>
   
   
   <!-- Language Editor -->
@@ -262,10 +262,10 @@
   <Text Key="Language.Editor.FallbackOrder">选择回溯顺序</Text>
   
   <!-- Dictionary Editor -->
-  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
+  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">系统属性</Text>
   
   <!-- Document Type Editor-->
-  <Text Key="DocumentType.Editor.Description.IsAbstract">设置文档类型是否只能被继承. 如果选中此项，则不可创建此类型文档.</Text>
+  <Text Key="DocumentType.Editor.Description.IsAbstract">设置文档类型是否只能被继承。如果选中此项，则不可创建此类型文档。</Text>
   <Text Key="DocumentType.Editor.Title.AddNewProperty">增加属性</Text>
   <Text Key="DocumentType.Editor.Button.AddNewProperty">单击此处增加属性</Text>
   <Text Key="DocumentType.Editor.Button.CancelNewProperty">取消创建属性</Text>
@@ -282,7 +282,7 @@
   <Text Key="StylesheetRule.Editor.Title.Create">创建规则</Text>
   <Text Key="StylesheetRule.Editor.Title.Edit">编辑规则</Text>
   <Text Key="StylesheetRule.Editor.Description.Name">设置唯一的规则名</Text>
-  <Text Key="StylesheetRule.Editor.Description.Selector">CSS选择器 例如: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">CSS选择器　例如: h1、.redHeader、.blueText</Text>
   <Text Key="StylesheetRule.Editor.Label.Styles">样式表</Text>
   <Text Key="StylesheetRule.Editor.Label.Preview">预览</Text>
   
@@ -319,7 +319,7 @@
   <Text Key="Packaging.Editor.Notice.Install.Title">只安装那些从你信任的地方下载的扩展包！</Text>
   <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
           <p>
-          	  当你安装一个Umbraco扩展包的时候，你需要向在电脑中安装一个普通的程序一样小心。</p>
+          	  当你安装一个Umbraco扩展包的时候，你需要像在电脑中安装一个普通的程序一样小心。</p>
           <p>
           	  恶意的扩展包可能会破坏你的Umbraco程序，就向恶意程序会影响你的电脑一样。</p>
           <p>
@@ -333,7 +333,7 @@
   <Text Key="Packaging.Editor.Button.RemoveFromLocal">从本地库中删除</Text>
   <Text Key="Packaging.Editor.RecycleApplication.Title">本地扩展包库</Text>
   <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">正在重启您的程序，请稍等</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">等待服务器响应...</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">等待服务器响应……</Text>
 
   <!-- Macro Editor -->
   <Text Key="Macro.Create.Title">新建宏</Text>
@@ -359,25 +359,25 @@
   <!-- User Editor -->
   <Text Key="User.Editor.Tab.NewUser">新建用户</Text>
   <Text Key="User.Editor.Tab.Backoffice">管理后台</Text>
-  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
-  <Text Key="User.Editor.Label.UserGroups">管理员组</Text>
+  <Text Key="User.Editor.Tab.UmbracoProperties">系统属性</Text>
+  <Text Key="User.Editor.Label.UserGroups">用户组</Text>
   <Text Key="User.Editor.Label.StartNodeContent">起始文档节点</Text>
-  <Text Key="User.Editor.Label.StartNodeMedia">起始多媒体节点</Text>
+  <Text Key="User.Editor.Label.StartNodeMedia">起始媒体节点</Text>
   <Text Key="User.Editor.Label.Sections">区域</Text>
   
   <!-- User Group Editor -->
-  <Text Key="UserGroup.Editor.Tab.NewUserGroup">新建管理员组</Text>
-  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
+  <Text Key="UserGroup.Editor.Tab.NewUserGroup">新建用户组</Text>
+  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">系统属性</Text>
   <Text Key="UserGroup.Editor.Label.Permissions">权限</Text>
   
   <!-- Member Editor -->
-  <Text Key="Member.Editor.Tab.NewMember">新建用户</Text>
-  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
-  <Text Key="Member.Editor.Label.MemberGroups">用户组</Text>
+  <Text Key="Member.Editor.Tab.NewMember">新建会员</Text>
+  <Text Key="Member.Editor.Tab.UmbracoProperties">系统属性</Text>
+  <Text Key="Member.Editor.Label.MemberGroups">会员组</Text>
   
   <!-- Member Group Editor -->
-  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">新建用户组</Text>
-  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
+  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">新建会员组</Text>
+  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">系统属性</Text>
   
   <!-- Member Type Editor -->
   
@@ -390,30 +390,30 @@
     <Text Key="ContentEditorModel.DocumentTypeName">文档类型</Text>
     <Text Key="ContentEditorModel.SelectedTemplateId">模版</Text>
     <Text Key="ContentEditorModel.UtcPublishedDate">发布状态</Text>
-    <Text Key="ContentEditorModel.UtcPublishScheduled">于什么时间发布</Text>
-    <Text Key="ContentEditorModel.UtcUnpublishScheduled">于什么时间取消发布</Text>
+    <Text Key="ContentEditorModel.UtcPublishScheduled">发布时间</Text>
+    <Text Key="ContentEditorModel.UtcUnpublishScheduled">发布过期时间</Text>
     <Text Key="ContentEditorModel.DocumentLinks">链接至文档</Text>
     <Text Key="CreateContentModel.SelectedDocumentTypeId">选择文档类型</Text>    
 
     <Text Key="DocumentTypeProperty.DataTypeId">数据类型</Text>
-    <Text Key="DocumentTypeProperty.TabId">标签</Text>
+    <Text Key="DocumentTypeProperty.TabId">选项卡</Text>
 
     <Text Key="MemberEditorModel.ConfirmPassword">确认密码</Text>
     <Text Key="MemberEditorModel.OldPassword">旧密码</Text>
     <Text Key="MemberEditorModel.IsApproved">允许登陆？</Text>
-    <Text Key="MemberEditorModel.LastLoginDate">最后登陆日期</Text>
-    <Text Key="MemberEditorModel.LastActivityDate">最后活动日期</Text>
-    <Text Key="MemberEditorModel.LastPasswordChangeDate">密码修改日期</Text>
+    <Text Key="MemberEditorModel.LastLoginDate">最后登陆时间</Text>
+    <Text Key="MemberEditorModel.LastActivityDate">最后活动时间</Text>
+    <Text Key="MemberEditorModel.LastPasswordChangeDate">密码修改时间</Text>
 
     <Text Key="UserEditorModel.ConfirmPassword">确认密码</Text>
     <Text Key="UserEditorModel.OldPassword">旧密码</Text>
     <Text Key="UserEditorModel.IsApproved">允许登陆？</Text>
     <Text Key="UserEditorModel.SessionTimeout">登陆超时时间(分钟)</Text>
-    <Text Key="UserEditorModel.LastLoginDate">最后登陆日期</Text>
-    <Text Key="UserEditorModel.LastActivityDate">最后活动日期</Text>
-    <Text Key="UserEditorModel.LastPasswordChangeDate">密码修改日期</Text>
+    <Text Key="UserEditorModel.LastLoginDate">最后登陆时间</Text>
+    <Text Key="UserEditorModel.LastActivityDate">最后活动时间</Text>
+    <Text Key="UserEditorModel.LastPasswordChangeDate">密码修改时间</Text>
     <Text Key="UserEditorModel.StartContentHiveId">起始文档节点</Text>
-    <Text Key="UserEditorModel.StartMediaHiveId">起始多媒体节点</Text>
+    <Text Key="UserEditorModel.StartMediaHiveId">起始媒体节点</Text>
     <Text Key="UserEditorModel.Applications">区域</Text>
     
     <Text Key="CreateDocumentTypeModel.CreateTemplate">新建模版</Text>
@@ -424,7 +424,7 @@
     <Text Key="MacroEditorModel.MacroType">宏类型</Text>
     <Text Key="MacroEditorModel.UseInEditor">允许在编辑器中使用</Text>
     <Text Key="MacroEditorModel.RenderContentInEditor">在编辑器中输入内容</Text>
-    <Text Key="MacroEditorModel.CachePeriodSeconds">换成时间(秒)</Text>
+    <Text Key="MacroEditorModel.CachePeriodSeconds">缓存周期(秒)</Text>
     <Text Key="MacroEditorModel.CacheByPage">按页面缓存</Text>
     <Text Key="MacroEditorModel.CachePersonalized">缓存个性化设置</Text>
 
@@ -438,9 +438,9 @@
     <Text Key="AbstractSchemaEditorModel.Thumbnail">缩略图</Text>
     <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">缩略图将显示在新建页面中</Text>
     <Text Key="AbstractSchemaEditorModel.Description">描述</Text>
-    <Text Key="AbstractSchemaEditorModel.Description.Description">描述建显示在新建页面中</Text>
+    <Text Key="AbstractSchemaEditorModel.Description.Description">描述将显示在新建页面中</Text>
     <Text Key="AbstractSchemaEditorModel.InheritFrom">继承至</Text>
-    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">该文档类型将继承父类型中所有的字段和标签</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">该文档类型将继承父类型中所有的字段和选项卡</Text>
     <Text Key="AbstractSchemaEditorModel.AllowedChildren">允许的子类型</Text>
     <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">该文档类型下允许创建那些文档</Text>
     
@@ -450,9 +450,9 @@
     <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">创建此文档类型时默认使用的模版</Text>
     
     <Text Key="MembershipCreateStatus.DuplicateUserName">用户名已经存在，请重新输入。</Text>
-    <Text Key="MembershipCreateStatus.DuplicateEmail">Email地址已经存在，请重新输入。</Text>
+    <Text Key="MembershipCreateStatus.DuplicateEmail">邮箱地址已经存在，请重新输入。</Text>
     <Text Key="MembershipCreateStatus.InvalidPassword">密码不正确，请重新输入。</Text>
-    <Text Key="MembershipCreateStatus.InvalidEmail">Email地址不正确，请重新输入。</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">邮箱地址不正确，请重新输入。</Text>
     <Text Key="MembershipCreateStatus.InvalidAnswer">找回密码的答案不正确，请重新输入。</Text>
     <Text Key="MembershipCreateStatus.InvalidQuestion">找回密码的问题不正确，请重新输入。</Text>
     <Text Key="MembershipCreateStatus.InvalidUserName">用户名不确定，请重新输入。</Text>
@@ -474,8 +474,8 @@
     
     <Text Key="DateTimePickerPreValueModel.ShowTime">同时显示时间</Text>
 
-    <Text Key="NodeNameEditorModel.UrlName">Url名称</Text>
-    <Text Key="NodeNameEditorModel.UrlAliases">Url别名</Text>
+    <Text Key="NodeNameEditorModel.UrlName">地址名称</Text>
+    <Text Key="NodeNameEditorModel.UrlAliases">地址别名</Text>
   </Namespace>
 
 </Localizations>
