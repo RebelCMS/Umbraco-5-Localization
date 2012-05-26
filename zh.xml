@@ -6,17 +6,17 @@
   <Text Key="content">页面</Text>
   <Text Key="media">多媒体</Text>
   <Text Key="settings">设置</Text>
-  <Text Key="developer">开发人员</Text>
-  <Text Key="users">管理员</Text>
-  <Text Key="members">用户</Text>
+  <Text Key="developer">开发</Text>
+  <Text Key="users">用户</Text>
+  <Text Key="members">会员</Text>
   
   <!-- These are used regardless of class, assembly and namespace -->
   <Text Key="Name">名字</Text>
-  <Text Key="CreatedBy">创建人</Text>
+  <Text Key="CreatedBy">创建者</Text>
   <Text Key="UtcCreated">创建日期</Text>
   <Text Key="UtcModified">更新日期</Text>
   <Text Key="NodeName">节点名称</Text>
-  <Text Key="UpdatedBy">更新人</Text>
+  <Text Key="UpdatedBy">更新者</Text>
   <Text Key="ShowLabel">显示标签</Text>
   
   <!-- Messages -->
@@ -34,23 +34,23 @@
   <Text Key="Content.Save.Message">请注意:内容要在发布后才能访问</Text>
   <Text Key="Content.SaveUnathorized.Title">内容未保存</Text>
   <Text Key="Content.SaveUnathorized.Message">权限不足，内容无法保存</Text>
-  <Text Key="Content.UnSaved.Message">当前内容还未保存， 请注意保存，以防内容丢失。</Text>
+  <Text Key="Content.UnSaved.Message">当前内容还未保存，请注意保存，以防内容丢失。</Text>
   <Text Key="Content.NoTemplates.Message">当前内容还未指定模版</Text>
   <Text Key="Content.UrlResolutionFailedHostname.Message">页面URL地址无法生成，您需要未当前分支指定一个域名（hostname)。</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">还未为当前的内容类型指定子类型</Text>
 
-  <Text Key="User.Save.Title">管理员已保存</Text>
-  <Text Key="User.Save.Message">管理员信息保存成功</Text>
-  <Text Key="User.UnSaved.Message">当前管理员信息还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="User.Save.Title">用户已保存</Text>
+  <Text Key="User.Save.Message">用户信息保存成功</Text>
+  <Text Key="User.UnSaved.Message">当前用户信息还未保存，请注意保存，以防内容丢失。</Text>
 
-  <Text Key="UserGroup.Save.Title">管理员组已保存</Text>
-  <Text Key="UserGroup.Save.Message">管理员组信息保存成功</Text>
-  <Text Key="UserGroup.UnSaved.Message">管理员组信息还未保存，请注意保存，以防内容丢失。</Text>
+  <Text Key="UserGroup.Save.Title">用户组已保存</Text>
+  <Text Key="UserGroup.Save.Message">用户组信息保存成功</Text>
+  <Text Key="UserGroup.UnSaved.Message">用户组信息还未保存，请注意保存，以防内容丢失。</Text>
   <Text Key="UserGroup.Inherit.Message">注意：如果没有任何可继承的权限，那将权限设置为继承将等同于拒绝。</Text>
   
-  <Text Key="MemberGroup.Save.Title">用户组已保存</Text>
-  <Text Key="MemberGroup.Save.Message">用户组信息保存成功</Text>
-  <Text Key="MemberGroup.UnSaved.Message">当前用户组还未保存。请注意保存，以防内容丢失。</Text>
+  <Text Key="MemberGroup.Save.Title">会员组已保存</Text>
+  <Text Key="MemberGroup.Save.Message">会员组信息保存成功</Text>
+  <Text Key="MemberGroup.UnSaved.Message">当前会员组还未保存。请注意保存，以防内容丢失。</Text>
 
   <Text Key="DataType.Save.Title">数据类型已保存</Text>
   <Text Key="DataType.Save.Message">数据类型保存成功</Text>
@@ -102,7 +102,7 @@
   <Text Key="Macro.UnSaved.Message">当前宏还未保存，请注意保存。以防内容丢失。</Text>
   <Text Key="Macro.ParamsPopulated.Title">宏参数</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">成功读取宏参数</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">不能为child action设定参数,因为包含out、return value、LCID参数</Text>
   <Text Key="Macro.ParamsFailedPartialView.Message">无法找到部分视图引用</Text>
   <Text Key="Macro.RenderingFailed.Message">显示宏'{MacroName}'时出现错误。 错误: '{Error}'.详细信息请查看Umbraco日志。</Text>
   <Text Key="Macro.RenderingFailed.Title">宏错误</Text>
@@ -119,7 +119,7 @@
   <Text Key="Stylesheet.Save.Title">样式表已保存</Text>
   <Text Key="Stylesheet.Save.Message">样式表保存成功</Text>
 
-  <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
+  <Text Key="StylesheetRule.UnSaved.Message">该样式未保存，保存后可继续修改。</Text>
   
   <Text Key="Folder.Save.Title">文件夹已创建</Text>
   <Text Key="Folder.Save.Message">文件夹创建成功</Text>
@@ -129,7 +129,7 @@
   <!-- Global UI -->
   <Text Key="UI.Button.Logout">注销</Text>
   <Text Key="UI.Button.About">关于</Text>
-  <Text Key="UI.Title.Sections">Sections</Text>
+  <Text Key="UI.Title.Sections">章节</Text>
   <Text Key="UI.Title.Search">搜索</Text>
   <Text Key="UI.Tab.UmbracoProperties">Umbraco属性</Text>
   <Text Key="UI.Tab.FileProperties">文件属性</Text>
@@ -140,7 +140,7 @@
   <Text Key="Local packages">本地扩展包</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Audit</Text>
+  <Text Key="Audit">审核</Text>
   <Text Key="Copy">复制</Text>
   <Text Key="CreateFolder">新建文件夹</Text>
   <Text Key="Create">新建</Text>
@@ -160,8 +160,8 @@
   <Text Key="Refresh">刷新</Text>
   <Text Key="Rollback">回滚</Text>
   <Text Key="Save">保存</Text>
-  <Text Key="SendPublish">Send to publish</Text>
-  <Text Key="SendTranslate">Send to Translate</Text>
+  <Text Key="SendPublish">发送给发布者</Text>
+  <Text Key="SendTranslate">发送给翻译者</Text>
   <Text Key="Sort">排序</Text>
   <Text Key="Translate">翻译</Text>
   <Text Key="Update">更新</Text>
@@ -174,7 +174,7 @@
   <Text Key="Editors.PleaseSelect">请选择...</Text>
   <Text Key="Editors.File">文件</Text>
   <Text Key="Editors.Folder">文件夹</Text>
-  <Text Key="Editors.None">None</Text>
+  <Text Key="Editors.None">空白</Text>
   
   <!-- Controls -->
   <!-- Date Time Picker-->
@@ -187,8 +187,8 @@
   <Text Key="Schema.Editor.Tab.Composition">组成</Text>
   <Text Key="Schema.Editor.Tab.Properties">属性</Text>
   <Text Key="Schema.Editor.Tab.Tabs">标签</Text>
-  <Text Key="Schema.Editor.Notice.PropInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited properties.</Text>
-  <Text Key="Schema.Editor.Notice.TabInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited tabs.</Text>
+  <Text Key="Schema.Editor.Notice.PropInheritance">更改已生效，请重新保存后查看。</Text>
+  <Text Key="Schema.Editor.Notice.TabInheritance">更改已生效，请重新保存后查看。</Text>
 
 
   <!-- Content Editor -->
@@ -231,13 +231,13 @@
 
   <!-- Action - Publish-->
   <Text Key="Action.Publish.Title">发布文档</Text>
-  <Text Key="Action.Publish.Description.Save">Click 'Save' to publish '{Name}' and thereby making it's content publicly available.</Text>
+  <Text Key="Action.Publish.Description.Save">单击 '保存' 发布 '{Name}' 使该内容可被查看。</Text>
   <Text Key="Action.Publish.Description.Children">选择发布所有的子页面，将会发布当前页面以及它所有的子页面。
   </Text>
 
   <!-- Action - Rollback-->
   <Text Key="Action.Rollback.Title">回滚</Text>
-  <Text Key="Action.Rollback.HeaderTitle"> Select a target version to compare the current version of '{Name}' to</Text>
+  <Text Key="Action.Rollback.HeaderTitle">为'{Name}'的当前版本选择一个目标版本作比较</Text>
   <Text Key="Action.Rollback.Label.Current">当前</Text>
   <Text Key="Action.Rollback.Label.Created">创建时间</Text>
   <Text Key="Action.Rollback.Label.LastStatus">最后更新状态</Text>
@@ -265,13 +265,13 @@
   <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco属性</Text>
   
   <!-- Document Type Editor-->
-  <Text Key="DocumentType.Editor.Description.IsAbstract">Sets whether document type is intended only to be inherited by others.  If checked it will not be selectable for content entry directly.</Text>
-  <Text Key="DocumentType.Editor.Title.AddNewProperty">Add new property</Text>
-  <Text Key="DocumentType.Editor.Button.AddNewProperty">Click here to add a new property</Text>
-  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Cancel creating new property</Text>
-  <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
-  <Text Key="DocumentType.Editor.NoProperties">No properties</Text>
-  <Text Key="DocumentType.Editor.Label.Tab">Defined Tabs</Text>
+  <Text Key="DocumentType.Editor.Description.IsAbstract">设置文档类型是否只能被继承. 如果选中此项，则不可创建此类型文档.</Text>
+  <Text Key="DocumentType.Editor.Title.AddNewProperty">增加属性</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">单击此处增加属性</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">取消创建属性</Text>
+  <Text Key="DocumentType.Editor.Title.Tab">选项卡</Text>
+  <Text Key="DocumentType.Editor.NoProperties">没有属性</Text>
+  <Text Key="DocumentType.Editor.Label.Tab">定义选项卡</Text>
   
   <!-- Media Type Editor-->
   
@@ -279,10 +279,10 @@
   <Text Key="Stylesheet.Editor.Title">样式表编辑器</Text>
   
   <!-- Stylesheet Rule Editor -->
-  <Text Key="StylesheetRule.Editor.Title.Create">Create rule</Text>
-  <Text Key="StylesheetRule.Editor.Title.Edit">Edit rule</Text>
-  <Text Key="StylesheetRule.Editor.Description.Name">Name to identify the rule in the rich text editor</Text>
-  <Text Key="StylesheetRule.Editor.Description.Selector">The CSS selector for the rule eg: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Title.Create">创建规则</Text>
+  <Text Key="StylesheetRule.Editor.Title.Edit">编辑规则</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">设置唯一的规则名</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">CSS选择器 例如: h1, .redHeader, .blueText</Text>
   <Text Key="StylesheetRule.Editor.Label.Styles">样式表</Text>
   <Text Key="StylesheetRule.Editor.Label.Preview">预览</Text>
   
@@ -392,7 +392,7 @@
     <Text Key="ContentEditorModel.UtcPublishedDate">发布状态</Text>
     <Text Key="ContentEditorModel.UtcPublishScheduled">于什么时间发布</Text>
     <Text Key="ContentEditorModel.UtcUnpublishScheduled">于什么时间取消发布</Text>
-    <Text Key="ContentEditorModel.DocumentLinks">Links to document</Text>
+    <Text Key="ContentEditorModel.DocumentLinks">链接至文档</Text>
     <Text Key="CreateContentModel.SelectedDocumentTypeId">选择文档类型</Text>    
 
     <Text Key="DocumentTypeProperty.DataTypeId">数据类型</Text>
