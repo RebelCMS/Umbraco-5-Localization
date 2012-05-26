@@ -102,7 +102,7 @@
   <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
   <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action as they contain one or more: out, return value or LCID parameters</Text>
   <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
   <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
   <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
@@ -148,7 +148,7 @@
   <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
   <Text Key="ExportDocumentType">Export DocumentType</Text>
   <Text Key="Manage hostnames">Manage hostnames</Text>
-  <Text Key="ImportDocumentType">Impor tDocumentType</Text>
+  <Text Key="ImportDocumentType">Import DocumentType</Text>
   <Text Key="Language">Language</Text>
   <Text Key="Logout">Logout</Text>
   <Text Key="Move">Move</Text>
@@ -314,7 +314,6 @@
   <Text Key="Packaging.Editor.Labels.FileName">Filename</Text>
   <Text Key="Packaging.Editor.Button.Upload">Upload</Text>
   <Text Key="Packaging.Editor.Labels.AutoInstall">Auto install package (Please also accept the terms below)</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
   <Text Key="Packaging.Editor.Title.Install">Install a local package</Text>
   <Text Key="Packaging.Editor.Notice.Install.Title">Only install packages from sources you know and trust!</Text>
   <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
@@ -389,7 +388,7 @@
   <Namespace Name="Umbraco.Cms.Web">
     
     <Text Key="CoreEntityModel.PropertyEditorId">Choose property editor</Text>
-    <Text Key="CoreEntityModel.UtcPublished">Pulication status</Text>
+    <Text Key="CoreEntityModel.UtcPublished">Publication status</Text>
     
     <Text Key="ContentEditorModel.DocumentTypeName">Document type</Text>
     <Text Key="ContentEditorModel.SelectedTemplateId">Template</Text>
