@@ -6,7 +6,7 @@
   <Text Key="content">Indhold</Text>
   <Text Key="media">Mediearkiv</Text>
   <Text Key="settings">Indstillinger</Text>
-  <Text Key="developer">Developer</Text>
+  <Text Key="developer">Udvikler</Text>
   <Text Key="users">Brugere</Text>
   <Text Key="members">Medlemmer</Text>
   
@@ -15,7 +15,7 @@
   <Text Key="CreatedBy">Oprettet af</Text>
   <Text Key="UtcCreated">Oprettet den</Text>
   <Text Key="UtcModified">Sidst redigeret</Text>
-  <Text Key="NodeName">Node Name</Text>
+  <Text Key="NodeName">Node Navn</Text>
   <Text Key="UpdatedBy">Redigeret af</Text>
   <Text Key="ShowLabel">Vis label</Text>
   
@@ -28,165 +28,165 @@
   <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Der er opstået en valideringsfejl | Der er forekommet valideringsfejl}</Text>
   <Text Key="Save.ErrorsOccurred.Title">Valideringsfejl!</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Ret venligst fejlene og prøv igen.</Text>
+  <Text Key="Save.ValidationSummary.Title">Ret venligst fejlene og prøv igen</Text>
   
   <Text Key="Content.Save.Title">Indhold gemt</Text>
   <Text Key="Content.Save.Message">Husk at publicér for at gøre ændringerne synlige</Text>
   <Text Key="Content.SaveUnathorized.Title">Indhold ikke gemt</Text>
   <Text Key="Content.SaveUnathorized.Message">Indholdet blev ikke gemt på grund af manglende rettigheder</Text>
   <Text Key="Content.UnSaved.Message">Dette indhold er i øjeblikket ikke gemt. Husk at gem dette indhold, hvis du senere ønsker at komme tilbage og redigere det.</Text>
-  <Text Key="Content.NoTemplates.Message">Der findes i øjeblikket ingen skabeloner for dette indhold.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunne ikke genereres for denne side da den indeholdte struktur kræver et hostnavn tilføjet.</Text>
+  <Text Key="Content.NoTemplates.Message">Der findes i øjeblikket ingen skabeloner for dette indhold</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunne ikke genereres for denne side da den indeholdte struktur kræver et hostnavn tilføjet</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">Denne indholdstype har ikke nogle tilladte underelementer tilføjet</Text>
 
   <Text Key="User.Save.Title">Bruger gemt</Text>
   <Text Key="User.Save.Message">Information om brugeren er gemt</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="User.UnSaved.Message">Denne bruger er ikke gemt. Husk at gem brugeren, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
   <Text Key="UserGroup.Save.Title">Brugergruppe gemt</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
-  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
-  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
+  <Text Key="UserGroup.Save.Message">Information om brugergruppen er blevet gemt</Text>
+  <Text Key="UserGroup.UnSaved.Message">Denne brugergruppe er ikke gemt. Husk at gem brugergruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="UserGroup.Inherit.Message">Notér venligst, at rettigheder sat til arv, automatisk vil blive "ikke tilladt", hvis ingen eksplicit "tilladt"-rettighed kan arves</Text>
   
-  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
-  <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
-  <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="MemberGroup.Save.Title">Medlemsgruppen blev gemt</Text>
+  <Text Key="MemberGroup.Save.Message">Information om medlemsgruppen er blevet gemt</Text>
+  <Text Key="MemberGroup.UnSaved.Message">Denne medlemsgruppe er ikke gemt. Husk at gem medlemsgruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
-  <Text Key="DataType.Save.Title">Data type saved</Text>
-  <Text Key="DataType.Save.Message">Data type has been saved</Text>
-  <Text Key="DataType.UnSaved.Message">This data type is currently un-saved. Remember to save this data type if you would like to be able to come back and edit it later.</Text>
+  <Text Key="DataType.Save.Title">Datatype gemt</Text>
+  <Text Key="DataType.Save.Message">Datatypen er blevet gemt</Text>
+  <Text Key="DataType.UnSaved.Message">Denne datatype er ikke gemt. Husk at gem datatypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
-  <Text Key="DocumentType.Save.Title">Document type saved</Text>
-  <Text Key="DocumentType.Save.Message">Document type has been successfully saved</Text>
-  <Text Key="DocumentType.UnSaved.Message">This document type is currently un-saved. Remember to save this document type if you would like to be able to come back and edit it later.</Text>
-  <Text Key="DocumentType.PropertyDeleted.Title">Property deleted</Text>
-  <Text Key="DocumentType.PropertyDeleted.Message">Document type property has been deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Title">Tab deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Message">Document type tab has been deleted</Text>
-  <Text Key="DocumentType.TabAdded.Title">Tab added</Text>
-  <Text Key="DocumentType.TabAdded.Message">Document type tab has been added</Text>
-  <Text Key="DocumentType.Validation.DuplicateTab">The tab name entered already exists</Text>
-  <Text Key="DocumentType.Validation.RequiredTabName">A tab name must be specified</Text>
+  <Text Key="DocumentType.Save.Title">Dokumenttypen gemt</Text>
+  <Text Key="DocumentType.Save.Message">Dokumenttypen er blevet gemt</Text>
+  <Text Key="DocumentType.UnSaved.Message">Denne dokumenttype er ikke gemt. Husk at gem dokumenttypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Egenskab slettet</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">Dokumenttypens egenskab blev slettet</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Fane slettet</Text>
+  <Text Key="DocumentType.TabDeleted.Message">Dokumenttypens fane blev slettet</Text>
+  <Text Key="DocumentType.TabAdded.Title">Fane tilføjet</Text>
+  <Text Key="DocumentType.TabAdded.Message">Fanen blev tilføjet dokumenttypen</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">En fane med samme navn eksisterer allerede</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">Et fanenavn skal angives</Text>
   
-  <Text Key="Permissions.Title">Permissions updated</Text>
-  <Text Key="Permissions.Success.Message">Permissions successfully saved on node {Name}</Text>
-  <Text Key="Permissions.NoUserGroups.Message">No non-admin user groups found, please add a new user group before attempting to set permissions</Text>
-  <Text Key="PublicAccess.Title">Public access updated</Text>
-  <Text Key="PublicAccess.Success.Message">Public access successfully updated on node {Name}</Text>
-  <Text Key="Hostname.Title">Hostnames updated</Text>
-  <Text Key="Hostname.Success.Message">{Count} hostnames successfully saved on node {Name}</Text>
-  <Text Key="Language.Title">Language updated</Text>
-  <Text Key="Language.Success.Message">Language successfully saved for node {Name}</Text>
-  <Text Key="Sort.Title">Content sorting</Text>
-  <Text Key="Rollback.Title">Content rolling back</Text>
-  <Text Key="Sort.Success.Message">Content sorted successfully</Text>
-  <Text Key="Move.Success.Message">'{FromName}' has been moved to '{ToName}'</Text>
-  <Text Key="Copy.Success.Message">'{FromName}' has been copied to '{ToName}'</Text>
-  <Text Key="Rollback.Success.Message">Content rolled back successfully</Text>
-  <Text Key="Publish.Title">Content publishing</Text>
-  <Text Key="Publish.SingleSuccess.Message">'{Name}' has been published</Text>
-  <Text Key="Publish.SingleUnathorized.Message">'{Name}' was not published due to insufficient permissions</Text>
-  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' and subpages have been published</Text>
-  <Text Key="Publish.IncludeChildren.Label">Publish '{Name}' and all its subpages</Text>
-  <Text Key="Publish.IncludeUnpublishedChildren.Label">Include unpublished child pages</Text>
-  <Text Key="Unpublish.Title">Content unpublishing</Text>
-  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' has been unpublished</Text>
-  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' was not unpublished due to insufficient permissions</Text>
+  <Text Key="Permissions.Title">Rettigheder opdateret</Text>
+  <Text Key="Permissions.Success.Message">Rettigheder blev gemt for noden {Name}</Text>
+  <Text Key="Permissions.NoUserGroups.Message">Ingen ikke-administrator brugergruppe blev fundet. Tilføj venligst en ny brugergruppe før du forsøger at sætte rettigheder.</Text>
+  <Text Key="PublicAccess.Title">Offentlig adgang opdateret</Text>
+  <Text Key="PublicAccess.Success.Message">Offentlig adgang blev opdateret for noden {Name}</Text>
+  <Text Key="Hostname.Title">Værtsnavn opdateret</Text>
+  <Text Key="Hostname.Success.Message">{Count} værtsnavn gemt for noden {Name}</Text>
+  <Text Key="Language.Title">Sprog opdateret</Text>
+  <Text Key="Language.Success.Message">Sprog blev gemt for noden {Name}</Text>
+  <Text Key="Sort.Title">Indholdssortering</Text>
+  <Text Key="Rollback.Title">Indhold tilbagerulning</Text>
+  <Text Key="Sort.Success.Message">Indholdet blev sorteret</Text>
+  <Text Key="Move.Success.Message">'{FromName}' er blevet flyttet til '{ToName}'</Text>
+  <Text Key="Copy.Success.Message">'{FromName}' er blevet kopieret til '{ToName}'</Text>
+  <Text Key="Rollback.Success.Message">Indholdet blev gendannet til tidligere version</Text>
+  <Text Key="Publish.Title">Indholdspublicering</Text>
+  <Text Key="Publish.SingleSuccess.Message">'{Name}' er blevet publiceret</Text>
+  <Text Key="Publish.SingleUnathorized.Message">'{Name}' blev ikke publiceret på grund af manglende rettigheder</Text>
+  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' og undersider er blevet publiceret</Text>
+  <Text Key="Publish.IncludeChildren.Label">Publicér '{Name}' og alle underliggende sider</Text>
+  <Text Key="Publish.IncludeUnpublishedChildren.Label">Inkludér upublicerede undersider</Text>
+  <Text Key="Unpublish.Title">Annullér publicering</Text>
+  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' er ikke længere publiceret</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' er stadig publiceret på grund af manglende rettigheder</Text>
 
-  <Text Key="Language.Save.Title">Language saved</Text>
-  <Text Key="Language.Save.Message">The language has been successfully saved</Text>
-  <Text Key="Language.UnSaved.Message">This language is currently un-saved. Remember to save this language if you would like to be able to come back and edit it later.</Text>
+  <Text Key="Language.Save.Title">Sprog gemt</Text>
+  <Text Key="Language.Save.Message">Sproget er blevet gemt</Text>
+  <Text Key="Language.UnSaved.Message">Dette sprog er ikke gemt. Husk at gem sproget, hvis du ønsker at komme tilbage og redigere dette senere.</Text>
   
-  <Text Key="Macro.Save.Title">Macro saved</Text>
-  <Text Key="Macro.Save.Message">Macro has been successfully saved</Text>
-  <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
-  <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
-  <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
-  <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
-  <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
+  <Text Key="Macro.Save.Title">Makroen gemt</Text>
+  <Text Key="Macro.Save.Message">Makroen er blevet gemt</Text>
+  <Text Key="Macro.UnSaved.Message">Denne makro er ikke gemt. Husk at gem makroen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="Macro.ParamsPopulated.Title">Makroparametre</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">Makroparametre modtaget med succes</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Kunne ikke tolke parametre for underliggende handling, da de indeholdte en eller flere: "out", "return value" eller "LCID" parametre.</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Kunne ikke finde det refererede "partial view".</Text>
+  <Text Key="Macro.RenderingFailed.Message">Der opstod en fejl ved renderingen af makroen '{MacroName}'. FEJL: '{Error}'. Se Umbraco loggen for komplet fejlbeskrivelse.</Text>
+  <Text Key="Macro.RenderingFailed.Title">Makro fejl</Text>
   
-  <Text Key="Template.Save.Title">Template saved</Text>
-  <Text Key="Template.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Template.Save.Title">Skabelon gemt</Text>
+  <Text Key="Template.Save.Message">Skabelonen er blevet gemt</Text>
   
-  <Text Key="Partials.Save.Title">Template saved</Text>
-  <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Partials.Save.Title">Del-skabelon gemt</Text>
+  <Text Key="Partials.Save.Message">Del-skabelonen er blevet gemt</Text>
   
-  <Text Key="Script.Save.Title">Script saved</Text>
-  <Text Key="Script.Save.Message">Script has been successfully saved</Text>
+  <Text Key="Script.Save.Title">Skript gemt</Text>
+  <Text Key="Script.Save.Message">Skriptet er blevet gemt</Text>
   
-  <Text Key="Stylesheet.Save.Title">Stylesheet saved</Text>
-  <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
+  <Text Key="Stylesheet.Save.Title">Stilark gemt</Text>
+  <Text Key="Stylesheet.Save.Message">Stilarket er blevet gemt</Text>
 
-  <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
+  <Text Key="StylesheetRule.UnSaved.Message">Denne regel er ikke gemt. Husk at gemme reglen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
   
-  <Text Key="Folder.Save.Title">Folder created</Text>
-  <Text Key="Folder.Save.Message">Folder has been created successfully</Text>
+  <Text Key="Folder.Save.Title">Mappe oprettet</Text>
+  <Text Key="Folder.Save.Message">Mappen er blevet oprettet</Text>
 
-  <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
+  <Text Key="File.UnSaved.Message">Denne fil er ikke gemt. Husk at gemme filen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Logout</Text>
-  <Text Key="UI.Button.About">About</Text>
-  <Text Key="UI.Title.Sections">Sections</Text>
-  <Text Key="UI.Title.Search">Search</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UI.Tab.FileProperties">Umbraco Properties</Text>
+  <Text Key="UI.Button.Logout">Log ud</Text>
+  <Text Key="UI.Button.About">Om</Text>
+  <Text Key="UI.Title.Sections">Sektioner</Text>
+  <Text Key="UI.Title.Search">Søg</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Umbraco Egenskaber</Text>
+  <Text Key="UI.Tab.FileProperties">Umbraco Egenskaber</Text>
   <!-- Trees-->
   <!-- TODO -->
   
   <!-- Fixed Tree Nodes -->
-  <Text Key="Local packages">Local packages</Text>
+  <Text Key="Local packages">Lokale pakker</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Audit</Text>
-  <Text Key="Copy">Copy</Text>
-  <Text Key="CreateFolder">Create Folder</Text>
-  <Text Key="Create">Create</Text>
-  <Text Key="Delete">Delete</Text>
-  <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
-  <Text Key="ExportDocumentType">Export DocumentType</Text>
-  <Text Key="Manage hostnames">Manage hostnames</Text>
-  <Text Key="ImportDocumentType">Impor tDocumentType</Text>
-  <Text Key="Language">Language</Text>
-  <Text Key="Logout">Logout</Text>
-  <Text Key="Move">Move</Text>
-  <Text Key="Notify">Notify</Text>
-  <Text Key="Package">Package</Text>
-  <Text Key="Permissions">Permissions</Text>
-  <Text Key="Public Access">PublicAccess</Text>
-  <Text Key="Publish">Publish</Text>
-  <Text Key="Refresh">Refresh</Text>
-  <Text Key="Rollback">Rollback</Text>
-  <Text Key="Save">Save</Text>
-  <Text Key="SendPublish">Send to publish</Text>
-  <Text Key="SendTranslate">Send to Translate</Text>
-  <Text Key="Sort">Sort</Text>
-  <Text Key="Translate">Translate</Text>
-  <Text Key="Update">Update</Text>
+  <Text Key="Audit">Revision</Text>
+  <Text Key="Copy">Kopiér</Text>
+  <Text Key="CreateFolder">Opret mappe</Text>
+  <Text Key="Create">Opret</Text>
+  <Text Key="Delete">Slet</Text>
+  <Text Key="EmptyRecycleBin">Tøm papirkurv</Text>
+  <Text Key="ExportDocumentType">Eksportér dokumenttype</Text>
+  <Text Key="Manage hostnames">Håndtér værtsnavne</Text>
+  <Text Key="ImportDocumentType">Importér værtsnavne</Text>
+  <Text Key="Language">Sprog</Text>
+  <Text Key="Logout">Log ud</Text>
+  <Text Key="Move">Flyt</Text>
+  <Text Key="Notify">Notificér</Text>
+  <Text Key="Package">Pakke</Text>
+  <Text Key="Permissions">Rettigheder</Text>
+  <Text Key="Public Access">Offentlig adgang</Text>
+  <Text Key="Publish">Publicér</Text>
+  <Text Key="Refresh">Genindlæs</Text>
+  <Text Key="Rollback">Gendannelse</Text>
+  <Text Key="Save">Gem</Text>
+  <Text Key="SendPublish">Send til publicering</Text>
+  <Text Key="SendTranslate">Send til oversættelse</Text>
+  <Text Key="Sort">Sortér</Text>
+  <Text Key="Translate">Oversæt</Text>
+  <Text Key="Update">Opdatér</Text>
   
   <!-- Dashboards -->
   
   <!-- Editors -->
   
   <!-- General -->
-  <Text Key="Editors.PleaseSelect">Please Select...</Text>
-  <Text Key="Editors.File">File</Text>
-  <Text Key="Editors.Folder">Folder</Text>
-  <Text Key="Editors.None">None</Text>
+  <Text Key="Editors.PleaseSelect">Vælg venligst...</Text>
+  <Text Key="Editors.File">Fil</Text>
+  <Text Key="Editors.Folder">Mappe</Text>
+  <Text Key="Editors.None">Ingen</Text>
   
   <!-- Controls -->
   <!-- Date Time Picker-->
-  <Text Key="DateTimePicker.Choose">Choose Date</Text>
-  <Text Key="DateTimePicker.None">No date chosen</Text>
-  <Text Key="DateTimePicker.Clear">Clear date</Text>
+  <Text Key="DateTimePicker.Choose">Vælg dato</Text>
+  <Text Key="DateTimePicker.None">Ingen dato valgt</Text>
+  <Text Key="DateTimePicker.Clear">Fjern dato</Text>
   
   <!-- Schema Editor -->
   <Text Key="Schema.Editor.Tab.Info">Info</Text>
-  <Text Key="Schema.Editor.Tab.Composition">Composition</Text>
-  <Text Key="Schema.Editor.Tab.Properties">Properties</Text>
-  <Text Key="Schema.Editor.Tab.Tabs">Tabs</Text>
+  <Text Key="Schema.Editor.Tab.Composition">Komposition</Text>
+  <Text Key="Schema.Editor.Tab.Properties">Egenskaber</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">Faner</Text>
   <Text Key="Schema.Editor.Notice.PropInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited properties.</Text>
   <Text Key="Schema.Editor.Notice.TabInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited tabs.</Text>
 
