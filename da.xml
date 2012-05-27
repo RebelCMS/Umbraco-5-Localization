@@ -34,31 +34,31 @@
   <Text Key="Content.Save.Message">Husk at publicér for at gøre ændringerne synlige</Text>
   <Text Key="Content.SaveUnathorized.Title">Indhold ikke gemt</Text>
   <Text Key="Content.SaveUnathorized.Message">Indholdet blev ikke gemt på grund af manglende rettigheder</Text>
-  <Text Key="Content.UnSaved.Message">Dette indhold er i øjeblikket ikke gemt. Husk at gem dette indhold, hvis du senere ønsker at komme tilbage og redigere det.</Text>
+  <Text Key="Content.UnSaved.Message">Dette indhold er i øjeblikket ikke gemt. Husk at gemme indholdet, hvis du senere ønsker at komme tilbage og redigere det.</Text>
   <Text Key="Content.NoTemplates.Message">Der findes i øjeblikket ingen skabeloner for dette indhold</Text>
   <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunne ikke genereres for denne side da den indeholdte struktur kræver et hostnavn tilføjet</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">Denne indholdstype har ikke nogle tilladte underelementer tilføjet</Text>
 
   <Text Key="User.Save.Title">Bruger gemt</Text>
   <Text Key="User.Save.Message">Information om brugeren er gemt</Text>
-  <Text Key="User.UnSaved.Message">Denne bruger er ikke gemt. Husk at gem brugeren, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="User.UnSaved.Message">Denne bruger er ikke gemt. Husk at gemme brugeren, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
   <Text Key="UserGroup.Save.Title">Brugergruppe gemt</Text>
   <Text Key="UserGroup.Save.Message">Information om brugergruppen er blevet gemt</Text>
-  <Text Key="UserGroup.UnSaved.Message">Denne brugergruppe er ikke gemt. Husk at gem brugergruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="UserGroup.UnSaved.Message">Denne brugergruppe er ikke gemt. Husk at gemme brugergruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
   <Text Key="UserGroup.Inherit.Message">Notér venligst, at rettigheder sat til arv, automatisk vil blive "ikke tilladt", hvis ingen eksplicit "tilladt"-rettighed kan arves</Text>
   
   <Text Key="MemberGroup.Save.Title">Medlemsgruppen blev gemt</Text>
   <Text Key="MemberGroup.Save.Message">Information om medlemsgruppen er blevet gemt</Text>
-  <Text Key="MemberGroup.UnSaved.Message">Denne medlemsgruppe er ikke gemt. Husk at gem medlemsgruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="MemberGroup.UnSaved.Message">Denne medlemsgruppe er ikke gemt. Husk at gemme medlemsgruppen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
   <Text Key="DataType.Save.Title">Datatype gemt</Text>
   <Text Key="DataType.Save.Message">Datatypen er blevet gemt</Text>
-  <Text Key="DataType.UnSaved.Message">Denne datatype er ikke gemt. Husk at gem datatypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="DataType.UnSaved.Message">Denne datatype er ikke gemt. Husk at gemme datatypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
 
   <Text Key="DocumentType.Save.Title">Dokumenttypen gemt</Text>
   <Text Key="DocumentType.Save.Message">Dokumenttypen er blevet gemt</Text>
-  <Text Key="DocumentType.UnSaved.Message">Denne dokumenttype er ikke gemt. Husk at gem dokumenttypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="DocumentType.UnSaved.Message">Denne dokumenttype er ikke gemt. Husk at gemme dokumenttypen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
   <Text Key="DocumentType.PropertyDeleted.Title">Egenskab slettet</Text>
   <Text Key="DocumentType.PropertyDeleted.Message">Dokumenttypens egenskab blev slettet</Text>
   <Text Key="DocumentType.TabDeleted.Title">Fane slettet</Text>
@@ -95,11 +95,11 @@
 
   <Text Key="Language.Save.Title">Sprog gemt</Text>
   <Text Key="Language.Save.Message">Sproget er blevet gemt</Text>
-  <Text Key="Language.UnSaved.Message">Dette sprog er ikke gemt. Husk at gem sproget, hvis du ønsker at komme tilbage og redigere dette senere.</Text>
+  <Text Key="Language.UnSaved.Message">Dette sprog er ikke gemt. Husk at gemme sproget, hvis du ønsker at komme tilbage og redigere dette senere.</Text>
   
   <Text Key="Macro.Save.Title">Makroen gemt</Text>
   <Text Key="Macro.Save.Message">Makroen er blevet gemt</Text>
-  <Text Key="Macro.UnSaved.Message">Denne makro er ikke gemt. Husk at gem makroen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
+  <Text Key="Macro.UnSaved.Message">Denne makro er ikke gemt. Husk at gemme makroen, hvis du ønsker at komme tilbage og redigere denne senere.</Text>
   <Text Key="Macro.ParamsPopulated.Title">Makroparametre</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">Makroparametre modtaget med succes</Text>
   <Text Key="Macro.ParamsFailedSurfaceAction.Message">Kunne ikke tolke parametre for underliggende handling, da de indeholdte en eller flere: "out", "return value" eller "LCID" parametre.</Text>
