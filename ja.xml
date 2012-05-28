@@ -57,7 +57,7 @@
   <Text Key="DataType.UnSaved.Message">このデータ型は現在、保存されていません。後で戻ってきて編集したい場合は、このデータ型を忘れずに保存してください。</Text>
 
   <Text Key="DocumentType.Save.Title">ドキュメント タイプが保存されました</Text>
-  <Text Key="DocumentType.Save.Message">ドキュメント タイプ は正常に保存されています</Text>
+  <Text Key="DocumentType.Save.Message">ドキュメント タイプは正常に保存されています</Text>
   <Text Key="DocumentType.UnSaved.Message">このドキュメント タイプは現在、保存されていません。後で戻ってきて編集したい場合は、このドキュメント タイプを忘れずに保存してください。</Text>
   <Text Key="DocumentType.PropertyDeleted.Title">プロパティは削除されました</Text>
   <Text Key="DocumentType.PropertyDeleted.Message">ドキュメント タイプ プロパティは削除されています</Text>
@@ -98,7 +98,7 @@
   <Text Key="Language.UnSaved.Message">この言語は現在、保存されていません。後で戻ってきて編集したい場合は、この言語を忘れずに保存してください。</Text>
   
   <Text Key="Macro.Save.Title">マクロが保存されました</Text>
-  <Text Key="Macro.Save.Message">マクロ は正常に保存されています</Text>
+  <Text Key="Macro.Save.Message">マクロは正常に保存されています</Text>
   <Text Key="Macro.UnSaved.Message">このマクロは現在、保存されていません。後で戻ってきて編集したい場合は、このマクロを忘れずに保存してください。</Text>
   <Text Key="Macro.ParamsPopulated.Title">マクロ パラメーター</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">マクロ パラメーターは正常に取得されました</Text>
@@ -108,13 +108,13 @@
   <Text Key="Macro.RenderingFailed.Title">マクロ エラー</Text>
   
   <Text Key="Template.Save.Title">テンプレートが保存されました</Text>
-  <Text Key="Template.Save.Message">テンプレート は正常に保存されています</Text>
+  <Text Key="Template.Save.Message">テンプレートは正常に保存されています</Text>
   
   <Text Key="Partials.Save.Title">テンプレートが保存されました</Text>
-  <Text Key="Partials.Save.Message">テンプレート は正常に保存されています</Text>
+  <Text Key="Partials.Save.Message">テンプレートは正常に保存されています</Text>
   
   <Text Key="Script.Save.Title">スクリプトが保存されました</Text>
-  <Text Key="Script.Save.Message">スクリプト は正常に保存されています</Text>
+  <Text Key="Script.Save.Message">スクリプトは正常に保存されています</Text>
   
   <Text Key="Stylesheet.Save.Title">スタイルシートが保存されました</Text>
   <Text Key="Stylesheet.Save.Message">スタイルシートは正常に保存されています</Text>
@@ -212,7 +212,7 @@
   
   <!-- Action - Move Content -->
   <Text Key="Action.Move.Title">移動</Text>
-  <Text Key="Action.Move.HeaderTitle">そのドキュメント '{Name}' の移動先を以下から選択してください</Text>
+  <Text Key="Action.Move.HeaderTitle">ドキュメント '{Name}' の移動先を以下から選択してください</Text>
 
   <!-- Action - Manage Permissions-->
   <Text Key="Action.Permissions.Title">アクセス権限の管理</Text>
@@ -230,7 +230,7 @@
   <Text Key="Action.PublicAccess.Description.ErrorPage">メンバーが認証されているが十分なアクセス権限を持たないときに表示するページの選択。</Text>
 
   <!-- Action - Publish-->
-  <Text Key="Action.Publish.Title">Publish コンテンツ</Text>
+  <Text Key="Action.Publish.Title">コンテンツの発行</Text>
   <Text Key="Action.Publish.Description.Save">'{Name}'を発行するために '保存' をクリックすることによって、そのコンテンツはパブリックで利用可能になります。</Text>
   <Text Key="Action.Publish.Description.Children">以下にあるpublish all childrenをチェックすることによって、このページとその全てのサブページを発行できます。</Text>
 
@@ -454,12 +454,12 @@
     <Text Key="MembershipCreateStatus.DuplicateUserName">ユーザー名はすでに存在します。違うユーザー名を入力してください。</Text>
     <Text Key="MembershipCreateStatus.DuplicateEmail">そのeメール アドレスに対するユーザー名はすでに存在します。違うeメール アドレスを入力してください。</Text>
     <Text Key="MembershipCreateStatus.InvalidPassword">指定されたパスワードは不正です。適切なパスワードの値を入力してください。</Text>
-    <Text Key="MembershipCreateStatus.InvalidEmail">指定されたeメール アドレスは不正です。値をチェックして、もう一度お試ししください。</Text>
-    <Text Key="MembershipCreateStatus.InvalidAnswer">指定されたパスワード取得用の回答は不正です。値をチェックして、もう一度お試ししください。</Text>
-    <Text Key="MembershipCreateStatus.InvalidQuestion">指定されたパスワード取得用の質問は不正です。値をチェックして、もう一度お試ししください。</Text>
-    <Text Key="MembershipCreateStatus.InvalidUserName">指定されたユーザー名は不正です。値をチェックして、もう一度お試ししください。</Text>
-    <Text Key="MembershipCreateStatus.ProviderError">認証プロバイダーはエラーを返しました。エントリーを検証して、もう一度お試ししください。問題が続くようであれば、システム管理者に連絡してください。</Text>
-    <Text Key="MembershipCreateStatus.UserRejected">ユーザー作成要求はキャンセルされました。エントリーを検証して、もう一度お試ししください。問題が続くようであれば、システム管理者に連絡してください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">指定されたeメール アドレスは不正です。値をチェックして、もう一度お試しください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidAnswer">指定されたパスワード取得用の回答は不正です。値をチェックして、もう一度お試しください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidQuestion">指定されたパスワード取得用の質問は不正です。値をチェックして、もう一度お試しください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidUserName">指定されたユーザー名は不正です。値をチェックして、もう一度お試しください。</Text>
+    <Text Key="MembershipCreateStatus.ProviderError">認証プロバイダーはエラーを返しました。エントリーを検証して、もう一度お試しください。問題が続くようであれば、システム管理者に連絡してください。</Text>
+    <Text Key="MembershipCreateStatus.UserRejected">ユーザー作成要求はキャンセルされました。エントリーを検証して、もう一度お試しください。問題が続くようであれば、システム管理者に連絡してください。</Text>
 
 
   </Namespace>
