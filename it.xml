@@ -3,50 +3,50 @@
   <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
 
   <!-- Applications -->
-  <Text Key="content">Innehåll</Text>
+  <Text Key="content">Contenuto</Text>
   <Text Key="media">Media</Text>
-  <Text Key="settings">Inställningar</Text>
-  <Text Key="developer">Utvecklare</Text>
-  <Text Key="users">Användare</Text>
-  <Text Key="members">Medlemmar</Text>
+  <Text Key="settings">Configurazione</Text>
+  <Text Key="developer">Sviluppo</Text>
+  <Text Key="users">Utenti</Text>
+  <Text Key="members">Membri</Text>
   
   <!-- These are used regardless of class, assembly and namespace -->
-  <Text Key="Name">Namn</Text>
-  <Text Key="CreatedBy">Skapad av</Text>
-  <Text Key="UtcCreated">Skapad datum</Text>
-  <Text Key="UtcModified">Updaterad datum</Text>
-  <Text Key="NodeName">Nodnamn</Text>
-  <Text Key="UpdatedBy">Uppdaterad av</Text>
-  <Text Key="ShowLabel">Visa etikett</Text>
+  <Text Key="Name">Nome</Text>
+  <Text Key="CreatedBy">Creato da</Text>
+  <Text Key="UtcCreated">Data creazione</Text>
+  <Text Key="UtcModified">Data ultimo aggiornamento</Text>
+  <Text Key="NodeName">Nome nodo</Text>
+  <Text Key="UpdatedBy">Aggiornato da</Text>
+  <Text Key="ShowLabel">Visualizza Etichetta</Text>
   
   <!-- Messages -->
-  <Text Key="Login.Invalid">Ogiltigt användarnamn eller lösenord</Text>
-  <Text Key="Delete.Successful">Borttagning lyckades</Text>
-  <Text Key="Delete.Failed">Borttagning lyckades inte</Text>
-  <Text Key="Validation.Errors">Valideringsfel inträffade</Text>
+  <Text Key="Login.Invalid">Invalid username or password</Text>
+  <Text Key="Delete.Successful">Item successfully deleted</Text>
+  <Text Key="Delete.Failed">Item was not deleted</Text>
+  <Text Key="Validation.Errors">Some validation errors occurred</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Ett valideringsfel inträffade | valideringsfel inträffade}</Text>
-  <Text Key="Save.ErrorsOccurred.Title">Valideringsfel</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Validation errors</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Rätta till felen och försök igen.</Text>
+  <Text Key="Save.ValidationSummary.Title">Please correct the errors and try again.</Text>
   
-  <Text Key="Content.Save.Title">Innehåll sparat</Text>
-  <Text Key="Content.Save.Message">Kom ihåg att publisera för att ändringen ska synas</Text>
-  <Text Key="Content.SaveUnathorized.Title">Innehåll ej sparat</Text>
-  <Text Key="Content.SaveUnathorized.Message">Innehållert kunde inte sparas pga otillräckliga rättigheter</Text>
-  <Text Key="Content.UnSaved.Message">Detta innehåll är inte sprat. Kom ihåg att spara ändringar om du vill återgå till innehållet senare.</Text>
-  <Text Key="Content.NoTemplates.Message">Det finns inga mallar tillgängliga för detta innehåll</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunde inte genereras för denna nod eftersom den gren den innefattas av måste ha ett tilldelat hostname</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">Denna innehållstyp har inga tillåtna undertyper.</Text>
+  <Text Key="Content.Save.Title">Content saved</Text>
+  <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
+  <Text Key="Content.SaveUnathorized.Title">Content not saved</Text>
+  <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
+  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
+  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
 
-  <Text Key="User.Save.Title">Användare sparad</Text>
-  <Text Key="User.Save.Message">Användarinformation har sprats.</Text>
-  <Text Key="User.UnSaved.Message">Denna användare är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
+  <Text Key="User.Save.Title">User saved</Text>
+  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
+  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="UserGroup.Save.Title">Användargrupp sparad</Text>
-  <Text Key="UserGroup.Save.Message">Användargruppens information har sprats.</Text>
-  <Text Key="UserGroup.UnSaved.Message">Denna användargrupp är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
-  <Text Key="UserGroup.Inherit.Message">Notera att rättigheter som sätts till ärv kommer sättas till neka om ingen specifik tillåt-rättighet kan ärvas.</Text>
+  <Text Key="UserGroup.Save.Title">User group saved</Text>
+  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
+  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
   
   <Text Key="MemberGroup.Save.Title">Member group saved</Text>
   <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
@@ -467,16 +467,16 @@
   </Namespace>
 
   <Namespace Name="Umbraco.Cms.Web.PropertyEditors">
-    <Text Key="IsRequired">Required</Text>
-    <Text Key="RichTextPreValueModel.ShowContextMenu">Show context menu</Text>
-    <Text Key="RichTextPreValueModel.EditorSize">Editor size</Text>
-    <Text Key="RichTextPreValueModel.TinyMceItems">Rich text elements</Text>
+    <Text Key="IsRequired">Obbligatorio</Text>
+    <Text Key="RichTextPreValueModel.ShowContextMenu">Visualizza menù contestuale</Text>
+    <Text Key="RichTextPreValueModel.EditorSize">Dimensione Editor</Text>
+    <Text Key="RichTextPreValueModel.TinyMceItems">Elementi Rich text</Text>
 
     <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regular expression validation statement</Text>
    
-    <Text Key="ColorSwatchPickerPreValueModel.Colors">Colors</Text>
+    <Text Key="ColorSwatchPickerPreValueModel.Colors">Colori</Text>
     
-    <Text Key="DateTimePickerPreValueModel.ShowTime">Also show time selection</Text>
+    <Text Key="DateTimePickerPreValueModel.ShowTime">Visualizza tempo di selezione</Text>
 
     <Text Key="NodeNameEditorModel.UrlName">Url name</Text>
     <Text Key="NodeNameEditorModel.UrlAliases">Url aliases</Text>

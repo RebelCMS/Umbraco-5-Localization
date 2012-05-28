@@ -1,52 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Localizations Language="*">
+<Localizations Language="pl">
   <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
 
   <!-- Applications -->
-  <Text Key="content">Innehåll</Text>
+  <Text Key="content">Treść</Text>
   <Text Key="media">Media</Text>
-  <Text Key="settings">Inställningar</Text>
-  <Text Key="developer">Utvecklare</Text>
-  <Text Key="users">Användare</Text>
-  <Text Key="members">Medlemmar</Text>
+  <Text Key="settings">Ustawienia</Text>
+  <Text Key="developer">Programista</Text>
+  <Text Key="users">Użytkownicy</Text>
+  <Text Key="members">Członkowie</Text>
   
   <!-- These are used regardless of class, assembly and namespace -->
-  <Text Key="Name">Namn</Text>
-  <Text Key="CreatedBy">Skapad av</Text>
-  <Text Key="UtcCreated">Skapad datum</Text>
-  <Text Key="UtcModified">Updaterad datum</Text>
-  <Text Key="NodeName">Nodnamn</Text>
-  <Text Key="UpdatedBy">Uppdaterad av</Text>
-  <Text Key="ShowLabel">Visa etikett</Text>
+  <Text Key="Name">Nazwa</Text>
+  <Text Key="CreatedBy">Utworzony przez</Text>
+  <Text Key="UtcCreated">Data utworzenia</Text>
+  <Text Key="UtcModified">Data modyfikacji</Text>
+  <Text Key="NodeName">Nazwa węzła</Text>
+  <Text Key="UpdatedBy">Zaktualizowany przez</Text>
+  <Text Key="ShowLabel">Pokaż etykietę</Text>
   
   <!-- Messages -->
-  <Text Key="Login.Invalid">Ogiltigt användarnamn eller lösenord</Text>
-  <Text Key="Delete.Successful">Borttagning lyckades</Text>
-  <Text Key="Delete.Failed">Borttagning lyckades inte</Text>
-  <Text Key="Validation.Errors">Valideringsfel inträffade</Text>
+  <Text Key="Login.Invalid">Niewłaściwa nazwa użytkownika bądź hasło</Text>
+  <Text Key="Delete.Successful">Element został skasowany</Text>
+  <Text Key="Delete.Failed">Element nie został skasowany</Text>
+  <Text Key="Validation.Errors">Wystąpiły błędy walidacji</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Ett valideringsfel inträffade | valideringsfel inträffade}</Text>
-  <Text Key="Save.ErrorsOccurred.Title">Valideringsfel</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Wystąpił błąd walidacji | Wystąpiły błędy walidacji}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Błędy walidacji</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Rätta till felen och försök igen.</Text>
+  <Text Key="Save.ValidationSummary.Title">Proszę usunąć błędy i spróbować ponownie.</Text>
   
-  <Text Key="Content.Save.Title">Innehåll sparat</Text>
-  <Text Key="Content.Save.Message">Kom ihåg att publisera för att ändringen ska synas</Text>
-  <Text Key="Content.SaveUnathorized.Title">Innehåll ej sparat</Text>
-  <Text Key="Content.SaveUnathorized.Message">Innehållert kunde inte sparas pga otillräckliga rättigheter</Text>
-  <Text Key="Content.UnSaved.Message">Detta innehåll är inte sprat. Kom ihåg att spara ändringar om du vill återgå till innehållet senare.</Text>
-  <Text Key="Content.NoTemplates.Message">Det finns inga mallar tillgängliga för detta innehåll</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">En URL kunde inte genereras för denna nod eftersom den gren den innefattas av måste ha ett tilldelat hostname</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">Denna innehållstyp har inga tillåtna undertyper.</Text>
+  <Text Key="Content.Save.Title">Treść zapisana</Text>
+  <Text Key="Content.Save.Message">Pamiętaj o opublikowaniu w celu uwidocznienia zmian</Text>
+  <Text Key="Content.SaveUnathorized.Title">Treść nie została zapisana</Text>
+  <Text Key="Content.SaveUnathorized.Message">Treść nie została zapisana ze względu na niewystarczające uprawnienia</Text>
+  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
+  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
 
-  <Text Key="User.Save.Title">Användare sparad</Text>
-  <Text Key="User.Save.Message">Användarinformation har sprats.</Text>
-  <Text Key="User.UnSaved.Message">Denna användare är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
+  <Text Key="User.Save.Title">User saved</Text>
+  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
+  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="UserGroup.Save.Title">Användargrupp sparad</Text>
-  <Text Key="UserGroup.Save.Message">Användargruppens information har sprats.</Text>
-  <Text Key="UserGroup.UnSaved.Message">Denna användargrupp är ej sparad. Kom ihåg att spara om du vill åtekomma senare.</Text>
-  <Text Key="UserGroup.Inherit.Message">Notera att rättigheter som sätts till ärv kommer sättas till neka om ingen specifik tillåt-rättighet kan ärvas.</Text>
+  <Text Key="UserGroup.Save.Title">User group saved</Text>
+  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
+  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
   
   <Text Key="MemberGroup.Save.Title">Member group saved</Text>
   <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
@@ -127,107 +127,107 @@
   <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Logout</Text>
-  <Text Key="UI.Button.About">About</Text>
-  <Text Key="UI.Title.Sections">Sections</Text>
-  <Text Key="UI.Title.Search">Search</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UI.Tab.FileProperties">Umbraco Properties</Text>
+  <Text Key="UI.Button.Logout">Wyloguj</Text>
+  <Text Key="UI.Button.About">Informacje</Text>
+  <Text Key="UI.Title.Sections">Sekcje</Text>
+  <Text Key="UI.Title.Search">Szukaj</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Właściwości umbraco</Text>
+  <Text Key="UI.Tab.FileProperties">Właściwości umbraco</Text>
   <!-- Trees-->
   <!-- TODO -->
   
   <!-- Fixed Tree Nodes -->
-  <Text Key="Local packages">Local packages</Text>
+  <Text Key="Local packages">Paczki lokalne</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Audit</Text>
-  <Text Key="Copy">Copy</Text>
-  <Text Key="CreateFolder">Create Folder</Text>
-  <Text Key="Create">Create</Text>
-  <Text Key="Delete">Delete</Text>
-  <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
-  <Text Key="ExportDocumentType">Export DocumentType</Text>
-  <Text Key="Manage hostnames">Manage hostnames</Text>
-  <Text Key="ImportDocumentType">Impor tDocumentType</Text>
-  <Text Key="Language">Language</Text>
-  <Text Key="Logout">Logout</Text>
-  <Text Key="Move">Move</Text>
-  <Text Key="Notify">Notify</Text>
-  <Text Key="Package">Package</Text>
-  <Text Key="Permissions">Permissions</Text>
-  <Text Key="Public Access">PublicAccess</Text>
-  <Text Key="Publish">Publish</Text>
-  <Text Key="Refresh">Refresh</Text>
-  <Text Key="Rollback">Rollback</Text>
-  <Text Key="Save">Save</Text>
-  <Text Key="SendPublish">Send to publish</Text>
-  <Text Key="SendTranslate">Send to Translate</Text>
-  <Text Key="Sort">Sort</Text>
-  <Text Key="Translate">Translate</Text>
-  <Text Key="Update">Update</Text>
+  <Text Key="Audit">Audyt</Text>
+  <Text Key="Copy">Kopiuj</Text>
+  <Text Key="CreateFolder">Utwórz folder</Text>
+  <Text Key="Create">Utwórz</Text>
+  <Text Key="Delete">Usuń</Text>
+  <Text Key="EmptyRecycleBin">Opróżnij kosz</Text>
+  <Text Key="ExportDocumentType">Wyeksportuj typ dokumentu</Text>
+  <Text Key="Manage hostnames">Nazwy hostów</Text>
+  <Text Key="ImportDocumentType">Importuj typ dokumentu</Text>
+  <Text Key="Language">Język</Text>
+  <Text Key="Logout">Wyloguj</Text>
+  <Text Key="Move">Przesuń</Text>
+  <Text Key="Notify">Powiadom</Text>
+  <Text Key="Package">Paczka</Text>
+  <Text Key="Permissions">Uprawnienia</Text>
+  <Text Key="Public Access">Dostęp publiczny</Text>
+  <Text Key="Publish">Publikuj</Text>
+  <Text Key="Refresh">Odświerz</Text>
+  <Text Key="Rollback">Wycofaj</Text>
+  <Text Key="Save">Zapisz</Text>
+  <Text Key="SendPublish">Wyślij do publikacji</Text>
+  <Text Key="SendTranslate">Wyślij do tłumaczenia</Text>
+  <Text Key="Sort">Sortuj</Text>
+  <Text Key="Translate">Przetłumacz</Text>
+  <Text Key="Update">Aktualizuj</Text>
   
   <!-- Dashboards -->
   
   <!-- Editors -->
   
   <!-- General -->
-  <Text Key="Editors.PleaseSelect">Please Select...</Text>
-  <Text Key="Editors.File">File</Text>
+  <Text Key="Editors.PleaseSelect">Proszę Wybrać...</Text>
+  <Text Key="Editors.File">Plik</Text>
   <Text Key="Editors.Folder">Folder</Text>
-  <Text Key="Editors.None">None</Text>
+  <Text Key="Editors.None">Nic</Text>
   
   <!-- Controls -->
   <!-- Date Time Picker-->
-  <Text Key="DateTimePicker.Choose">Choose Date</Text>
-  <Text Key="DateTimePicker.None">No date chosen</Text>
-  <Text Key="DateTimePicker.Clear">Clear date</Text>
+  <Text Key="DateTimePicker.Choose">Wybierz Datę</Text>
+  <Text Key="DateTimePicker.None">Nie wybrano daty</Text>
+  <Text Key="DateTimePicker.Clear">Wyczyść datę</Text>
   
   <!-- Schema Editor -->
-  <Text Key="Schema.Editor.Tab.Info">Info</Text>
-  <Text Key="Schema.Editor.Tab.Composition">Composition</Text>
-  <Text Key="Schema.Editor.Tab.Properties">Properties</Text>
-  <Text Key="Schema.Editor.Tab.Tabs">Tabs</Text>
+  <Text Key="Schema.Editor.Tab.Info">Informacje</Text>
+  <Text Key="Schema.Editor.Tab.Composition">Struktura</Text>
+  <Text Key="Schema.Editor.Tab.Properties">Właściwości</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">Zakładki</Text>
   <Text Key="Schema.Editor.Notice.PropInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited properties.</Text>
   <Text Key="Schema.Editor.Notice.TabInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited tabs.</Text>
 
 
   <!-- Content Editor -->
-  <Text Key="Content.Editor.Tab.GeneralProperties">General Properties</Text>
-  <Text Key="Content.Editor.Label.NotPublishedYet">This item has not been published</Text>
-  <Text Key="Content.Editor.Label.LastPublished">Last published</Text>
+  <Text Key="Content.Editor.Tab.GeneralProperties">Właścwości podstawowe</Text>
+  <Text Key="Content.Editor.Label.NotPublishedYet">Ten element nie został opublikowany</Text>
+  <Text Key="Content.Editor.Label.LastPublished">Ostatnio opublikowano</Text>
   
   <!-- Action - Copy Content -->
-  <Text Key="Action.Copy.Title">Copy</Text>
-  <Text Key="Action.Copy.HeaderTitle">Select where the document '{Name}' should be copied to below</Text>
+  <Text Key="Action.Copy.Title">Kopiuj</Text>
+  <Text Key="Action.Copy.HeaderTitle">Wybierz element pod który dokument '{Name}' powinien zostać skopiowany</Text>
   
   <!-- Action - Manage Hostnames -->
-  <Text Key="Action.HostNames.Title">Manage hostnames</Text>
-  <Text Key="Action.HostNames.Button.AddHostname">Add hostname</Text>
-  <Text Key="Action.HostNames.Button.DeleteHostname">Delete hostname</Text>
-  <Text Key="Action.HostNames.Description.VirtualDirectory">The current site is running inside of a Virtual Directory</Text>
-  <Text Key="Action.HostNames.Description.ResultingHostname">The resulting hostname will route to</Text>
+  <Text Key="Action.HostNames.Title">Nazwy hostów</Text>
+  <Text Key="Action.HostNames.Button.AddHostname">Dodaj nazwę hosta</Text>
+  <Text Key="Action.HostNames.Button.DeleteHostname">Usuń hosta</Text>
+  <Text Key="Action.HostNames.Description.VirtualDirectory">Aktualna strona uruchomiona jest w katalogu wirtualnym</Text>
+  <Text Key="Action.HostNames.Description.ResultingHostname">Wyjściowa nazwa hosta przekieruje do</Text>
   
   <!-- Action - Set Languages-->
-  <Text Key="Action.Language.Title">Select language</Text>
+  <Text Key="Action.Language.Title">Wybierz język</Text>
   
   <!-- Action - Move Content -->
-  <Text Key="Action.Move.Title">Move</Text>
-  <Text Key="Action.Move.HeaderTitle">Select where the document '{Name}' should be moved to below</Text>
+  <Text Key="Action.Move.Title">Przesuń</Text>
+  <Text Key="Action.Move.HeaderTitle">Wybierz element pod który dokument '{Name}' powinien zostać przesunięty</Text>
 
   <!-- Action - Manage Permissions-->
-  <Text Key="Action.Permissions.Title">Manage permissions</Text>
+  <Text Key="Action.Permissions.Title">Zarządzaj uprawnieniami</Text>
 
   <!-- Action - Public Access-->
-  <Text Key="Action.PublicAccess.Title">Manage public access</Text>
-  <Text Key="Action.PublicAccess.Label.MemberGroups">Member Groups</Text>
-  <Text Key="Action.PublicAccess.Description.MemberGroups">Choose the Member Groups that should be allowed access to this page.</Text>
-  <Text Key="Action.PublicAccess.Label.Available">Available</Text>
-  <Text Key="Action.PublicAccess.Label.Selected">Selected</Text>
-  <Text Key="Action.PublicAccess.Title.Select">Select the pages to redirect to for login and incase of an error.</Text>
-  <Text Key="Action.PublicAccess.Label.LoginPage">Login Page</Text>
-  <Text Key="Action.PublicAccess.Description.LoginPage">Choose the page that contains the login form</Text>
-  <Text Key="Action.PublicAccess.Label.ErrorPage">Error Page</Text>
-  <Text Key="Action.PublicAccess.Description.ErrorPage">Choose the page to display when a member is authenticated, but does not have sufficient permissions.</Text>
+  <Text Key="Action.PublicAccess.Title">Zarządzaj dostępem publicznym</Text>
+  <Text Key="Action.PublicAccess.Label.MemberGroups">Grupy Członków</Text>
+  <Text Key="Action.PublicAccess.Description.MemberGroups">Wybierz grupę członków, która powinna mieć dostęp do tej strony.</Text>
+  <Text Key="Action.PublicAccess.Label.Available">Dostępny</Text>
+  <Text Key="Action.PublicAccess.Label.Selected">Wybrany</Text>
+  <Text Key="Action.PublicAccess.Title.Select">Wybierz strony przekierowań po zalogowaniu lub w przypadku wystąpienia błędów.</Text>
+  <Text Key="Action.PublicAccess.Label.LoginPage">Strona Logowania</Text>
+  <Text Key="Action.PublicAccess.Description.LoginPage">Wybierz stronę, która zawiera formularz logowania</Text>
+  <Text Key="Action.PublicAccess.Label.ErrorPage">Strona Błędu</Text>
+  <Text Key="Action.PublicAccess.Description.ErrorPage">Wybierz stronę wyświetlaną kiedy użytkownik jest zalogowany, ale nie posiada wystarczających uprawnień.</Text>
 
   <!-- Action - Publish-->
   <Text Key="Action.Publish.Title">Publish content</Text>
@@ -236,33 +236,33 @@
   </Text>
 
   <!-- Action - Rollback-->
-  <Text Key="Action.Rollback.Title">Rollback</Text>
-  <Text Key="Action.Rollback.HeaderTitle"> Select a target version to compare the current version of '{Name}' to</Text>
-  <Text Key="Action.Rollback.Label.Current">Current</Text>
-  <Text Key="Action.Rollback.Label.Created">Created</Text>
-  <Text Key="Action.Rollback.Label.LastStatus">Last status change</Text>
-  <Text Key="Action.Rollback.Label.Target">Target</Text>
-  <Text Key="Action.Rollback.SelectVersion">Select a version...</Text>
-  <Text Key="Action.Rollback.Label.View">View</Text>
-  <Text Key="Action.Rollback.Label.Diff">Diff</Text>
+  <Text Key="Action.Rollback.Title">Wycofaj</Text>
+  <Text Key="Action.Rollback.HeaderTitle">Wybierz dokument do porównania z aktualną wersją dokumentu '{Name}'</Text>
+  <Text Key="Action.Rollback.Label.Current">Aktualny</Text>
+  <Text Key="Action.Rollback.Label.Created">Utworzony</Text>
+  <Text Key="Action.Rollback.Label.LastStatus">Ostatnia zmiana statusu</Text>
+  <Text Key="Action.Rollback.Label.Target">Docelowy</Text>
+  <Text Key="Action.Rollback.SelectVersion">Wybierz wersję...</Text>
+  <Text Key="Action.Rollback.Label.View">Zobacz</Text>
+  <Text Key="Action.Rollback.Label.Diff">Różnice</Text>
   <!-- Action - Sort-->
-  <Text Key="Action.Sort.Title">Sort content</Text>
-  <Text Key="Action.Sort.Table.Name">Name</Text>
-  <Text Key="Action.Sort.Table.CreationDate">Creation date</Text>
-  <Text Key="Action.Sort.Table.SortOrder">Sort order</Text>
+  <Text Key="Action.Sort.Title">Sortuj elementy</Text>
+  <Text Key="Action.Sort.Table.Name">Nazwa</Text>
+  <Text Key="Action.Sort.Table.CreationDate">Data utworzenia</Text>
+  <Text Key="Action.Sort.Table.SortOrder">Kolejność sortowania</Text>
 
   <!-- Media Editor -->
-  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="Media.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
   
   
   <!-- Language Editor -->
-  <Text Key="Language.Editor.Tab.NewLanguage">New Language</Text>
-  <Text Key="Language.Editor.Label.ISO">ISO Code</Text>
+  <Text Key="Language.Editor.Tab.NewLanguage">Nowy język</Text>
+  <Text Key="Language.Editor.Label.ISO">Kod ISO</Text>
   <Text Key="Language.Editor.Label.Fallbacks">Fallbacks</Text>
-  <Text Key="Language.Editor.FallbackOrder">Set fallback order...</Text>
+  <Text Key="Language.Editor.FallbackOrder">Ustaw kolejność fallbacks...</Text>
   
   <!-- Dictionary Editor -->
-  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
   
   <!-- Document Type Editor-->
   <Text Key="DocumentType.Editor.Description.IsAbstract">Sets whether document type is intended only to be inherited by others.  If checked it will not be selectable for content entry directly.</Text>
@@ -276,22 +276,22 @@
   <!-- Media Type Editor-->
   
   <!-- Stylesheet Editor -->
-  <Text Key="Stylesheet.Editor.Title">Stylesheet Editor</Text>
+  <Text Key="Stylesheet.Editor.Title">Edytor stylu</Text>
   
   <!-- Stylesheet Rule Editor -->
-  <Text Key="StylesheetRule.Editor.Title.Create">Create rule</Text>
-  <Text Key="StylesheetRule.Editor.Title.Edit">Edit rule</Text>
-  <Text Key="StylesheetRule.Editor.Description.Name">Name to identify the rule in the rich text editor</Text>
-  <Text Key="StylesheetRule.Editor.Description.Selector">The CSS selector for the rule eg: h1, .redHeader, .blueText</Text>
-  <Text Key="StylesheetRule.Editor.Label.Styles">Styles</Text>
-  <Text Key="StylesheetRule.Editor.Label.Preview">Preview</Text>
+  <Text Key="StylesheetRule.Editor.Title.Create">Reguły tworzenia</Text>
+  <Text Key="StylesheetRule.Editor.Title.Edit">Reguły edycji</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">Nazwa identyfikująca regułę w edytorze treści</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">Selektor css dla reguły np.: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Label.Styles">Style</Text>
+  <Text Key="StylesheetRule.Editor.Label.Preview">Podgląd</Text>
   
   <!-- Scripts Editor -->
-  <Text Key="Script.Create.Title">Create a script</Text>
-  <Text Key="Script.Editor.Title">Script Editor</Text>
+  <Text Key="Script.Create.Title">Utwórz Skrypt</Text>
+  <Text Key="Script.Editor.Title">Edytor Skryptów</Text>
   
   <!-- Template Editor -->
-  <Text Key="Template.Editor.Title">Template Editor</Text>
+  <Text Key="Template.Editor.Title">Edytor Szablonów</Text>
   <Text Key="Template.Editor.Title.MasterTemplate">Master Template</Text>
   
   <!-- Partial Editor -->
@@ -361,27 +361,27 @@
   <Text Key="Packaging.Editor.Title">Partial Editor</Text>
   
   <!-- User Editor -->
-  <Text Key="User.Editor.Tab.NewUser">New User</Text>
+  <Text Key="User.Editor.Tab.NewUser">Nowy Użytkownik</Text>
   <Text Key="User.Editor.Tab.Backoffice">Backoffice</Text>
-  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="User.Editor.Label.UserGroups">User Groups</Text>
-  <Text Key="User.Editor.Label.StartNodeContent">Start Node in Content</Text>
-  <Text Key="User.Editor.Label.StartNodeMedia">Start Node in Media</Text>
-  <Text Key="User.Editor.Label.Sections">Sections</Text>
+  <Text Key="User.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
+  <Text Key="User.Editor.Label.UserGroups">Grupy Użytkowników</Text>
+  <Text Key="User.Editor.Label.StartNodeContent">Węzeł w Treści</Text>
+  <Text Key="User.Editor.Label.StartNodeMedia">Węzeł w Mediach</Text>
+  <Text Key="User.Editor.Label.Sections">Sekcje</Text>
   
   <!-- User Group Editor -->
-  <Text Key="UserGroup.Editor.Tab.NewUserGroup">New User Group</Text>
-  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UserGroup.Editor.Label.Permissions">Permissions</Text>
+  <Text Key="UserGroup.Editor.Tab.NewUserGroup">Nowa Grupa Użytkowników</Text>
+  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
+  <Text Key="UserGroup.Editor.Label.Permissions">Uprawnienia</Text>
   
   <!-- Member Editor -->
-  <Text Key="Member.Editor.Tab.NewMember">New Member</Text>
-  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="Member.Editor.Label.MemberGroups">Member Groups</Text>
+  <Text Key="Member.Editor.Tab.NewMember">Nowy Członek</Text>
+  <Text Key="Member.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
+  <Text Key="Member.Editor.Label.MemberGroups">Grupy Członków</Text>
   
   <!-- Member Group Editor -->
-  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">New Member Group</Text>
-  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">Nowa Grupa Członków</Text>
+  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Właściwości Umbraco</Text>
   
   <!-- Member Type Editor -->
   

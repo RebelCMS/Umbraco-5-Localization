@@ -402,23 +402,23 @@
     <Text Key="DocumentTypeProperty.DataTypeId">Data Type</Text>
     <Text Key="DocumentTypeProperty.TabId">Tab</Text>
 
-    <Text Key="MemberEditorModel.ConfirmPassword">Confirm password</Text>
-    <Text Key="MemberEditorModel.OldPassword">Old password</Text>
-    <Text Key="MemberEditorModel.IsApproved">Login enabled?</Text>
-    <Text Key="MemberEditorModel.LastLoginDate">Last login date</Text>
-    <Text Key="MemberEditorModel.LastActivityDate">Last activity date</Text>
-    <Text Key="MemberEditorModel.LastPasswordChangeDate">Last password change date</Text>
+    <Text Key="MemberEditorModel.ConfirmPassword">Bekræft kodeord<</Text>
+    <Text Key="MemberEditorModel.OldPassword">Gammelt kodeord</Text>
+    <Text Key="MemberEditorModel.IsApproved">Login aktiveret</Text>
+    <Text Key="MemberEditorModel.LastLoginDate">Seneste login dato</Text>
+    <Text Key="MemberEditorModel.LastActivityDate">Seneste aktivits dato</Text>
+    <Text Key="MemberEditorModel.LastPasswordChangeDate">eneste kodeordsskift dato</Text>
 
-    <Text Key="UserEditorModel.ConfirmPassword">Confirm password</Text>
-    <Text Key="UserEditorModel.OldPassword">Old password</Text>
-    <Text Key="UserEditorModel.IsApproved">Login enabled?</Text>
+    <Text Key="UserEditorModel.ConfirmPassword">Bekræft kodeord</Text>
+    <Text Key="UserEditorModel.OldPassword">Gammelt kodeord</Text>
+    <Text Key="UserEditorModel.IsApproved">Login aktiveret?</Text>
     <Text Key="UserEditorModel.SessionTimeout">Session timeout (mins)</Text>
-    <Text Key="UserEditorModel.LastLoginDate">Last login date</Text>
-    <Text Key="UserEditorModel.LastActivityDate">Last activity date</Text>
-    <Text Key="UserEditorModel.LastPasswordChangeDate">Last password change date</Text>
-    <Text Key="UserEditorModel.StartContentHiveId">Start node for Content</Text>
-    <Text Key="UserEditorModel.StartMediaHiveId">Start node for Media</Text>
-    <Text Key="UserEditorModel.Applications">Sections</Text>
+    <Text Key="UserEditorModel.LastLoginDate">Seneste login dato</Text>
+    <Text Key="UserEditorModel.LastActivityDate">Seneste aktivits dato</Text>
+    <Text Key="UserEditorModel.LastPasswordChangeDate">Seneste kodeordsskift dato</Text>
+    <Text Key="UserEditorModel.StartContentHiveId">Startnode i Indhold</Text>
+    <Text Key="UserEditorModel.StartMediaHiveId">Startnode for Mediearkiv</Text>
+    <Text Key="UserEditorModel.Applications">Sektioner</Text>
     
     <Text Key="CreateDocumentTypeModel.CreateTemplate">Create matching template</Text>
     <Text Key="CreateDocumentTypeModel.SelectedDocumentTypeId">Master document type</Text>

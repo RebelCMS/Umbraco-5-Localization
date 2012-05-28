@@ -15,7 +15,7 @@
   <Text Key="CreatedBy">Erstellt von</Text>
   <Text Key="UtcCreated">Erstellt am</Text>
   <Text Key="UtcModified">Geändert am</Text>
-  <Text Key="NodeName">Kontenname</Text>
+  <Text Key="NodeName">Knotenname</Text>
   <Text Key="UpdatedBy">Aktualisiert von</Text>
   <Text Key="ShowLabel">Beschriftung anzeigen</Text>
   
@@ -36,8 +36,8 @@
   <Text Key="Content.SaveUnathorized.Message">Inhalt konnte aufgrund unzureichender Rechte nicht gespeichert werden</Text>
   <Text Key="Content.UnSaved.Message">Dieser Inhalt ist derzeit nicht gespeichert. Denken Sie daran, ihn zu speichern, um zu einem späteren Zeitpunkt daran weiterzuarbeiten.</Text>
   <Text Key="Content.NoTemplates.Message">Für diesen Inhalt sind derzeit keine Vorlagen definiert.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">Für diesen Knoten konnte keine URL erstellt werden, da der Zweig, dem er untergeordnet ist, die Zuweisung eines Hostnamens verlangt.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Für diesen Typ sind keine erlaubten Unterelemente definiert</Text>
 
   <Text Key="User.Save.Title">Benutzer gespeichert</Text>
   <Text Key="User.Save.Message">Die Benutzerangaben wurden erfolgreich gespeichert</Text>
@@ -103,7 +103,7 @@
   <Text Key="Macro.ParamsPopulated.Title">Makro-Parameter</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">Makro-Parameter erfolgreich abgerufen</Text>
   <Text Key="Macro.ParamsFailedSurfaceAction.Message">Parameter von Unteraktionen (child actions) konnten nicht ermittelt werden, da sie "out", Rückgabewerte oder LCID-Parameters nutzen</Text>
-  <Text Key="Macro.ParamsFailedPartialView.Message">Die angegebene teilweise Ansicht (partial view) wurde nicht gefunden</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Die angegebene Teilansicht (partial view) wurde nicht gefunden</Text>
   <Text Key="Macro.RenderingFailed.Message">Fehler bei der Ausgabe des Makros '{MacroName}'. FEHLER: '{Error}'. Weitere Details finden Sie im Umbraco-Protokoll.</Text>
   <Text Key="Macro.RenderingFailed.Title">Makrofehler</Text>
   
@@ -131,8 +131,8 @@
   <Text Key="UI.Button.About">Info</Text>
   <Text Key="UI.Title.Sections">Bereiche</Text>
   <Text Key="UI.Title.Search">Suche</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco Eigenschaften</Text>
-  <Text Key="UI.Tab.FileProperties">Umbraco Eigenschaften</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Umbraco-Eigenschaften</Text>
+  <Text Key="UI.Tab.FileProperties">Umbraco-Eigenschaften</Text>
   <!-- Trees-->
   <!-- TODO -->
   
@@ -264,13 +264,13 @@
   <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco-Eigenschaften</Text>
   
   <!-- Document Type Editor-->
-  <Text Key="DocumentType.Editor.Description.IsAbstract">Sets whether document type is intended only to be inherited by others.  If checked it will not be selectable for content entry directly.</Text>
-  <Text Key="DocumentType.Editor.Title.AddNewProperty">Add new property</Text>
-  <Text Key="DocumentType.Editor.Button.AddNewProperty">Click here to add a new property</Text>
-  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Cancel creating new property</Text>
-  <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
-  <Text Key="DocumentType.Editor.NoProperties">No properties</Text>
-  <Text Key="DocumentType.Editor.Label.Tab">Defined Tabs</Text>
+  <Text Key="DocumentType.Editor.Description.IsAbstract">Legt fest, ob dieser Dokumenttyp ausschließlich zur Vererbung gedacht ist und dann nicht zum direkten Erfassen von Inhalten ausgewählt werden kann.</Text>
+  <Text Key="DocumentType.Editor.Title.AddNewProperty">Neue Eigenschaft hinzufügen</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">Hier klicken um eine neue Eigenschaft hinzuzufügen</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Hinzufügen der neuen Eigenschaft abbrechen</Text>
+  <Text Key="DocumentType.Editor.Title.Tab">Registerreiter</Text>
+  <Text Key="DocumentType.Editor.NoProperties">Keine Eigenschaften</Text>
+  <Text Key="DocumentType.Editor.Label.Tab">Festgelegte Registerreiter</Text>
   
   <!-- Media Type Editor-->
   
@@ -280,84 +280,77 @@
   <!-- Stylesheet Rule Editor -->
   <Text Key="StylesheetRule.Editor.Title.Create">Regel erstellen</Text>
   <Text Key="StylesheetRule.Editor.Title.Edit">Regel bearbeiten</Text>
-  <Text Key="StylesheetRule.Editor.Description.Name">Name to identify the rule in the rich text editor</Text>
-  <Text Key="StylesheetRule.Editor.Description.Selector">The CSS selector for the rule eg: h1, .redHeader, .blueText</Text>
-  <Text Key="StylesheetRule.Editor.Label.Styles">Styles</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">Benennen Sie die Regel, um sie im Richtext-Editor identifizieren zu können</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">Der CSS-Selektor für die Regel (z.B. h1, .redHeader, .blueText)</Text>
+  <Text Key="StylesheetRule.Editor.Label.Styles">Stile</Text>
   <Text Key="StylesheetRule.Editor.Label.Preview">Vorschau</Text>
   
   <!-- Scripts Editor -->
-  <Text Key="Script.Create.Title">Create a script</Text>
-  <Text Key="Script.Editor.Title">Script Editor</Text>
+  <Text Key="Script.Create.Title">Skript erstellen</Text>
+  <Text Key="Script.Editor.Title">Skript-Editor</Text>
   
   <!-- Template Editor -->
   <Text Key="Template.Editor.Title">Vorlagen-Editor</Text>
   <Text Key="Template.Editor.Title.MasterTemplate">Hauptvorlagen</Text>
   
   <!-- Partial Editor -->
-  <Text Key="Partial.Create.Title">Create a partial</Text>
-  <Text Key="Partial.Editor.Title">Partial Editor</Text>
-  <Text Key="Partial.Editor.Title.CurrentPath">Current path</Text>
-  <Text Key="Partial.Editor.Label.CreateFile">Create file</Text>
-  <Text Key="Partial.Editor.Label.CreateFolder">Create folder</Text>
+  <Text Key="Partial.Create.Title">Teilansicht erstellen</Text>
+  <Text Key="Partial.Editor.Title">Teilansichtseditor</Text>
+  <Text Key="Partial.Editor.Title.CurrentPath">Aktueller Pfad</Text>
+  <Text Key="Partial.Editor.Label.CreateFile">Datei erstellen</Text>
+  <Text Key="Partial.Editor.Label.CreateFolder">Ordner erstellen</Text>
   
   <!-- Datatype editor-->
-  <Text Key="DataType.Create.Title">Create a new data type</Text>
-  <Text Key="DataType.Editor.Tab.Title">Data type</Text>
-  <Text Key="DataType.Editor.Settings">Settings</Text>
-  <Text Key="DataType.Editor.DataTypeGUID">Data Type GUID</Text>
-  <Text Key="DataType.Editor.SelectPropEditor">--Select Property Editor--</Text>
+  <Text Key="DataType.Create.Title">Neuen Datentyp erstellen</Text>
+  <Text Key="DataType.Editor.Tab.Title">Datentyp</Text>
+  <Text Key="DataType.Editor.Settings">Einstellungen</Text>
+  <Text Key="DataType.Editor.DataTypeGUID">GUID des Datentyps</Text>
+  <Text Key="DataType.Editor.SelectPropEditor">--Eigenschaftseditor auswählen--</Text>
   
   <!-- Packaging Editor -->
-  <Text Key="Packaging.Editor.Title">Local package repository</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
+  <Text Key="Packaging.Editor.Title">Lokales Paket-Repository</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Paket in lokales Repository hochladen</Text>
   <Text Key="Packaging.Editor.Labels.FileName">Dateiname</Text>
   <Text Key="Packaging.Editor.Button.Upload">Upload</Text>
-  <Text Key="Packaging.Editor.Labels.AutoInstall">Auto install package (Please also accept the terms below)</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
-  <Text Key="Packaging.Editor.Title.Install">Install a local package</Text>
-  <Text Key="Packaging.Editor.Notice.Install.Title">Only install packages from sources you know and trust!</Text>
+  <Text Key="Packaging.Editor.Labels.AutoInstall">Paket automatisch installieren (Bitte auch untenstehenden Bedingungen akzeptieren)</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Paket in lokales Repository hochladen</Text>
+  <Text Key="Packaging.Editor.Title.Install">Lokales Paket installieren</Text>
+  <Text Key="Packaging.Editor.Notice.Install.Title">Installieren Sie nur Paket aus vertrauenswürdigen Quellen!</Text>
   <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
-          <p>
-              When installing an Umbraco package you should use the same caution as when you install
-              an application on your computer.</p>
-          <p>
-              A malicious package could damage your Umbraco installation just like a malicious
-              application can damage your computer.</p>
-          <p>
-              It is recommended to install from the official Umbraco package repository or a custom
-              repository whenever it's possible.</p>
+          <p>Bei der Installation eines Umbraco-Pakets sollten Sie die gleiche Vorsicht wie bei der Installation eines fremden Programms auf Ihrem Computer walten lassen.</p>
+          <p>Ein böswilliges Paket könnte Ihre Umbraco-Installation genauso beschädigen wie ein schädliches Programm ihren Computer beschädigen kann.</p>
+          <p>Es wird empfohlen, nach Möglichkeit immer vom offiziellen Umbraco-Paket-Repository oder einem eigenen Paket-Repository zu installieren.</p>
               
   ]]>
   </Text>
-  <Text Key="Packaging.Editor.Labels.Risks">I understand the security risks associated with installing a local package</Text>
+  <Text Key="Packaging.Editor.Labels.Risks">Ich verstehe die Sicherheitsrisiken, die mit der Installation eines lokalen Pakets verbunden sind</Text>
   <Text Key="Packaging.Editor.InstallPackage">Paket installieren</Text>
   <Text Key="Packaging.Editor.UnInstallPackage">Paket deinstallieren</Text>
-  <Text Key="Packaging.Editor.Button.RemoveFromLocal">Remove from local repository</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.Title">Local package repository</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">Please wait while your application restarts</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">Waiting for server response...</Text>
+  <Text Key="Packaging.Editor.Button.RemoveFromLocal">Vom lokalen Repository entfernen</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.Title">Lokales Paket-Repository</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">Bitte warten, während die Anwendung neugestartet wird</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">Warten auf Antwort vom Server ...</Text>
 
   <!-- Macro Editor -->
-  <Text Key="Macro.Create.Title">Create new macro</Text>
-  <Text Key="Macro.Editor.Tab.Props">Macro Properties</Text>
-  <Text Key="Macro.Editor.Tab.Params">Macro Parameters</Text>
-  <Text Key="Macro.Editor.Validation.MacroItemSelected">Ensure a macro item is selected for the current macro type</Text>
-  <Text Key="Macro.Editor.Params.Notice">You can automatically populate the macro parameters by clicking the 'Populate' button.
-    This will scan the macro item/file that you've selected to determine its parameters and
-    automatically fill in the name, alias and type of parameter.</Text>
-  <Text Key="Macro.Editor.Button.Populate">Populate</Text>
-  <Text Key="Macro.Editor.Button.Populate.Title">Automatically populate macro parameters</Text>
-  <Text Key="Macro.Editor.ParamsTable.Show">Show</Text>
+  <Text Key="Macro.Create.Title">Neues Makro erstellen</Text>
+  <Text Key="Macro.Editor.Tab.Props">Makro-Eigenschaften</Text>
+  <Text Key="Macro.Editor.Tab.Params">Makro-Parameters</Text>
+  <Text Key="Macro.Editor.Validation.MacroItemSelected">Stellen Sie sicher, dass ein Makro-Element für den aktuellen Makro-Typ ausgewählt ist</Text>
+  <Text Key="Macro.Editor.Params.Notice">Sie können die Makro-Parameter durch Klicken auf 'Abrufen' automatisch abrufen.
+      Dabei wird das ausgewählte Makro-Element bzw. die entsprechende Datei analysiert und die Parameterlist wird automatisch mit Name, Alias ​​und Typ befüllt.</Text>
+  <Text Key="Macro.Editor.Button.Populate">Abrufen</Text>
+  <Text Key="Macro.Editor.Button.Populate.Title">Maktro-Parameter automatisch abrufen</Text>
+  <Text Key="Macro.Editor.ParamsTable.Show">Anzeigen</Text>
   <Text Key="Macro.Editor.ParamsTable.Alias">Alias</Text>
   <Text Key="Macro.Editor.ParamsTable.Name">Name</Text>
-  <Text Key="Macro.Editor.ParamsTable.Type">Type</Text>
-  <Text Key="Macro.Editor.Validation.AliasRequired">The Alias field is required.</Text>
-  <Text Key="Macro.Editor.Validation.NameRequired">The Name field is required.</Text>
-  <Text Key="Macro.Editor.Button.Add">Add parameter</Text>
+  <Text Key="Macro.Editor.ParamsTable.Type">Typ</Text>
+  <Text Key="Macro.Editor.Validation.AliasRequired">Das Feld 'Alias' ist erforderlich.</Text>
+  <Text Key="Macro.Editor.Validation.NameRequired">Das Feld 'Name' ist erforderlich.</Text>
+  <Text Key="Macro.Editor.Button.Add">Parameter hinzufügen</Text>
  
   <!-- Macro Partial Editor-->
-  <Text Key="MacroPartial.Create.Title">Create a new partial</Text>
-  <Text Key="Packaging.Editor.Title">Partial Editor</Text>
+  <Text Key="MacroPartial.Create.Title">Neue Teilansicht erstellen</Text>
+  <Text Key="Packaging.Editor.Title">Teilansichtseditor</Text>
   
   <!-- User Editor -->
   <Text Key="User.Editor.Tab.NewUser">Neuer Benutzer</Text>
@@ -436,31 +429,31 @@
 
     <Text Key="AbstractSchemaEditorModel.Name">Name</Text>
     <Text Key="AbstractSchemaEditorModel.Alias">Alias</Text>
-    <Text Key="AbstractSchemaEditorModel.Icon">Icon</Text>
-    <Text Key="AbstractSchemaEditorModel.Icon.Description">The icon to display in the content tree.</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon">Symbol</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon.Description">Das Symbol für die Baumansicht der Inhalte.</Text>
     <Text Key="AbstractSchemaEditorModel.Thumbnail">Vorschauabbildung</Text>
-    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">The thumbnail to display on the 'Create' screen.</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">Die Vorschauabbildung, die bei 'Erstellen' angezeigt wird.</Text>
     <Text Key="AbstractSchemaEditorModel.Description">Beschreibung</Text>
-    <Text Key="AbstractSchemaEditorModel.Description.Description">A description to display on the 'Create' screen.</Text>
-    <Text Key="AbstractSchemaEditorModel.InheritFrom">Inherit From</Text>
-    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">The parent types this type should inherit tabs/properties from.</Text>
-    <Text Key="AbstractSchemaEditorModel.AllowedChildren">Allowed Children</Text>
-    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">The types that are allowed to be created beneath this type.</Text>
+    <Text Key="AbstractSchemaEditorModel.Description.Description">Eine BEschreibung, die bei 'Erstellen' angezeigt wird.</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom">Stammt ab von</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">Der übergeordnete Typ, von dem dieser Typ Registerreiter und Eigenschaften übernimmt.</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren">Erlaubte Unterelemente</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">Legt die Typen fest, die unterhalb dieses Typs erstellt werden können.</Text>
     
     <Text Key="DocumentTypeEditorModel.AllowedTemplates">Erlaubte Vorlagen</Text>
-    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">The templates that can be used by this type.</Text>
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">Legt die Vorlagen fest, die nur durch diesen Typ verwendet werden können.</Text>
     <Text Key="DocumentTypeEditorModel.DefaultTemplateId">Standard-Vorlage</Text>
-    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">The default template to use when creating content of this type.</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">Die standardmäßig zugewiesene Vorlage für neue Inhalte diesen Typs.</Text>
     
-    <Text Key="MembershipCreateStatus.DuplicateUserName">Username already exists. Please enter a different username.</Text>
-    <Text Key="MembershipCreateStatus.DuplicateEmail">A user name for that e-mail address already exists. Please enter a different e-mail address.</Text>
-    <Text Key="MembershipCreateStatus.InvalidPassword">The password provided is invalid. Please enter a valid password value.</Text>
-    <Text Key="MembershipCreateStatus.InvalidEmail">The e-mail address provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidAnswer">The password retrieval answer provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidQuestion">The password retrieval question provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidUserName">The user name provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.ProviderError">The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
-    <Text Key="MembershipCreateStatus.UserRejected">The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
+    <Text Key="MembershipCreateStatus.DuplicateUserName">Benutzername existiert bereits. Bitte versuchen Sie einen anderen Benutzernamen.</Text>
+    <Text Key="MembershipCreateStatus.DuplicateEmail">Ein Benutzername für diese E-Mail-Adresse ist bereits vorhanden. Bitte geben Sie eine andere E-Mail-Adresse an.</Text>
+    <Text Key="MembershipCreateStatus.InvalidPassword">Das Kennwort ist ungültig. Bitte überprüfen Sie die Angabe und versuchen Sie es erneut.</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">Die E-Mail-Adresse ist ungültig. Bitte überprüfen Sie die Angabe und versuchen Sie es erneut.</Text>
+    <Text Key="MembershipCreateStatus.InvalidAnswer">Die Antwort für die Kennwort-Wiederherstellung ist ungültig. Bitte überprüfen Sie die Angabe und versuchen Sie es erneut.</Text>
+    <Text Key="MembershipCreateStatus.InvalidQuestion">Das Kennwort für die Kennwort-Wiederherstellung ist ungültig. Bitte überprüfen Sie die Angabe und versuchen Sie es erneut.</Text>
+    <Text Key="MembershipCreateStatus.InvalidUserName">Der Benutzername ist ungültig. Bitte überprüfen Sie die Angabe und versuchen Sie es erneut.</Text>
+    <Text Key="MembershipCreateStatus.ProviderError">Die Authentifizierungs-Provider hat einen Fehler zurückgegeben. Bitte überprüfen Sie Ihre Angaben und versuchen Sie es erneut. Besteht das Problem weiterhin, wenden Sie sich bitte an Ihren Systemadministrator.</Text>
+    <Text Key="MembershipCreateStatus.UserRejected">Die Anforderung zur Erstellung eines Benutzers wurde gelöscht. Bitte überprüfen Sie Ihre Angaben und versuchen Sie es erneut. Besteht das Problem weiterhin, wenden Sie sich bitte an Ihren Systemadministrator.</Text>
 
 
   </Namespace>
@@ -468,17 +461,17 @@
   <Namespace Name="Umbraco.Cms.Web.PropertyEditors">
     <Text Key="IsRequired">erforderlich</Text>
     <Text Key="RichTextPreValueModel.ShowContextMenu">Kontextmenü anzeigen</Text>
-    <Text Key="RichTextPreValueModel.EditorSize">Editor size</Text>
-    <Text Key="RichTextPreValueModel.TinyMceItems">Rich text elements</Text>
+    <Text Key="RichTextPreValueModel.EditorSize">Editorgröße</Text>
+    <Text Key="RichTextPreValueModel.TinyMceItems">Rich-Text-Elemente</Text>
 
-    <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regular expression validation statement</Text>
+    <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regulärer Ausdruck zur Plausibilitätsprüfung</Text>
    
     <Text Key="ColorSwatchPickerPreValueModel.Colors">Farben</Text>
     
     <Text Key="DateTimePickerPreValueModel.ShowTime">Auch Zeitauswahl anzeigen</Text>
 
-    <Text Key="NodeNameEditorModel.UrlName">Url name</Text>
-    <Text Key="NodeNameEditorModel.UrlAliases">Url aliases</Text>
+    <Text Key="NodeNameEditorModel.UrlName">URL-Name</Text>
+    <Text Key="NodeNameEditorModel.UrlAliases">URL-Aliase</Text>
   </Namespace>
 
 </Localizations>
