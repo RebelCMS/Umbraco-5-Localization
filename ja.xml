@@ -20,466 +20,464 @@
   <Text Key="ShowLabel">ラベル表示</Text>
   
   <!-- Messages -->
-  <Text Key="Login.Invalid">Invalid username or password</Text>
-  <Text Key="Delete.Successful">Item successfully deleted</Text>
-  <Text Key="Delete.Failed">Item was not deleted</Text>
-  <Text Key="Validation.Errors">Some validation errors occurred</Text>
+  <Text Key="Login.Invalid">ユーザー名か、パスワードが間違っています</Text>
+  <Text Key="Delete.Successful">項目は正常に削除されました</Text>
+  <Text Key="Delete.Failed">項目は削除されませんでした</Text>
+  <Text Key="Validation.Errors">いくつかの検証エラーが発生しました</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
-  <Text Key="Save.ErrorsOccurred.Title">Validation errors</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){1つの検証エラーが発生しました | 複数の検証エラーが発生しました}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">検証エラー</Text>
+  
+  <Text Key="Save.ValidationSummary.Title">エラーを訂正して、再度、実行してください。</Text>
+  
+  <Text Key="Content.Save.Title">コンテンツが保存されました</Text>
+  <Text Key="Content.Save.Message">変更が見えるように、忘れずに発行してください</Text>
+  <Text Key="Content.SaveUnathorized.Title">コンテンツは保存されませんでした</Text>
+  <Text Key="Content.SaveUnathorized.Message">アクセス権限が不十分なため、コンテンツは保存されませんでした</Text>
+  <Text Key="Content.UnSaved.Message">このコンテンツは現在、保存されていません。後で戻ってきて編集したい場合は、このコンテンツを忘れずに保存してください。</Text>
+  <Text Key="Content.NoTemplates.Message">現在、このコンテンツで利用可能なテンプレートがありません。</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">このノードが含まれているブランチにホスト名が割り当てられている必要があるので、これに対するURLは生成できませんでした。</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">このコンテンツ タイプは、許可された子コンテンツ タイプが何も割り当てられていません</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Please correct the errors and try again.</Text>
-  
-  <Text Key="Content.Save.Title">Content saved</Text>
-  <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
-  <Text Key="Content.SaveUnathorized.Title">Content not saved</Text>
-  <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
-  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
+  <Text Key="User.Save.Title">ユーザーが保存されました</Text>
+  <Text Key="User.Save.Message">そのユーザー情報は正常に保存されています</Text>
+  <Text Key="User.UnSaved.Message">このユーザーは現在、保存されていません。後で戻ってきて編集したい場合は、このユーザーを忘れずに保存してください。</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="UserGroup.Save.Title">ユーザー グループが保存されました</Text>
+  <Text Key="UserGroup.Save.Message">そのユーザー グループ情報は正常に保存されています</Text>
+  <Text Key="UserGroup.UnSaved.Message">このユーザー グループは現在、保存されていません。後で戻ってきて編集したい場合は、このユーザー グループを忘れずに保存してください。</Text>
+  <Text Key="UserGroup.Inherit.Message">注意してください。継承するように設定したアクセス権限は、明確な許可のアクセス権限が継承できないと、既定で拒否されるようになります。</Text>
+  
+  <Text Key="MemberGroup.Save.Title">メンバー グループが保存されました</Text>
+  <Text Key="MemberGroup.Save.Message">そのメンバー グループ情報は正常に保存されています</Text>
+  <Text Key="MemberGroup.UnSaved.Message">このメンバー グループは現在、保存されていません。後で戻ってきて編集したい場合は、このメンバー グループを忘れずに保存してください。</Text>
 
-  <Text Key="UserGroup.Save.Title">User group saved</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
-  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
-  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
-  
-  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
-  <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
-  <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="DataType.Save.Title">データ型が保存されました</Text>
+  <Text Key="DataType.Save.Message">データ型は保存されています</Text>
+  <Text Key="DataType.UnSaved.Message">このデータ型は現在、保存されていません。後で戻ってきて編集したい場合は、このデータ型を忘れずに保存してください。</Text>
 
-  <Text Key="DataType.Save.Title">Data type saved</Text>
-  <Text Key="DataType.Save.Message">Data type has been saved</Text>
-  <Text Key="DataType.UnSaved.Message">This data type is currently un-saved. Remember to save this data type if you would like to be able to come back and edit it later.</Text>
+  <Text Key="DocumentType.Save.Title">ドキュメント タイプが保存されました</Text>
+  <Text Key="DocumentType.Save.Message">ドキュメント タイプ は正常に保存されています</Text>
+  <Text Key="DocumentType.UnSaved.Message">このドキュメント タイプは現在、保存されていません。後で戻ってきて編集したい場合は、このドキュメント タイプを忘れずに保存してください。</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">プロパティは削除されました</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">ドキュメント タイプ プロパティは削除されています</Text>
+  <Text Key="DocumentType.TabDeleted.Title">タブは削除されました</Text>
+  <Text Key="DocumentType.TabDeleted.Message">ドキュメント タイプ タブは削除されています</Text>
+  <Text Key="DocumentType.TabAdded.Title">タブが追加されました</Text>
+  <Text Key="DocumentType.TabAdded.Message">ドキュメント タイプ タブは追加されています</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">入力されたタブ名はすでに存在します</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">タブ名を指定してください</Text>
+  
+  <Text Key="Permissions.Title">アクセス権限が更新されました</Text>
+  <Text Key="Permissions.Success.Message">ノード {Name} 上のアクセス権限が正常に保存されました</Text>
+  <Text Key="Permissions.NoUserGroups.Message">非管理者のユーザー グループが1つも見つからない場合は、アクセス権限の設定を試みる前に、新しいユーザー グループを追加してください</Text>
+  <Text Key="PublicAccess.Title">公開アクセスが更新されました</Text>
+  <Text Key="PublicAccess.Success.Message">ノード {Name} 上の公開アクセスが正常に更新されました</Text>
+  <Text Key="Hostname.Title">ホスト名が更新されました</Text>
+  <Text Key="Hostname.Success.Message">ノード {Name} 上で、 {Count} ホスト名 が正常に保存されました</Text>
+  <Text Key="Language.Title">言語が更新されました</Text>
+  <Text Key="Language.Success.Message">ノード {Name} 用の言語が正常に保存されました</Text>
+  <Text Key="Sort.Title">コンテンツをソートしています</Text>
+  <Text Key="Rollback.Title">コンテンツをロールバックしています</Text>
+  <Text Key="Sort.Success.Message">コンテンツが正常にソートされました</Text>
+  <Text Key="Move.Success.Message">'{FromName}' は、'{ToName}' に移動されています</Text>
+  <Text Key="Copy.Success.Message">'{FromName}' は、'{ToName}' にコピーされています</Text>
+  <Text Key="Rollback.Success.Message">コンテンツは正常にロールバックされまました</Text>
+  <Text Key="Publish.Title">コンテンツを発行しています</Text>
+  <Text Key="Publish.SingleSuccess.Message">'{Name}' は発行されています</Text>
+  <Text Key="Publish.SingleUnathorized.Message">アクセス権限が不十分なため、'{Name}' は発行されませんでした</Text>
+  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' とサブページは発行されています</Text>
+  <Text Key="Publish.IncludeChildren.Label">'{Name}' と全てのそのサブページの発行</Text>
+  <Text Key="Publish.IncludeUnpublishedChildren.Label">発行取消の子ページを含める</Text>
+  <Text Key="Unpublish.Title">コンテンツを発行取消しています</Text>
+  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' は発行取消されています</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">アクセス権限が不十分なため、'{Name}' は発行取消されませんでした</Text>
 
-  <Text Key="DocumentType.Save.Title">Document type saved</Text>
-  <Text Key="DocumentType.Save.Message">Document type has been successfully saved</Text>
-  <Text Key="DocumentType.UnSaved.Message">This document type is currently un-saved. Remember to save this document type if you would like to be able to come back and edit it later.</Text>
-  <Text Key="DocumentType.PropertyDeleted.Title">Property deleted</Text>
-  <Text Key="DocumentType.PropertyDeleted.Message">Document type property has been deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Title">Tab deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Message">Document type tab has been deleted</Text>
-  <Text Key="DocumentType.TabAdded.Title">Tab added</Text>
-  <Text Key="DocumentType.TabAdded.Message">Document type tab has been added</Text>
-  <Text Key="DocumentType.Validation.DuplicateTab">The tab name entered already exists</Text>
-  <Text Key="DocumentType.Validation.RequiredTabName">A tab name must be specified</Text>
+  <Text Key="Language.Save.Title">言語が保存されました</Text>
+  <Text Key="Language.Save.Message">その言語は正常に保存されています</Text>
+  <Text Key="Language.UnSaved.Message">この言語は現在、保存されていません。後で戻ってきて編集したい場合は、この言語を忘れずに保存してください。</Text>
   
-  <Text Key="Permissions.Title">Permissions updated</Text>
-  <Text Key="Permissions.Success.Message">Permissions successfully saved on node {Name}</Text>
-  <Text Key="Permissions.NoUserGroups.Message">No non-admin user groups found, please add a new user group before attempting to set permissions</Text>
-  <Text Key="PublicAccess.Title">Public access updated</Text>
-  <Text Key="PublicAccess.Success.Message">Public access successfully updated on node {Name}</Text>
-  <Text Key="Hostname.Title">Hostnames updated</Text>
-  <Text Key="Hostname.Success.Message">{Count} hostnames successfully saved on node {Name}</Text>
-  <Text Key="Language.Title">Language updated</Text>
-  <Text Key="Language.Success.Message">Language successfully saved for node {Name}</Text>
-  <Text Key="Sort.Title">Content sorting</Text>
-  <Text Key="Rollback.Title">Content rolling back</Text>
-  <Text Key="Sort.Success.Message">Content sorted successfully</Text>
-  <Text Key="Move.Success.Message">'{FromName}' has been moved to '{ToName}'</Text>
-  <Text Key="Copy.Success.Message">'{FromName}' has been copied to '{ToName}'</Text>
-  <Text Key="Rollback.Success.Message">Content rolled back successfully</Text>
-  <Text Key="Publish.Title">Content publishing</Text>
-  <Text Key="Publish.SingleSuccess.Message">'{Name}' has been published</Text>
-  <Text Key="Publish.SingleUnathorized.Message">'{Name}' was not published due to insufficient permissions</Text>
-  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' and subpages have been published</Text>
-  <Text Key="Publish.IncludeChildren.Label">Publish '{Name}' and all its subpages</Text>
-  <Text Key="Publish.IncludeUnpublishedChildren.Label">Include unpublished child pages</Text>
-  <Text Key="Unpublish.Title">Content unpublishing</Text>
-  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' has been unpublished</Text>
-  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' was not unpublished due to insufficient permissions</Text>
+  <Text Key="Macro.Save.Title">マクロが保存されました</Text>
+  <Text Key="Macro.Save.Message">マクロ は正常に保存されています</Text>
+  <Text Key="Macro.UnSaved.Message">このマクロは現在、保存されていません。後で戻ってきて編集したい場合は、このマクロを忘れずに保存してください。</Text>
+  <Text Key="Macro.ParamsPopulated.Title">マクロ パラメーター</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">マクロ パラメーターは正常に取得されました</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">子アクションに対するパラメーターを決定できませんでした。パラメーターに次のものが1つ以上含まれているためです: out、return value、LCID パラメーター</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">参照されている部分ビューが見つかりませんでした</Text>
+  <Text Key="Macro.RenderingFailed.Message">マクロ '{MacroName}' のレンダリングでエラー発生。エラー: '{Error}'。完全な詳細はUmbraco ログを参照。</Text>
+  <Text Key="Macro.RenderingFailed.Title">マクロ エラー</Text>
+  
+  <Text Key="Template.Save.Title">テンプレートが保存されました</Text>
+  <Text Key="Template.Save.Message">テンプレート は正常に保存されています</Text>
+  
+  <Text Key="Partials.Save.Title">テンプレートが保存されました</Text>
+  <Text Key="Partials.Save.Message">テンプレート は正常に保存されています</Text>
+  
+  <Text Key="Script.Save.Title">スクリプトが保存されました</Text>
+  <Text Key="Script.Save.Message">スクリプト は正常に保存されています</Text>
+  
+  <Text Key="Stylesheet.Save.Title">スタイルシートが保存されました</Text>
+  <Text Key="Stylesheet.Save.Message">スタイルシートは正常に保存されています</Text>
 
-  <Text Key="Language.Save.Title">Language saved</Text>
-  <Text Key="Language.Save.Message">The language has been successfully saved</Text>
-  <Text Key="Language.UnSaved.Message">This language is currently un-saved. Remember to save this language if you would like to be able to come back and edit it later.</Text>
+  <Text Key="StylesheetRule.UnSaved.Message">このルールは現在、保存されていません。後で戻ってきて編集したい場合は、このルールを忘れずに保存してください。</Text>
   
-  <Text Key="Macro.Save.Title">Macro saved</Text>
-  <Text Key="Macro.Save.Message">Macro has been successfully saved</Text>
-  <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
-  <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
-  <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
-  <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
-  <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
-  <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
-  
-  <Text Key="Template.Save.Title">Template saved</Text>
-  <Text Key="Template.Save.Message">Template has been successfully saved</Text>
-  
-  <Text Key="Partials.Save.Title">Template saved</Text>
-  <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
-  
-  <Text Key="Script.Save.Title">Script saved</Text>
-  <Text Key="Script.Save.Message">Script has been successfully saved</Text>
-  
-  <Text Key="Stylesheet.Save.Title">Stylesheet saved</Text>
-  <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
+  <Text Key="Folder.Save.Title">フォルダが作成されました</Text>
+  <Text Key="Folder.Save.Message">フォルダは正常に作成されています</Text>
 
-  <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
-  
-  <Text Key="Folder.Save.Title">Folder created</Text>
-  <Text Key="Folder.Save.Message">Folder has been created successfully</Text>
-
-  <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
+  <Text Key="File.UnSaved.Message">このファイルは現在、保存されていません。後で戻ってきて編集したい場合は、このファイルを忘れずに保存してください。</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Logout</Text>
-  <Text Key="UI.Button.About">About</Text>
-  <Text Key="UI.Title.Sections">Sections</Text>
-  <Text Key="UI.Title.Search">Search</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UI.Tab.FileProperties">Umbraco Properties</Text>
+  <Text Key="UI.Button.Logout">ログアウト</Text>
+  <Text Key="UI.Button.About">バージョン情報</Text>
+  <Text Key="UI.Title.Sections">セクション</Text>
+  <Text Key="UI.Title.Search">検索</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Umbraco プロパティ</Text>
+  <Text Key="UI.Tab.FileProperties">Umbraco プロパティ</Text>
   <!-- Trees-->
   <!-- TODO -->
   
   <!-- Fixed Tree Nodes -->
-  <Text Key="Local packages">Local packages</Text>
+  <Text Key="Local packages">ローカル パッケージ</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Audit</Text>
-  <Text Key="Copy">Copy</Text>
-  <Text Key="CreateFolder">Create Folder</Text>
-  <Text Key="Create">Create</Text>
-  <Text Key="Delete">Delete</Text>
-  <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
-  <Text Key="ExportDocumentType">Export DocumentType</Text>
-  <Text Key="Manage hostnames">Manage hostnames</Text>
-  <Text Key="ImportDocumentType">Impor tDocumentType</Text>
-  <Text Key="Language">Language</Text>
-  <Text Key="Logout">Logout</Text>
-  <Text Key="Move">Move</Text>
-  <Text Key="Notify">Notify</Text>
-  <Text Key="Package">Package</Text>
-  <Text Key="Permissions">Permissions</Text>
-  <Text Key="Public Access">PublicAccess</Text>
-  <Text Key="Publish">Publish</Text>
-  <Text Key="Refresh">Refresh</Text>
-  <Text Key="Rollback">Rollback</Text>
-  <Text Key="Save">Save</Text>
-  <Text Key="SendPublish">Send to publish</Text>
-  <Text Key="SendTranslate">Send to Translate</Text>
-  <Text Key="Sort">Sort</Text>
-  <Text Key="Translate">Translate</Text>
-  <Text Key="Update">Update</Text>
+  <Text Key="Audit">監査</Text>
+  <Text Key="Copy">コピー</Text>
+  <Text Key="CreateFolder">フォルダの作成</Text>
+  <Text Key="Create">作成</Text>
+  <Text Key="Delete">削除</Text>
+  <Text Key="EmptyRecycleBin">ゴミ箱を空にする</Text>
+  <Text Key="ExportDocumentType">ドキュメントタイプのエクスポート</Text>
+  <Text Key="Manage hostnames">ホスト名の管理</Text>
+  <Text Key="ImportDocumentType">ドキュメントタイプのインポート</Text>
+  <Text Key="Language">言語</Text>
+  <Text Key="Logout">ログアウト</Text>
+  <Text Key="Move">移動</Text>
+  <Text Key="Notify">通知</Text>
+  <Text Key="Package">パッケージ</Text>
+  <Text Key="Permissions">アクセス権限</Text>
+  <Text Key="Public Access">公開アクセス</Text>
+  <Text Key="Publish">発行</Text>
+  <Text Key="Refresh">リフレッシュ</Text>
+  <Text Key="Rollback">ロールバック</Text>
+  <Text Key="Save">保存</Text>
+  <Text Key="SendPublish">発行するために送信</Text>
+  <Text Key="SendTranslate">翻訳するために送信</Text>
+  <Text Key="Sort">ソート</Text>
+  <Text Key="Translate">翻訳</Text>
+  <Text Key="Update">更新</Text>
   
   <!-- Dashboards -->
   
   <!-- Editors -->
   
   <!-- General -->
-  <Text Key="Editors.PleaseSelect">Please Select...</Text>
-  <Text Key="Editors.File">File</Text>
-  <Text Key="Editors.Folder">Folder</Text>
-  <Text Key="Editors.None">None</Text>
+  <Text Key="Editors.PleaseSelect">選択してください...</Text>
+  <Text Key="Editors.File">ファイル</Text>
+  <Text Key="Editors.Folder">フォルダ</Text>
+  <Text Key="Editors.None">なし</Text>
   
   <!-- Controls -->
   <!-- Date Time Picker-->
-  <Text Key="DateTimePicker.Choose">Choose Date</Text>
-  <Text Key="DateTimePicker.None">No date chosen</Text>
-  <Text Key="DateTimePicker.Clear">Clear date</Text>
+  <Text Key="DateTimePicker.Choose">日付の選択</Text>
+  <Text Key="DateTimePicker.None">日付が選択されていません</Text>
+  <Text Key="DateTimePicker.Clear">日付のクリア</Text>
   
   <!-- Schema Editor -->
-  <Text Key="Schema.Editor.Tab.Info">Info</Text>
-  <Text Key="Schema.Editor.Tab.Composition">Composition</Text>
-  <Text Key="Schema.Editor.Tab.Properties">Properties</Text>
-  <Text Key="Schema.Editor.Tab.Tabs">Tabs</Text>
-  <Text Key="Schema.Editor.Notice.PropInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited properties.</Text>
-  <Text Key="Schema.Editor.Notice.TabInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited tabs.</Text>
+  <Text Key="Schema.Editor.Tab.Info">情報</Text>
+  <Text Key="Schema.Editor.Tab.Composition">合成</Text>
+  <Text Key="Schema.Editor.Tab.Properties">プロパティ</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">タブ</Text>
+  <Text Key="Schema.Editor.Notice.PropInheritance">この型の継承元の型のリストに変更されています。どんな新しい継承されたプロパティも参照できるように再保存してください。</Text>
+  <Text Key="Schema.Editor.Notice.TabInheritance">この型の継承元の型のリストに変更されています。どんな新しい継承されたタブも参照できるように再保存してください。</Text>
 
 
   <!-- Content Editor -->
-  <Text Key="Content.Editor.Tab.GeneralProperties">General Properties</Text>
-  <Text Key="Content.Editor.Label.NotPublishedYet">This item has not been published</Text>
-  <Text Key="Content.Editor.Label.LastPublished">Last published</Text>
+  <Text Key="Content.Editor.Tab.GeneralProperties">一般のプロパティ</Text>
+  <Text Key="Content.Editor.Label.NotPublishedYet">この項目は発行されていません</Text>
+  <Text Key="Content.Editor.Label.LastPublished">最後に発行されたもの</Text>
   
   <!-- Action - Copy Content -->
-  <Text Key="Action.Copy.Title">Copy</Text>
-  <Text Key="Action.Copy.HeaderTitle">Select where the document '{Name}' should be copied to below</Text>
+  <Text Key="Action.Copy.Title">コピー</Text>
+  <Text Key="Action.Copy.HeaderTitle">ドキュメント '{Name}' のコピー先を以下から選択してください</Text>
   
   <!-- Action - Manage Hostnames -->
-  <Text Key="Action.HostNames.Title">Manage hostnames</Text>
-  <Text Key="Action.HostNames.Button.AddHostname">Add hostname</Text>
-  <Text Key="Action.HostNames.Button.DeleteHostname">Delete hostname</Text>
-  <Text Key="Action.HostNames.Description.VirtualDirectory">The current site is running inside of a Virtual Directory</Text>
-  <Text Key="Action.HostNames.Description.ResultingHostname">The resulting hostname will route to</Text>
+  <Text Key="Action.HostNames.Title">ホスト名の管理</Text>
+  <Text Key="Action.HostNames.Button.AddHostname">ホスト名の追加</Text>
+  <Text Key="Action.HostNames.Button.DeleteHostname">ホスト名の削除</Text>
+  <Text Key="Action.HostNames.Description.VirtualDirectory">現在のサイトは仮想ディレクトリの中で動いています</Text>
+  <Text Key="Action.HostNames.Description.ResultingHostname">結果としてのホスト名がルートされる先は、次のとおりです</Text>
   
   <!-- Action - Set Languages-->
-  <Text Key="Action.Language.Title">Select language</Text>
+  <Text Key="Action.Language.Title">言語の選択</Text>
   
   <!-- Action - Move Content -->
-  <Text Key="Action.Move.Title">Move</Text>
-  <Text Key="Action.Move.HeaderTitle">Select where the document '{Name}' should be moved to below</Text>
+  <Text Key="Action.Move.Title">移動</Text>
+  <Text Key="Action.Move.HeaderTitle">そのドキュメント '{Name}' の移動先を以下から選択してください</Text>
 
   <!-- Action - Manage Permissions-->
-  <Text Key="Action.Permissions.Title">Manage permissions</Text>
+  <Text Key="Action.Permissions.Title">アクセス権限の管理</Text>
 
   <!-- Action - Public Access-->
-  <Text Key="Action.PublicAccess.Title">Manage public access</Text>
-  <Text Key="Action.PublicAccess.Label.MemberGroups">Member Groups</Text>
-  <Text Key="Action.PublicAccess.Description.MemberGroups">Choose the Member Groups that should be allowed access to this page.</Text>
-  <Text Key="Action.PublicAccess.Label.Available">Available</Text>
-  <Text Key="Action.PublicAccess.Label.Selected">Selected</Text>
-  <Text Key="Action.PublicAccess.Title.Select">Select the pages to redirect to for login and incase of an error.</Text>
-  <Text Key="Action.PublicAccess.Label.LoginPage">Login Page</Text>
-  <Text Key="Action.PublicAccess.Description.LoginPage">Choose the page that contains the login form</Text>
-  <Text Key="Action.PublicAccess.Label.ErrorPage">Error Page</Text>
-  <Text Key="Action.PublicAccess.Description.ErrorPage">Choose the page to display when a member is authenticated, but does not have sufficient permissions.</Text>
+  <Text Key="Action.PublicAccess.Title">公開アクセスの管理</Text>
+  <Text Key="Action.PublicAccess.Label.MemberGroups">メンバー グループ</Text>
+  <Text Key="Action.PublicAccess.Description.MemberGroups">このページへのアクセスを許可するメンバー グループの選択。</Text>
+  <Text Key="Action.PublicAccess.Label.Available">利用可能</Text>
+  <Text Key="Action.PublicAccess.Label.Selected">選択されている</Text>
+  <Text Key="Action.PublicAccess.Title.Select">ログインのためとエラーの場合のリダイレクト先ページの選択。</Text>
+  <Text Key="Action.PublicAccess.Label.LoginPage">ログイン ページ</Text>
+  <Text Key="Action.PublicAccess.Description.LoginPage">ログイン フォームを含むページの選択</Text>
+  <Text Key="Action.PublicAccess.Label.ErrorPage">エラー ページ</Text>
+  <Text Key="Action.PublicAccess.Description.ErrorPage">メンバーが認証されているが十分なアクセス権限を持たないときに表示するページの選択。</Text>
 
   <!-- Action - Publish-->
-  <Text Key="Action.Publish.Title">Publish content</Text>
-  <Text Key="Action.Publish.Description.Save">Click 'Save' to publish '{Name}' and thereby making it's content publicly available.</Text>
-  <Text Key="Action.Publish.Description.Children">You can publish this page and all it's sub-pages by checking publish all children below.
-  </Text>
+  <Text Key="Action.Publish.Title">Publish コンテンツ</Text>
+  <Text Key="Action.Publish.Description.Save">'{Name}'を発行するために '保存' をクリックすることによって、そのコンテンツはパブリックで利用可能になります。</Text>
+  <Text Key="Action.Publish.Description.Children">以下にあるpublish all childrenをチェックすることによって、このページとその全てのサブページを発行できます。</Text>
 
   <!-- Action - Rollback-->
-  <Text Key="Action.Rollback.Title">Rollback</Text>
-  <Text Key="Action.Rollback.HeaderTitle"> Select a target version to compare the current version of '{Name}' to</Text>
-  <Text Key="Action.Rollback.Label.Current">Current</Text>
-  <Text Key="Action.Rollback.Label.Created">Created</Text>
-  <Text Key="Action.Rollback.Label.LastStatus">Last status change</Text>
-  <Text Key="Action.Rollback.Label.Target">Target</Text>
-  <Text Key="Action.Rollback.SelectVersion">Select a version...</Text>
-  <Text Key="Action.Rollback.Label.View">View</Text>
-  <Text Key="Action.Rollback.Label.Diff">Diff</Text>
+  <Text Key="Action.Rollback.Title">ロールバック</Text>
+  <Text Key="Action.Rollback.HeaderTitle">'{Name}'の現在のバージョンと比較する、対象のバージョンの選択</Text>
+  <Text Key="Action.Rollback.Label.Current">現在</Text>
+  <Text Key="Action.Rollback.Label.Created">作成されました</Text>
+  <Text Key="Action.Rollback.Label.LastStatus">最後のステータス変更</Text>
+  <Text Key="Action.Rollback.Label.Target">ターゲット</Text>
+  <Text Key="Action.Rollback.SelectVersion">バージョンの選択...</Text>
+  <Text Key="Action.Rollback.Label.View">ビュー</Text>
+  <Text Key="Action.Rollback.Label.Diff">Diff（差分）</Text>
   <!-- Action - Sort-->
-  <Text Key="Action.Sort.Title">Sort content</Text>
-  <Text Key="Action.Sort.Table.Name">Name</Text>
-  <Text Key="Action.Sort.Table.CreationDate">Creation date</Text>
-  <Text Key="Action.Sort.Table.SortOrder">Sort order</Text>
+  <Text Key="Action.Sort.Title">コンテンツのソート</Text>
+  <Text Key="Action.Sort.Table.Name">名前</Text>
+  <Text Key="Action.Sort.Table.CreationDate">作成日</Text>
+  <Text Key="Action.Sort.Table.SortOrder">ソート順</Text>
 
   <!-- Media Editor -->
-  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
   
   
   <!-- Language Editor -->
-  <Text Key="Language.Editor.Tab.NewLanguage">New Language</Text>
-  <Text Key="Language.Editor.Label.ISO">ISO Code</Text>
-  <Text Key="Language.Editor.Label.Fallbacks">Fallbacks</Text>
-  <Text Key="Language.Editor.FallbackOrder">Set fallback order...</Text>
+  <Text Key="Language.Editor.Tab.NewLanguage">新しい言語</Text>
+  <Text Key="Language.Editor.Label.ISO">ISOコード</Text>
+  <Text Key="Language.Editor.Label.Fallbacks">フォールバック</Text>
+  <Text Key="Language.Editor.FallbackOrder">フォールバック順の設定...</Text>
   
   <!-- Dictionary Editor -->
-  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
   
   <!-- Document Type Editor-->
-  <Text Key="DocumentType.Editor.Description.IsAbstract">Sets whether document type is intended only to be inherited by others.  If checked it will not be selectable for content entry directly.</Text>
-  <Text Key="DocumentType.Editor.Title.AddNewProperty">Add new property</Text>
-  <Text Key="DocumentType.Editor.Button.AddNewProperty">Click here to add a new property</Text>
-  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Cancel creating new property</Text>
-  <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
-  <Text Key="DocumentType.Editor.NoProperties">No properties</Text>
-  <Text Key="DocumentType.Editor.Label.Tab">Defined Tabs</Text>
+  <Text Key="DocumentType.Editor.Description.IsAbstract">ドキュメント タイプがほかのものによって継承されることだけを目的しているかを設定します。チェックした場合は、コンテンツ エントリを直接、選択できないことになります。</Text>
+  <Text Key="DocumentType.Editor.Title.AddNewProperty">新しいプロパティの追加</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">ここをクリックして新しいプロパティを追加</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">新しいプロパティの作成をキャンセル</Text>
+  <Text Key="DocumentType.Editor.Title.Tab">タブ</Text>
+  <Text Key="DocumentType.Editor.NoProperties">プロパティなし</Text>
+  <Text Key="DocumentType.Editor.Label.Tab">定義されたタブ</Text>
   
   <!-- Media Type Editor-->
   
   <!-- Stylesheet Editor -->
-  <Text Key="Stylesheet.Editor.Title">Stylesheet Editor</Text>
+  <Text Key="Stylesheet.Editor.Title">スタイルシート エディター</Text>
   
   <!-- Stylesheet Rule Editor -->
-  <Text Key="StylesheetRule.Editor.Title.Create">Create rule</Text>
-  <Text Key="StylesheetRule.Editor.Title.Edit">Edit rule</Text>
-  <Text Key="StylesheetRule.Editor.Description.Name">Name to identify the rule in the rich text editor</Text>
-  <Text Key="StylesheetRule.Editor.Description.Selector">The CSS selector for the rule eg: h1, .redHeader, .blueText</Text>
-  <Text Key="StylesheetRule.Editor.Label.Styles">Styles</Text>
-  <Text Key="StylesheetRule.Editor.Label.Preview">Preview</Text>
+  <Text Key="StylesheetRule.Editor.Title.Create">ルールの作成</Text>
+  <Text Key="StylesheetRule.Editor.Title.Edit">ルールの編集</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">リッチ テキスト エディター内でルールを識別するための名前</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">ルールのためのCSSセレクター。例: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Label.Styles">スタイル</Text>
+  <Text Key="StylesheetRule.Editor.Label.Preview">プレビュー</Text>
   
   <!-- Scripts Editor -->
-  <Text Key="Script.Create.Title">Create a script</Text>
-  <Text Key="Script.Editor.Title">Script Editor</Text>
+  <Text Key="Script.Create.Title">スクリプトの作成</Text>
+  <Text Key="Script.Editor.Title">スクリプト エディター</Text>
   
   <!-- Template Editor -->
-  <Text Key="Template.Editor.Title">Template Editor</Text>
-  <Text Key="Template.Editor.Title.MasterTemplate">Master Template</Text>
+  <Text Key="Template.Editor.Title">テンプレート エディター</Text>
+  <Text Key="Template.Editor.Title.MasterTemplate">マスター テンプレート</Text>
   
   <!-- Partial Editor -->
-  <Text Key="Partial.Create.Title">Create a partial</Text>
-  <Text Key="Partial.Editor.Title">Partial Editor</Text>
-  <Text Key="Partial.Editor.Title.CurrentPath">Current path</Text>
-  <Text Key="Partial.Editor.Label.CreateFile">Create file</Text>
-  <Text Key="Partial.Editor.Label.CreateFolder">Create folder</Text>
+  <Text Key="Partial.Create.Title">部分ビューの作成</Text>
+  <Text Key="Partial.Editor.Title">部分ビュー エディター</Text>
+  <Text Key="Partial.Editor.Title.CurrentPath">現在のパス</Text>
+  <Text Key="Partial.Editor.Label.CreateFile">ファイルの作成</Text>
+  <Text Key="Partial.Editor.Label.CreateFolder">フォルダの作成</Text>
   
   <!-- Datatype editor-->
-  <Text Key="DataType.Create.Title">Create a new data type</Text>
-  <Text Key="DataType.Editor.Tab.Title">Data type</Text>
-  <Text Key="DataType.Editor.Settings">Settings</Text>
-  <Text Key="DataType.Editor.DataTypeGUID">Data Type GUID</Text>
-  <Text Key="DataType.Editor.SelectPropEditor">--Select Property Editor--</Text>
+  <Text Key="DataType.Create.Title">新しいデータ型の作成</Text>
+  <Text Key="DataType.Editor.Tab.Title">データ型</Text>
+  <Text Key="DataType.Editor.Settings">設定</Text>
+  <Text Key="DataType.Editor.DataTypeGUID">データ型 GUID</Text>
+  <Text Key="DataType.Editor.SelectPropEditor">--プロパティ エディターの選択--</Text>
   
   <!-- Packaging Editor -->
-  <Text Key="Packaging.Editor.Title">Local package repository</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
-  <Text Key="Packaging.Editor.Labels.FileName">Filename</Text>
-  <Text Key="Packaging.Editor.Button.Upload">Upload</Text>
-  <Text Key="Packaging.Editor.Labels.AutoInstall">Auto install package (Please also accept the terms below)</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
-  <Text Key="Packaging.Editor.Title.Install">Install a local package</Text>
-  <Text Key="Packaging.Editor.Notice.Install.Title">Only install packages from sources you know and trust!</Text>
+  <Text Key="Packaging.Editor.Title">ローカル パッケージ リポジトリ</Text>
+  <Text Key="Packaging.Editor.Title.Upload">パッケージをローカル リポジトリにアップロードする</Text>
+  <Text Key="Packaging.Editor.Labels.FileName">ファイル名</Text>
+  <Text Key="Packaging.Editor.Button.Upload">アップロード</Text>
+  <Text Key="Packaging.Editor.Labels.AutoInstall">パッケージの自動インストール (以下の用語も承認してください)</Text>
+  <Text Key="Packaging.Editor.Title.Upload">パッケージをローカル リポジトリにアップロードする</Text>
+  <Text Key="Packaging.Editor.Title.Install">ローカル パッケージをインストールする</Text>
+  <Text Key="Packaging.Editor.Notice.Install.Title">既知で信頼できるソースからのパッケージだけをインストールする！</Text>
   <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
           <p>
-              When installing an Umbraco package you should use the same caution as when you install
-              an application on your computer.</p>
+              パッケージのインストール時には、
+              コンピュータにアプリケーションをインストールするときと同じように用心してください。</p>
           <p>
-              A malicious package could damage your Umbraco installation just like a malicious
-              application can damage your computer.</p>
+              悪意のあるアプリケーションがコンピュータに害を及ぼすのと同じように、
+              悪意のあるパッケージがUmbraco インストールに害を及ぼすことが考えられます。</p>
           <p>
-              It is recommended to install from the official Umbraco package repository or a custom
-              repository whenever it's possible.</p>
+              可能であれば、公式の Umbraco パッケージ リポジトリ、もしくは独自のリポジトリから、
+              インストールすることをお勧めします。</p>
               
   ]]>
   </Text>
-  <Text Key="Packaging.Editor.Labels.Risks">I understand the security risks associated with installing a local package</Text>
-  <Text Key="Packaging.Editor.InstallPackage">Install package</Text>
-  <Text Key="Packaging.Editor.UnInstallPackage">Uninstall package</Text>
-  <Text Key="Packaging.Editor.Button.RemoveFromLocal">Remove from local repository</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.Title">Local package repository</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">Please wait while your application restarts</Text>
-  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">Waiting for server response...</Text>
+  <Text Key="Packaging.Editor.Labels.Risks">わたしは、ローカル パッケージをインストールすることに関連するセキュリティ リスクを理解しています。</Text>
+  <Text Key="Packaging.Editor.InstallPackage">パッケージのインストール</Text>
+  <Text Key="Packaging.Editor.UnInstallPackage">パッケージのアンインストール</Text>
+  <Text Key="Packaging.Editor.Button.RemoveFromLocal">ローカル リポジトリからの削除</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.Title">ローカル パッケージ リポジトリ</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">アプリケーションが再起動するまでお待ちください</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">サーバの応答を待機中...</Text>
 
   <!-- Macro Editor -->
-  <Text Key="Macro.Create.Title">Create new macro</Text>
-  <Text Key="Macro.Editor.Tab.Props">Macro Properties</Text>
-  <Text Key="Macro.Editor.Tab.Params">Macro Parameters</Text>
-  <Text Key="Macro.Editor.Validation.MacroItemSelected">Ensure a macro item is selected for the current macro type</Text>
-  <Text Key="Macro.Editor.Params.Notice">You can automatically populate the macro parameters by clicking the 'Populate' button.
-    This will scan the macro item/file that you've selected to determine its parameters and
-    automatically fill in the name, alias and type of parameter.</Text>
-  <Text Key="Macro.Editor.Button.Populate">Populate</Text>
-  <Text Key="Macro.Editor.Button.Populate.Title">Automatically populate macro parameters</Text>
-  <Text Key="Macro.Editor.ParamsTable.Show">Show</Text>
-  <Text Key="Macro.Editor.ParamsTable.Alias">Alias</Text>
-  <Text Key="Macro.Editor.ParamsTable.Name">Name</Text>
-  <Text Key="Macro.Editor.ParamsTable.Type">Type</Text>
-  <Text Key="Macro.Editor.Validation.AliasRequired">The Alias field is required.</Text>
-  <Text Key="Macro.Editor.Validation.NameRequired">The Name field is required.</Text>
-  <Text Key="Macro.Editor.Button.Add">Add parameter</Text>
+  <Text Key="Macro.Create.Title">新しいマクロの作成</Text>
+  <Text Key="Macro.Editor.Tab.Props">マクロ プロパティ</Text>
+  <Text Key="Macro.Editor.Tab.Params">マクロ パラメーター</Text>
+  <Text Key="Macro.Editor.Validation.MacroItemSelected">現在のマクロ タイプに対して1つのマクロ項目が選択されていることを保証します。</Text>
+  <Text Key="Macro.Editor.Params.Notice">'投入' ボタンをクリックすることによって、マクロ パラメーターを自動的に投入（＝追加、Populate）できます。
+    パラメーターを決定するために選択中のマクロ項目／ファイルをスキャンしてから、パラメーターの名前や、エイリアス、型を自動的に埋めます。</Text>
+  <Text Key="Macro.Editor.Button.Populate">投入</Text>
+  <Text Key="Macro.Editor.Button.Populate.Title">マクロ パラメーターを自動的に投入する</Text>
+  <Text Key="Macro.Editor.ParamsTable.Show">表示</Text>
+  <Text Key="Macro.Editor.ParamsTable.Alias">エイリアス</Text>
+  <Text Key="Macro.Editor.ParamsTable.Name">名前</Text>
+  <Text Key="Macro.Editor.ParamsTable.Type">型</Text>
+  <Text Key="Macro.Editor.Validation.AliasRequired">エイリアス フィールドが必要です。</Text>
+  <Text Key="Macro.Editor.Validation.NameRequired">名前フィールドが必要です。</Text>
+  <Text Key="Macro.Editor.Button.Add">パラメーターの追加</Text>
  
   <!-- Macro Partial Editor-->
-  <Text Key="MacroPartial.Create.Title">Create a new partial</Text>
-  <Text Key="Packaging.Editor.Title">Partial Editor</Text>
+  <Text Key="MacroPartial.Create.Title">新しい部分ビューの作成</Text>
+  <Text Key="Packaging.Editor.Title">部分ビュー エディター</Text>
   
   <!-- User Editor -->
-  <Text Key="User.Editor.Tab.NewUser">New User</Text>
-  <Text Key="User.Editor.Tab.Backoffice">Backoffice</Text>
-  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="User.Editor.Label.UserGroups">User Groups</Text>
-  <Text Key="User.Editor.Label.StartNodeContent">Start Node in Content</Text>
-  <Text Key="User.Editor.Label.StartNodeMedia">Start Node in Media</Text>
-  <Text Key="User.Editor.Label.Sections">Sections</Text>
+  <Text Key="User.Editor.Tab.NewUser">新しいユーザー</Text>
+  <Text Key="User.Editor.Tab.Backoffice">バックオフィス</Text>
+  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
+  <Text Key="User.Editor.Label.UserGroups">ユーザー グループ</Text>
+  <Text Key="User.Editor.Label.StartNodeContent">コンテンツ内でノードを開始する</Text>
+  <Text Key="User.Editor.Label.StartNodeMedia">メディア内でノードを開始する</Text>
+  <Text Key="User.Editor.Label.Sections">セクション</Text>
   
   <!-- User Group Editor -->
-  <Text Key="UserGroup.Editor.Tab.NewUserGroup">New User Group</Text>
-  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="UserGroup.Editor.Label.Permissions">Permissions</Text>
+  <Text Key="UserGroup.Editor.Tab.NewUserGroup">新しいユーザー グループ</Text>
+  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
+  <Text Key="UserGroup.Editor.Label.Permissions">アクセス権限</Text>
   
   <!-- Member Editor -->
-  <Text Key="Member.Editor.Tab.NewMember">New Member</Text>
-  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
-  <Text Key="Member.Editor.Label.MemberGroups">Member Groups</Text>
+  <Text Key="Member.Editor.Tab.NewMember">新しいメンバー</Text>
+  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
+  <Text Key="Member.Editor.Label.MemberGroups">メンバー グループ</Text>
   
   <!-- Member Group Editor -->
-  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">New Member Group</Text>
-  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">新しいメンバー グループ</Text>
+  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco プロパティ</Text>
   
   <!-- Member Type Editor -->
   
   
   <Namespace Name="Umbraco.Cms.Web">
     
-    <Text Key="CoreEntityModel.PropertyEditorId">Choose property editor</Text>
-    <Text Key="CoreEntityModel.UtcPublished">Pulication status</Text>
+    <Text Key="CoreEntityModel.PropertyEditorId">プロパティ エディターの選択</Text>
+    <Text Key="CoreEntityModel.UtcPublished">発行状況</Text>
     
-    <Text Key="ContentEditorModel.DocumentTypeName">Document type</Text>
-    <Text Key="ContentEditorModel.SelectedTemplateId">Template</Text>
-    <Text Key="ContentEditorModel.UtcPublishedDate">Publication status</Text>
-    <Text Key="ContentEditorModel.UtcPublishScheduled">Publish at</Text>
-    <Text Key="ContentEditorModel.UtcUnpublishScheduled">Remove at</Text>
-    <Text Key="ContentEditorModel.DocumentLinks">Links to document</Text>
-    <Text Key="CreateContentModel.SelectedDocumentTypeId">Choose document type</Text>    
+    <Text Key="ContentEditorModel.DocumentTypeName">ドキュメント タイプ</Text>
+    <Text Key="ContentEditorModel.SelectedTemplateId">テンプレート</Text>
+    <Text Key="ContentEditorModel.UtcPublishedDate">発行状況</Text>
+    <Text Key="ContentEditorModel.UtcPublishScheduled">発行時間</Text>
+    <Text Key="ContentEditorModel.UtcUnpublishScheduled">削除時間</Text>
+    <Text Key="ContentEditorModel.DocumentLinks">ドキュメントへのリンク</Text>
+    <Text Key="CreateContentModel.SelectedDocumentTypeId">ドキュメント タイプの選択</Text>    
 
-    <Text Key="DocumentTypeProperty.DataTypeId">Data Type</Text>
-    <Text Key="DocumentTypeProperty.TabId">Tab</Text>
+    <Text Key="DocumentTypeProperty.DataTypeId">データ型</Text>
+    <Text Key="DocumentTypeProperty.TabId">タブ</Text>
 
-    <Text Key="MemberEditorModel.ConfirmPassword">Confirm password</Text>
-    <Text Key="MemberEditorModel.OldPassword">Old password</Text>
-    <Text Key="MemberEditorModel.IsApproved">Login enabled?</Text>
-    <Text Key="MemberEditorModel.LastLoginDate">Last login date</Text>
-    <Text Key="MemberEditorModel.LastActivityDate">Last activity date</Text>
-    <Text Key="MemberEditorModel.LastPasswordChangeDate">Last password change date</Text>
+    <Text Key="MemberEditorModel.ConfirmPassword">パスワードの確認</Text>
+    <Text Key="MemberEditorModel.OldPassword">古いパスワード</Text>
+    <Text Key="MemberEditorModel.IsApproved">ログインを有効にするか？</Text>
+    <Text Key="MemberEditorModel.LastLoginDate">最後のログイン日</Text>
+    <Text Key="MemberEditorModel.LastActivityDate">最後の活動日</Text>
+    <Text Key="MemberEditorModel.LastPasswordChangeDate">最後のパスワード更新日</Text>
 
-    <Text Key="UserEditorModel.ConfirmPassword">Confirm password</Text>
-    <Text Key="UserEditorModel.OldPassword">Old password</Text>
-    <Text Key="UserEditorModel.IsApproved">Login enabled?</Text>
-    <Text Key="UserEditorModel.SessionTimeout">Session timeout (mins)</Text>
-    <Text Key="UserEditorModel.LastLoginDate">Last login date</Text>
-    <Text Key="UserEditorModel.LastActivityDate">Last activity date</Text>
-    <Text Key="UserEditorModel.LastPasswordChangeDate">Last password change date</Text>
-    <Text Key="UserEditorModel.StartContentHiveId">Start node for Content</Text>
-    <Text Key="UserEditorModel.StartMediaHiveId">Start node for Media</Text>
-    <Text Key="UserEditorModel.Applications">Sections</Text>
+    <Text Key="UserEditorModel.ConfirmPassword">パスワードの確認</Text>
+    <Text Key="UserEditorModel.OldPassword">古いパスワード</Text>
+    <Text Key="UserEditorModel.IsApproved">ログインを有効にするか？</Text>
+    <Text Key="UserEditorModel.SessionTimeout">セッション タイムアウト (分単位)</Text>
+    <Text Key="UserEditorModel.LastLoginDate">最後のログイン日</Text>
+    <Text Key="UserEditorModel.LastActivityDate">最後の活動日</Text>
+    <Text Key="UserEditorModel.LastPasswordChangeDate">最後のパスワード更新日</Text>
+    <Text Key="UserEditorModel.StartContentHiveId">コンテンツに対するノードを開始する</Text>
+    <Text Key="UserEditorModel.StartMediaHiveId">メディアに対するノードを開始する</Text>
+    <Text Key="UserEditorModel.Applications">セクション</Text>
     
-    <Text Key="CreateDocumentTypeModel.CreateTemplate">Create matching template</Text>
-    <Text Key="CreateDocumentTypeModel.SelectedDocumentTypeId">Master document type</Text>
+    <Text Key="CreateDocumentTypeModel.CreateTemplate">マッチング テンプレートの作成</Text>
+    <Text Key="CreateDocumentTypeModel.SelectedDocumentTypeId">マスター ドキュメント タイプ</Text>
 
-    <Text Key="CreateMacroModel.MacroType">Macro Type</Text>
+    <Text Key="CreateMacroModel.MacroType">マクロ タイプ</Text>
 
-    <Text Key="MacroEditorModel.MacroType">Macro Type</Text>
-    <Text Key="MacroEditorModel.UseInEditor">Use in editor</Text>
-    <Text Key="MacroEditorModel.RenderContentInEditor">Render content in editor</Text>
-    <Text Key="MacroEditorModel.CachePeriodSeconds">Cache period in seconds</Text>
-    <Text Key="MacroEditorModel.CacheByPage">Cache by page</Text>
-    <Text Key="MacroEditorModel.CachePersonalized">Cache personalized</Text>
+    <Text Key="MacroEditorModel.MacroType">マクロ タイプ</Text>
+    <Text Key="MacroEditorModel.UseInEditor">エディター内で使用</Text>
+    <Text Key="MacroEditorModel.RenderContentInEditor">エディター内でコンテンツをレンダリングする</Text>
+    <Text Key="MacroEditorModel.CachePeriodSeconds">秒単位でのキャッシュ期間</Text>
+    <Text Key="MacroEditorModel.CacheByPage">ページごとにキャッシュ</Text>
+    <Text Key="MacroEditorModel.CachePersonalized">個人ごとのキャッシュ</Text>
 
-    <Text Key="HostnamesModel.NewHostname">Add hostname</Text>
-    <Text Key="HostnamesModel.AssignedHostnames">Assigned hostnames</Text>
+    <Text Key="HostnamesModel.NewHostname">ホスト名の追加</Text>
+    <Text Key="HostnamesModel.AssignedHostnames">割り当てられたホスト名</Text>
 
-    <Text Key="AbstractSchemaEditorModel.Name">Name</Text>
-    <Text Key="AbstractSchemaEditorModel.Alias">Alias</Text>
-    <Text Key="AbstractSchemaEditorModel.Icon">Icon</Text>
-    <Text Key="AbstractSchemaEditorModel.Icon.Description">The icon to display in the content tree.</Text>
-    <Text Key="AbstractSchemaEditorModel.Thumbnail">Thumbnail</Text>
-    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">The thumbnail to display on the 'Create' screen.</Text>
-    <Text Key="AbstractSchemaEditorModel.Description">Description</Text>
-    <Text Key="AbstractSchemaEditorModel.Description.Description">A description to display on the 'Create' screen.</Text>
-    <Text Key="AbstractSchemaEditorModel.InheritFrom">Inherit From</Text>
-    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">The parent types this type should inherit tabs/properties from.</Text>
-    <Text Key="AbstractSchemaEditorModel.AllowedChildren">Allowed Children</Text>
-    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">The types that are allowed to be created beneath this type.</Text>
+    <Text Key="AbstractSchemaEditorModel.Name">名前</Text>
+    <Text Key="AbstractSchemaEditorModel.Alias">エイリアス</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon">アイコン</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon.Description">コンテンツ ツリーで表示するアイコン。</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail">サムネイル</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">'作成' 画面上に表示されるサムネイル。</Text>
+    <Text Key="AbstractSchemaEditorModel.Description">説明</Text>
+    <Text Key="AbstractSchemaEditorModel.Description.Description">'作成' 画面上に表示される説明。</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom">継承元</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description"> この型がタブ／プロパティを継承する元となる親の型。</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren">許可された子項目</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">この型の配下に作成されることが許可されている型。</Text>
     
-    <Text Key="DocumentTypeEditorModel.AllowedTemplates">Allowed Templates</Text>
-    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">The templates that can be used by this type.</Text>
-    <Text Key="DocumentTypeEditorModel.DefaultTemplateId">Default Template</Text>
-    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">The default template to use when creating content of this type.</Text>
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates">許可されたテンプレート</Text>
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">この型で使えるテンプレート。</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId">既定のテンプレート</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">この型のコンテンツを作成するときに使う既定のテンプレート。</Text>
     
-    <Text Key="MembershipCreateStatus.DuplicateUserName">Username already exists. Please enter a different username.</Text>
-    <Text Key="MembershipCreateStatus.DuplicateEmail">A user name for that e-mail address already exists. Please enter a different e-mail address.</Text>
-    <Text Key="MembershipCreateStatus.InvalidPassword">The password provided is invalid. Please enter a valid password value.</Text>
-    <Text Key="MembershipCreateStatus.InvalidEmail">The e-mail address provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidAnswer">The password retrieval answer provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidQuestion">The password retrieval question provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.InvalidUserName">The user name provided is invalid. Please check the value and try again.</Text>
-    <Text Key="MembershipCreateStatus.ProviderError">The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
-    <Text Key="MembershipCreateStatus.UserRejected">The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
+    <Text Key="MembershipCreateStatus.DuplicateUserName">ユーザー名はすでに存在します。違うユーザー名を入力してください。</Text>
+    <Text Key="MembershipCreateStatus.DuplicateEmail">そのeメール アドレスに対するユーザー名はすでに存在します。違うeメール アドレスを入力してください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidPassword">指定されたパスワードは不正です。適切なパスワードの値を入力してください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">指定されたeメール アドレスは不正です。値をチェックして、もう一度お試ししください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidAnswer">指定されたパスワード取得用の回答は不正です。値をチェックして、もう一度お試ししください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidQuestion">指定されたパスワード取得用の質問は不正です。値をチェックして、もう一度お試ししください。</Text>
+    <Text Key="MembershipCreateStatus.InvalidUserName">指定されたユーザー名は不正です。値をチェックして、もう一度お試ししください。</Text>
+    <Text Key="MembershipCreateStatus.ProviderError">認証プロバイダーはエラーを返しました。エントリーを検証して、もう一度お試ししください。問題が続くようであれば、システム管理者に連絡してください。</Text>
+    <Text Key="MembershipCreateStatus.UserRejected">ユーザー作成要求はキャンセルされました。エントリーを検証して、もう一度お試ししください。問題が続くようであれば、システム管理者に連絡してください。</Text>
 
 
   </Namespace>
 
   <Namespace Name="Umbraco.Cms.Web.PropertyEditors">
-    <Text Key="IsRequired">Required</Text>
-    <Text Key="RichTextPreValueModel.ShowContextMenu">Show context menu</Text>
-    <Text Key="RichTextPreValueModel.EditorSize">Editor size</Text>
-    <Text Key="RichTextPreValueModel.TinyMceItems">Rich text elements</Text>
+    <Text Key="IsRequired">必要</Text>
+    <Text Key="RichTextPreValueModel.ShowContextMenu">コンテキスト メニューの表示</Text>
+    <Text Key="RichTextPreValueModel.EditorSize">エディター サイズ</Text>
+    <Text Key="RichTextPreValueModel.TinyMceItems">リッチ テキスト要素</Text>
 
-    <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regular expression validation statement</Text>
+    <Text Key="TextBoxPreValueModel.RegexValidationStatement">正規表現検証文</Text>
    
-    <Text Key="ColorSwatchPickerPreValueModel.Colors">Colors</Text>
+    <Text Key="ColorSwatchPickerPreValueModel.Colors">色</Text>
     
-    <Text Key="DateTimePickerPreValueModel.ShowTime">Also show time selection</Text>
+    <Text Key="DateTimePickerPreValueModel.ShowTime">時間選択も表示</Text>
 
-    <Text Key="NodeNameEditorModel.UrlName">Url name</Text>
-    <Text Key="NodeNameEditorModel.UrlAliases">Url aliases</Text>
+    <Text Key="NodeNameEditorModel.UrlName">Url 名</Text>
+    <Text Key="NodeNameEditorModel.UrlAliases">Url エイリアス</Text>
   </Namespace>
 
 </Localizations>
