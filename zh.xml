@@ -69,14 +69,14 @@
   <Text Key="DocumentType.Validation.RequiredTabName">请输入选项卡名称</Text>
   
   <Text Key="Permissions.Title">更新权限</Text>
-  <Text Key="Permissions.Success.Message">{Name}节点的权限更新成功</Text>
-  <Text Key="Permissions.NoUserGroups.Message">没有找到管理员组(非超级管理员组),请先添加一个新的管理员组后再设置权限</Text>
+  <Text Key="Permissions.Success.Message">'{Name}'节点的权限更新成功</Text>
+  <Text Key="Permissions.NoUserGroups.Message">没有找到用户组(非超级用户组)，请先添加一个新的用户组后再设置权限。</Text>
   <Text Key="PublicAccess.Title">访问控制已更新</Text>
-  <Text Key="PublicAccess.Success.Message">{Name}节点的访问控制更新成功</Text>
+  <Text Key="PublicAccess.Success.Message">'{Name}'节点的访问控制更新成功</Text>
   <Text Key="Hostname.Title">主机名称已更新</Text>
-  <Text Key="Hostname.Success.Message">成功地为节点{Name}添加了{Count}个主机名称</Text>
+  <Text Key="Hostname.Success.Message">成功地为节点'{Name}'添加了 {Count} 个主机名称</Text>
   <Text Key="Language.Title">语言已更新</Text>
-  <Text Key="Language.Success.Message">{Name}节点的语言添加成功</Text>
+  <Text Key="Language.Success.Message">'{Name}'节点的语言添加成功</Text>
   <Text Key="Sort.Title">正在排序文档</Text>
   <Text Key="Rollback.Title">正在回滚文档</Text>
   <Text Key="Sort.Success.Message">文档排序成功</Text>
