@@ -21,8 +21,8 @@
   
   <!-- Messages -->
   <Text Key="Login.Invalid">Utente o password sbagliato</Text>
-  <Text Key="Delete.Successful">Item successfully deleted</Text>
-  <Text Key="Delete.Failed">Item was not deleted</Text>
+  <Text Key="Delete.Successful">Elemento eliminato con successo</Text>
+  <Text Key="Delete.Failed">L'elemento non è stato eliminato</Text>
   <Text Key="Validation.Errors">Si sono verificati alcuni errori di validazione</Text>
   
   <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
@@ -31,9 +31,9 @@
   <Text Key="Save.ValidationSummary.Title">Correggi gli errori e riprova.</Text>
   
   <Text Key="Content.Save.Title">Contenuto salvato</Text>
-  <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
+  <Text Key="Content.Save.Message">Ricordati di pubblicare per rendere visibili le modifiche</Text>
   <Text Key="Content.SaveUnathorized.Title">Contenuto non salvato</Text>
-  <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
+  <Text Key="Content.SaveUnathorized.Message">Il contenuto non è stato salvato a causa di autorizzazioni insufficienti</Text>
   <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
   <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
   <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
@@ -44,11 +44,11 @@
   <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
 
   <Text Key="UserGroup.Save.Title">Gruppo utenti salvato</Text>
-  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
+  <Text Key="UserGroup.Save.Message">Le informazioni gruppo utenti sono state salvate con successo</Text>
   <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
   <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
   
-  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
+  <Text Key="MemberGroup.Save.Title">Membro del gruppo salvato</Text>
   <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
   <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
 
@@ -59,9 +59,9 @@
   <Text Key="DocumentType.Save.Title">Document type saved</Text>
   <Text Key="DocumentType.Save.Message">Document type has been successfully saved</Text>
   <Text Key="DocumentType.UnSaved.Message">This document type is currently un-saved. Remember to save this document type if you would like to be able to come back and edit it later.</Text>
-  <Text Key="DocumentType.PropertyDeleted.Title">Property deleted</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Proprietà eliminata</Text>
   <Text Key="DocumentType.PropertyDeleted.Message">Document type property has been deleted</Text>
-  <Text Key="DocumentType.TabDeleted.Title">Tab deleted</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Scheda eliminata</Text>
   <Text Key="DocumentType.TabDeleted.Message">Document type tab has been deleted</Text>
   <Text Key="DocumentType.TabAdded.Title">Tab added</Text>
   <Text Key="DocumentType.TabAdded.Message">Document type tab has been added</Text>
@@ -113,10 +113,10 @@
   <Text Key="Partials.Save.Title">Template saved</Text>
   <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
   
-  <Text Key="Script.Save.Title">Script saved</Text>
+  <Text Key="Script.Save.Title">Script salvato</Text>
   <Text Key="Script.Save.Message">Script has been successfully saved</Text>
   
-  <Text Key="Stylesheet.Save.Title">Stylesheet saved</Text>
+  <Text Key="Stylesheet.Save.Title">Stylesheet salvata</Text>
   <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
 
   <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
