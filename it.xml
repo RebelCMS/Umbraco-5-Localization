@@ -28,9 +28,9 @@
   <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
   <Text Key="Save.ErrorsOccurred.Title">Validation errors</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Please correct the errors and try again.</Text>
+  <Text Key="Save.ValidationSummary.Title">Per piacere correggi gli errori e riprova.</Text>
   
-  <Text Key="Content.Save.Title">Content saved</Text>
+  <Text Key="Content.Save.Title">Contenuto salvato</Text>
   <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
   <Text Key="Content.SaveUnathorized.Title">Content not saved</Text>
   <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
@@ -39,11 +39,11 @@
   <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
   <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
+  <Text Key="User.Save.Title">Utente salvato</Text>
+  <Text Key="User.Save.Message">Le informationi utente sono state salvate con successo</Text>
   <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="UserGroup.Save.Title">User group saved</Text>
+  <Text Key="UserGroup.Save.Title">Gruppo utenti salvato</Text>
   <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
   <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
   <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
@@ -68,10 +68,10 @@
   <Text Key="DocumentType.Validation.DuplicateTab">The tab name entered already exists</Text>
   <Text Key="DocumentType.Validation.RequiredTabName">A tab name must be specified</Text>
   
-  <Text Key="Permissions.Title">Permissions updated</Text>
+  <Text Key="Permissions.Title">Permessi aggiornati</Text>
   <Text Key="Permissions.Success.Message">Permissions successfully saved on node {Name}</Text>
   <Text Key="Permissions.NoUserGroups.Message">No non-admin user groups found, please add a new user group before attempting to set permissions</Text>
-  <Text Key="PublicAccess.Title">Public access updated</Text>
+  <Text Key="PublicAccess.Title">Accesso pubblico aggiornato</Text>
   <Text Key="PublicAccess.Success.Message">Public access successfully updated on node {Name}</Text>
   <Text Key="Hostname.Title">Hostnames updated</Text>
   <Text Key="Hostname.Success.Message">{Count} hostnames successfully saved on node {Name}</Text>
