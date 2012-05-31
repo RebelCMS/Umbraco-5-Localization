@@ -127,7 +127,7 @@
   <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Logout</Text>
+  <Text Key="UI.Button.Logout">Esci</Text>
   <Text Key="UI.Button.About">About</Text>
   <Text Key="UI.Title.Sections">Sezioni</Text>
   <Text Key="UI.Title.Search">Cerca</Text>
@@ -150,7 +150,7 @@
   <Text Key="Manage hostnames">Manage hostnames</Text>
   <Text Key="ImportDocumentType">Impor tDocumentType</Text>
   <Text Key="Language">Lingua</Text>
-  <Text Key="Logout">Logout</Text>
+  <Text Key="Logout">Esci</Text>
   <Text Key="Move">Sposta</Text>
   <Text Key="Notify">Notifica</Text>
   <Text Key="Package">Package</Text>
@@ -179,7 +179,7 @@
   <!-- Controls -->
   <!-- Date Time Picker-->
   <Text Key="DateTimePicker.Choose">Scegli una data</Text>
-  <Text Key="DateTimePicker.None">No date chosen</Text>
+  <Text Key="DateTimePicker.None">Nessuna data scelta</Text>
   <Text Key="DateTimePicker.Clear">Clear date</Text>
   
   <!-- Schema Editor -->
@@ -246,10 +246,10 @@
   <Text Key="Action.Rollback.Label.View">View</Text>
   <Text Key="Action.Rollback.Label.Diff">Diff</Text>
   <!-- Action - Sort-->
-  <Text Key="Action.Sort.Title">Sort content</Text>
+  <Text Key="Action.Sort.Title">Ordina contenuto</Text>
   <Text Key="Action.Sort.Table.Name">Nome</Text>
-  <Text Key="Action.Sort.Table.CreationDate">Creation date</Text>
-  <Text Key="Action.Sort.Table.SortOrder">Sort order</Text>
+  <Text Key="Action.Sort.Table.CreationDate">Data creazione</Text>
+  <Text Key="Action.Sort.Table.SortOrder">Ordinamento</Text>
 
   <!-- Media Editor -->
   <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
