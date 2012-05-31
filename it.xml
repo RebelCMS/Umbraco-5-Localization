@@ -107,28 +107,28 @@
   <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
   <Text Key="Macro.RenderingFailed.Title">Errore Macro</Text>
   
-  <Text Key="Template.Save.Title">Template saved</Text>
-  <Text Key="Template.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Template.Save.Title">Template salvato</Text>
+  <Text Key="Template.Save.Message">Template salvato con successo</Text>
   
-  <Text Key="Partials.Save.Title">Template saved</Text>
-  <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
+  <Text Key="Partials.Save.Title">Template salvato</Text>
+  <Text Key="Partials.Save.Message">Template salvato con successo</Text>
   
   <Text Key="Script.Save.Title">Script salvato</Text>
-  <Text Key="Script.Save.Message">Script has been successfully saved</Text>
+  <Text Key="Script.Save.Message">Script salvato con successo</Text>
   
   <Text Key="Stylesheet.Save.Title">Stylesheet salvata</Text>
-  <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
+  <Text Key="Stylesheet.Save.Message">Stylesheet salvato con successo</Text>
 
   <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
   
   <Text Key="Folder.Save.Title">Cartella creata</Text>
-  <Text Key="Folder.Save.Message">Folder has been created successfully</Text>
+  <Text Key="Folder.Save.Message">Cartella salvata con successo</Text>
 
   <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
 
   <!-- Global UI -->
   <Text Key="UI.Button.Logout">Esci</Text>
-  <Text Key="UI.Button.About">About</Text>
+  <Text Key="UI.Button.About">Informazioni su</Text>
   <Text Key="UI.Title.Sections">Sezioni</Text>
   <Text Key="UI.Title.Search">Cerca</Text>
   <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
