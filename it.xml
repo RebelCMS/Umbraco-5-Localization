@@ -192,8 +192,8 @@
 
 
   <!-- Content Editor -->
-  <Text Key="Content.Editor.Tab.GeneralProperties">General Properties</Text>
-  <Text Key="Content.Editor.Label.NotPublishedYet">This item has not been published</Text>
+  <Text Key="Content.Editor.Tab.GeneralProperties">Proprietà generali</Text>
+  <Text Key="Content.Editor.Label.NotPublishedYet">L'elemento non è stato pubblicato</Text>
   <Text Key="Content.Editor.Label.LastPublished">Last published</Text>
   
   <!-- Action - Copy Content -->
