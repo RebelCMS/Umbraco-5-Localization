@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localizations Language="*">
+  <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
+<!-- The translation from English to Russian done by http://yaplex.com/ -->
+  <!-- Applications -->
+  <Text Key="content">Содержание</Text>
+  <Text Key="media">Медиа</Text>
+  <Text Key="settings">Настрйки</Text>
+  <Text Key="developer">Разработчик</Text>
+  <Text Key="users">Пользователь</Text>
+  <Text Key="members">Участник</Text>
+  
+  <!-- These are used regardless of class, assembly and namespace -->
+  <Text Key="Name">Имя</Text>
+  <Text Key="CreatedBy">Создано</Text>
+  <Text Key="UtcCreated">Дата создания</Text>
+  <Text Key="UtcModified">Дата обновления</Text>
+  <Text Key="NodeName">Имя узла</Text>
+  <Text Key="UpdatedBy">Обновлено</Text>
+  <Text Key="ShowLabel">Показать метку</Text>
+  
+  <!-- Messages -->
+  <Text Key="Login.Invalid">Неверное имя пользователя или пароль</Text>
+  <Text Key="Delete.Successful">Обьект успешно удален</Text>
+  <Text Key="Delete.Failed">Обьект не был удален</Text>
+  <Text Key="Validation.Errors">Произошли ошибки валидации</Text>
+  
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Произошла ошибка валидации | Произошли ошибки валидации}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Ошибки валидации</Text>
+
+  <Text Key="Save.ValidationSummary.Title">Пожалуйста исправьте ошибки и повторите.</Text>
+  
+  <Text Key="Content.Save.Title">Содержимое сохранено</Text>
+  <Text Key="Content.Save.Message">Не забудьте опубликовать чтобы сделать видимым изменение</Text>
+  <Text Key="Content.SaveUnathorized.Title">Содержимое не сохранено</Text>
+  <Text Key="Content.SaveUnathorized.Message">Содержимое не сохранено из за нехватки полномочий</Text>
+  <Text Key="Content.UnSaved.Message">Содержимое не сохранено. Не забудьте сохранить содержимоеесли вы не хотите потерять изменения.</Text>
+  <Text Key="Content.NoTemplates.Message">В настоящее время шаблоны для содержимого не доступны.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">Ссылка не может быть сгенерирована для этого обьекта потому что необходимо сопоставить имя хоста к текущей ветке.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Этот тип содержимого не содержит разрешенных дочерних типов соответствующих ему</Text>
+
+  <Text Key="User.Save.Title">Пользователь сохранен</Text>
+  <Text Key="User.Save.Message">Информация пользователя была успешно сохранена</Text>
+  <Text Key="User.UnSaved.Message">Текущий пользователь в настоящее время не сохранен. Не забудьте сохранить его если вы не хотите потерять ваши изменения.</Text>
+
+  <Text Key="UserGroup.Save.Title">Группа пользователей сохранена</Text>
+  <Text Key="UserGroup.Save.Message">Информация о группе пользователей была успешно сохранена</Text>
+  <Text Key="UserGroup.UnSaved.Message">Текущая группа пользователей не сохранена. Не забудьте сохранить ее если не хотите потерять изменения.</Text>
+  <Text Key="UserGroup.Inherit.Message">Не забудьте, доступ установлен на отказ по умолчанию если нет явных разрешающих доступов которые могут быть унаследованны.</Text>
+  
+  <Text Key="MemberGroup.Save.Title">Группа пользователей сохранена</Text>
+  <Text Key="MemberGroup.Save.Message">Информация о группе пользователей была успешно сохранена</Text>
+  <Text Key="MemberGroup.UnSaved.Message">Эта группа пользователей не сохранена. Не забудьте сохранить ее если вы не хотите потерять ваши изменения.</Text>
+
+  <Text Key="DataType.Save.Title">Тип данных сохранен</Text>
+  <Text Key="DataType.Save.Message">Тип данных был послан</Text>
+  <Text Key="DataType.UnSaved.Message">Этот тип данных не сохранен. Не забудьте сохранить этот тип данных если вы не хотите потерять ваши изменения.</Text>
+
+  <Text Key="DocumentType.Save.Title">Тип документа сохранен</Text>
+  <Text Key="DocumentType.Save.Message">Тип документа был успешно сохранен</Text>
+  <Text Key="DocumentType.UnSaved.Message">Этот тип документа не сохранен. Не забудьте сохранить тип документа если вы не хотите потерять изменения.</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Свойство удалено</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">Свойства типа документа удалено.</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Вклдка удалена</Text>
+  <Text Key="DocumentType.TabDeleted.Message">Вкладка типа документа удалена</Text>
+  <Text Key="DocumentType.TabAdded.Title">Вкладка добавлена</Text>
+  <Text Key="DocumentType.TabAdded.Message">Вкладка типа документа была добавлена</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">Имя введенной вкладки уже существует</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">Укажите имя вкладки</Text>
+  
+  <Text Key="Permissions.Title">Права доступа обновлены</Text>
+  <Text Key="Permissions.Success.Message">Права доступа успешно сохранены в узле {Name}</Text>
+  <Text Key="Permissions.NoUserGroups.Message">Небыло найдены не администраторские группы, пожалуйста добавьте новую пользовательскую группу перед попыткой установить права доступа</Text>
+  <Text Key="PublicAccess.Title">Общедоступный доступ обновлен</Text>
+  <Text Key="PublicAccess.Success.Message">Общедоступный доступ успешно обновлен на узле {Name}</Text>
+  <Text Key="Hostname.Title">Имя хоста изменено</Text>
+  <Text Key="Hostname.Success.Message">{Count} имен хостов успешно сохранено в узле {Name}</Text>
+  <Text Key="Language.Title">Язык обновлен</Text>
+  <Text Key="Language.Success.Message">Язык успешно сохранен для узла {Name}</Text>
+  <Text Key="Sort.Title">Сортировка содержимого</Text>
+  <Text Key="Rollback.Title">Изменения содержимого отменены</Text>
+  <Text Key="Sort.Success.Message">Содержимое успешно отсортировано</Text>
+  <Text Key="Move.Success.Message">'{FromName}' был перемещен в '{ToName}'</Text>
+  <Text Key="Copy.Success.Message">'{FromName}' был скопирован в '{ToName}'</Text>
+  <Text Key="Rollback.Success.Message">Изменения содержимого успешно отменены</Text>
+  <Text Key="Publish.Title">Содержимое опубликованно</Text>
+  <Text Key="Publish.SingleSuccess.Message">'{Name}' было опубликованно</Text>
+  <Text Key="Publish.SingleUnathorized.Message">'{Name}' не было опубликованно из за нехватки прав доступа</Text>
+  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' и дочерние страницы были опубликованны</Text>
+  <Text Key="Publish.IncludeChildren.Label">Публикация '{Name}' и всех дочерних страниц</Text>
+  <Text Key="Publish.IncludeUnpublishedChildren.Label">Включая неопубликованные дочерние страницы</Text>
+  <Text Key="Unpublish.Title">Содержимое не опубликованно</Text>
+  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' не был опубликован</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' не был опубликован из за нехватки прав доступа</Text>
+
+  <Text Key="Language.Save.Title">Язык сохранен</Text>
+  <Text Key="Language.Save.Message">Язык был успешно сохранен</Text>
+  <Text Key="Language.UnSaved.Message">Язык не сохранен. Не забудьте сохранить язык если вы не хотите потерять изменения</Text>
+  
+  <Text Key="Macro.Save.Title">Макрос сохранен</Text>
+  <Text Key="Macro.Save.Message">Макрос был успешно сохранен</Text>
+  <Text Key="Macro.UnSaved.Message">Этот макрос не сохранен. Не забудьте сохранить макрос, если вы не хотите потерять изменения.</Text>
+  <Text Key="Macro.ParamsPopulated.Title">Параметры макроса</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">Параметры макроса успешно получены</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Не могу определить параметры для дочерних действий которые содержат один или более: возвращаемых значений или LCID параметров</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Не могу найти сслыку на совместное представление</Text>
+  <Text Key="Macro.RenderingFailed.Message">Произошла ошибка выполнения макроса '{MacroName}'. Ошибка: '{Error}'. Смотрите лог файлы для детальной информации.</Text>
+  <Text Key="Macro.RenderingFailed.Title">Ошибка макроса</Text>
+  
+  <Text Key="Template.Save.Title">Шаблон сохранен</Text>
+  <Text Key="Template.Save.Message">Шаблон был успешно сохранен</Text>
+  
+  <Text Key="Partials.Save.Title">Шаблон сохранен</Text>
+  <Text Key="Partials.Save.Message">Шаблон был успешно сохранен</Text>
+  
+  <Text Key="Script.Save.Title">Скрипт сохранен</Text>
+  <Text Key="Script.Save.Message">Скрипт был успешно сохранен</Text>
+  
+  <Text Key="Stylesheet.Save.Title">Таблица стилей сохранена</Text>
+  <Text Key="Stylesheet.Save.Message">Таблица стилей была успешно сохранена</Text>
+
+  <Text Key="StylesheetRule.UnSaved.Message">Это правило не сохранено. Не забудьте сохранить правило если не хотите потерять изменения.</Text>
+  
+  <Text Key="Folder.Save.Title">Папка создана</Text>
+  <Text Key="Folder.Save.Message">Папка была создана успешно</Text>
+
+  <Text Key="File.UnSaved.Message">Этот файл не сохранен. Не забудьте сохранить файл если вы не хотите потерять изменения.</Text>
+
+  <!-- Global UI -->
+  <Text Key="UI.Button.Logout">Выйти</Text>
+  <Text Key="UI.Button.About">О программе</Text>
+  <Text Key="UI.Title.Sections">Выбор</Text>
+  <Text Key="UI.Title.Search">Поиск</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Свойства Umbraco</Text>
+  <Text Key="UI.Tab.FileProperties">Свойства Umbraco</Text>
+  <!-- Trees-->
+  <!-- TODO -->
+  
+  <!-- Fixed Tree Nodes -->
+  <Text Key="Local packages">Локальные пакеты</Text>
+
+  <!-- Menu Items-->
+  <Text Key="Audit">Аудит</Text>
+  <Text Key="Copy">Копировать</Text>
+  <Text Key="CreateFolder">Создать папку</Text>
+  <Text Key="Create">Создать</Text>
+  <Text Key="Delete">Удалить</Text>
+  <Text Key="EmptyRecycleBin">Очистить корзину</Text>
+  <Text Key="ExportDocumentType">Выгрузить тип документа</Text>
+  <Text Key="Manage hostnames">Настройка имен хоста</Text>
+  <Text Key="ImportDocumentType">Загрузить тип документа</Text>
+  <Text Key="Language">Язык</Text>
+  <Text Key="Logout">Выйти</Text>
+  <Text Key="Move">Переместить</Text>
+  <Text Key="Notify">Уведомить</Text>
+  <Text Key="Package">Пакет</Text>
+  <Text Key="Permissions">Настройки доступа</Text>
+  <Text Key="Public Access">Общедоступный доступ</Text>
+  <Text Key="Publish">Опубликовать</Text>
+  <Text Key="Refresh">Обновить</Text>
+  <Text Key="Rollback">Откатить</Text>
+  <Text Key="Save">Сохранить</Text>
+  <Text Key="SendPublish">Послать на публикацию</Text>
+  <Text Key="SendTranslate">Послать на перевод</Text>
+  <Text Key="Sort">Сортировать</Text>
+  <Text Key="Translate">Перевести</Text>
+  <Text Key="Update">Обновить</Text>
+  
+  <!-- Dashboards -->
+  
+  <!-- Editors -->
+  
+  <!-- General -->
+  <Text Key="Editors.PleaseSelect">Please Select...</Text>
+  <Text Key="Editors.File">File</Text>
+  <Text Key="Editors.Folder">Folder</Text>
+  <Text Key="Editors.None">None</Text>
+  
+  <!-- Controls -->
+  <!-- Date Time Picker-->
+  <Text Key="DateTimePicker.Choose">Choose Date</Text>
+  <Text Key="DateTimePicker.None">No date chosen</Text>
+  <Text Key="DateTimePicker.Clear">Clear date</Text>
+  
+  <!-- Schema Editor -->
+  <Text Key="Schema.Editor.Tab.Info">Info</Text>
+  <Text Key="Schema.Editor.Tab.Composition">Composition</Text>
+  <Text Key="Schema.Editor.Tab.Properties">Properties</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">Tabs</Text>
+  <Text Key="Schema.Editor.Notice.PropInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited properties.</Text>
+  <Text Key="Schema.Editor.Notice.TabInheritance">Changes have been made to the list of types this type inherits from. Please re-save to be able to see any new inherited tabs.</Text>
+
+
+  <!-- Content Editor -->
+  <Text Key="Content.Editor.Tab.GeneralProperties">General Properties</Text>
+  <Text Key="Content.Editor.Label.NotPublishedYet">This item has not been published</Text>
+  <Text Key="Content.Editor.Label.LastPublished">Last published</Text>
+  
+  <!-- Action - Copy Content -->
+  <Text Key="Action.Copy.Title">Copy</Text>
+  <Text Key="Action.Copy.HeaderTitle">Select where the document '{Name}' should be copied to below</Text>
+  
+  <!-- Action - Manage Hostnames -->
+  <Text Key="Action.HostNames.Title">Manage hostnames</Text>
+  <Text Key="Action.HostNames.Button.AddHostname">Add hostname</Text>
+  <Text Key="Action.HostNames.Button.DeleteHostname">Delete hostname</Text>
+  <Text Key="Action.HostNames.Description.VirtualDirectory">The current site is running inside of a Virtual Directory</Text>
+  <Text Key="Action.HostNames.Description.ResultingHostname">The resulting hostname will route to</Text>
+  
+  <!-- Action - Set Languages-->
+  <Text Key="Action.Language.Title">Select language</Text>
+  
+  <!-- Action - Move Content -->
+  <Text Key="Action.Move.Title">Move</Text>
+  <Text Key="Action.Move.HeaderTitle">Select where the document '{Name}' should be moved to below</Text>
+
+  <!-- Action - Manage Permissions-->
+  <Text Key="Action.Permissions.Title">Manage permissions</Text>
+
+  <!-- Action - Public Access-->
+  <Text Key="Action.PublicAccess.Title">Manage public access</Text>
+  <Text Key="Action.PublicAccess.Label.MemberGroups">Member Groups</Text>
+  <Text Key="Action.PublicAccess.Description.MemberGroups">Choose the Member Groups that should be allowed access to this page.</Text>
+  <Text Key="Action.PublicAccess.Label.Available">Available</Text>
+  <Text Key="Action.PublicAccess.Label.Selected">Selected</Text>
+  <Text Key="Action.PublicAccess.Title.Select">Select the pages to redirect to for login and incase of an error.</Text>
+  <Text Key="Action.PublicAccess.Label.LoginPage">Login Page</Text>
+  <Text Key="Action.PublicAccess.Description.LoginPage">Choose the page that contains the login form</Text>
+  <Text Key="Action.PublicAccess.Label.ErrorPage">Error Page</Text>
+  <Text Key="Action.PublicAccess.Description.ErrorPage">Choose the page to display when a member is authenticated, but does not have sufficient permissions.</Text>
+
+  <!-- Action - Publish-->
+  <Text Key="Action.Publish.Title">Publish content</Text>
+  <Text Key="Action.Publish.Description.Save">Click 'Save' to publish '{Name}' and thereby making it's content publicly available.</Text>
+  <Text Key="Action.Publish.Description.Children">You can publish this page and all it's sub-pages by checking publish all children below.
+  </Text>
+
+  <!-- Action - Rollback-->
+  <Text Key="Action.Rollback.Title">Rollback</Text>
+  <Text Key="Action.Rollback.HeaderTitle"> Select a target version to compare the current version of '{Name}' to</Text>
+  <Text Key="Action.Rollback.Label.Current">Current</Text>
+  <Text Key="Action.Rollback.Label.Created">Created</Text>
+  <Text Key="Action.Rollback.Label.LastStatus">Last status change</Text>
+  <Text Key="Action.Rollback.Label.Target">Target</Text>
+  <Text Key="Action.Rollback.SelectVersion">Select a version...</Text>
+  <Text Key="Action.Rollback.Label.View">View</Text>
+  <Text Key="Action.Rollback.Label.Diff">Diff</Text>
+  <!-- Action - Sort-->
+  <Text Key="Action.Sort.Title">Sort content</Text>
+  <Text Key="Action.Sort.Table.Name">Name</Text>
+  <Text Key="Action.Sort.Table.CreationDate">Creation date</Text>
+  <Text Key="Action.Sort.Table.SortOrder">Sort order</Text>
+
+  <!-- Media Editor -->
+  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  
+  
+  <!-- Language Editor -->
+  <Text Key="Language.Editor.Tab.NewLanguage">New Language</Text>
+  <Text Key="Language.Editor.Label.ISO">ISO Code</Text>
+  <Text Key="Language.Editor.Label.Fallbacks">Fallbacks</Text>
+  <Text Key="Language.Editor.FallbackOrder">Set fallback order...</Text>
+  
+  <!-- Dictionary Editor -->
+  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  
+  <!-- Document Type Editor-->
+  <Text Key="DocumentType.Editor.Description.IsAbstract">Sets whether document type is intended only to be inherited by others.  If checked it will not be selectable for content entry directly.</Text>
+  <Text Key="DocumentType.Editor.Title.AddNewProperty">Add new property</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">Click here to add a new property</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Cancel creating new property</Text>
+  <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
+  <Text Key="DocumentType.Editor.NoProperties">No properties</Text>
+  <Text Key="DocumentType.Editor.Label.Tab">Defined Tabs</Text>
+  
+  <!-- Media Type Editor-->
+  
+  <!-- Stylesheet Editor -->
+  <Text Key="Stylesheet.Editor.Title">Stylesheet Editor</Text>
+  
+  <!-- Stylesheet Rule Editor -->
+  <Text Key="StylesheetRule.Editor.Title.Create">Create rule</Text>
+  <Text Key="StylesheetRule.Editor.Title.Edit">Edit rule</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">Name to identify the rule in the rich text editor</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">The CSS selector for the rule eg: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Label.Styles">Styles</Text>
+  <Text Key="StylesheetRule.Editor.Label.Preview">Preview</Text>
+  
+  <!-- Scripts Editor -->
+  <Text Key="Script.Create.Title">Create a script</Text>
+  <Text Key="Script.Editor.Title">Script Editor</Text>
+  
+  <!-- Template Editor -->
+  <Text Key="Template.Editor.Title">Template Editor</Text>
+  <Text Key="Template.Editor.Title.MasterTemplate">Master Template</Text>
+  
+  <!-- Partial Editor -->
+  <Text Key="Partial.Create.Title">Create a partial</Text>
+  <Text Key="Partial.Editor.Title">Partial Editor</Text>
+  <Text Key="Partial.Editor.Title.CurrentPath">Current path</Text>
+  <Text Key="Partial.Editor.Label.CreateFile">Create file</Text>
+  <Text Key="Partial.Editor.Label.CreateFolder">Create folder</Text>
+  
+  <!-- Datatype editor-->
+  <Text Key="DataType.Create.Title">Create a new data type</Text>
+  <Text Key="DataType.Editor.Tab.Title">Data type</Text>
+  <Text Key="DataType.Editor.Settings">Settings</Text>
+  <Text Key="DataType.Editor.DataTypeGUID">Data Type GUID</Text>
+  <Text Key="DataType.Editor.SelectPropEditor">--Select Property Editor--</Text>
+  
+  <!-- Packaging Editor -->
+  <Text Key="Packaging.Editor.Title">Local package repository</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
+  <Text Key="Packaging.Editor.Labels.FileName">Filename</Text>
+  <Text Key="Packaging.Editor.Button.Upload">Upload</Text>
+  <Text Key="Packaging.Editor.Labels.AutoInstall">Auto install package (Please also accept the terms below)</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
+  <Text Key="Packaging.Editor.Title.Install">Install a local package</Text>
+  <Text Key="Packaging.Editor.Notice.Install.Title">Only install packages from sources you know and trust!</Text>
+  <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
+          <p>
+              When installing an Umbraco package you should use the same caution as when you install
+              an application on your computer.</p>
+          <p>
+              A malicious package could damage your Umbraco installation just like a malicious
+              application can damage your computer.</p>
+          <p>
+              It is recommended to install from the official Umbraco package repository or a custom
+              repository whenever it's possible.</p>
+              
+  ]]>
+  </Text>
+  <Text Key="Packaging.Editor.Labels.Risks">I understand the security risks associated with installing a local package</Text>
+  <Text Key="Packaging.Editor.InstallPackage">Install package</Text>
+  <Text Key="Packaging.Editor.UnInstallPackage">Uninstall package</Text>
+  <Text Key="Packaging.Editor.Button.RemoveFromLocal">Remove from local repository</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.Title">Local package repository</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">Please wait while your application restarts</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">Waiting for server response...</Text>
+
+  <!-- Macro Editor -->
+  <Text Key="Macro.Create.Title">Create new macro</Text>
+  <Text Key="Macro.Editor.Tab.Props">Macro Properties</Text>
+  <Text Key="Macro.Editor.Tab.Params">Macro Parameters</Text>
+  <Text Key="Macro.Editor.Validation.MacroItemSelected">Ensure a macro item is selected for the current macro type</Text>
+  <Text Key="Macro.Editor.Params.Notice">You can automatically populate the macro parameters by clicking the 'Populate' button.
+    This will scan the macro item/file that you've selected to determine its parameters and
+    automatically fill in the name, alias and type of parameter.</Text>
+  <Text Key="Macro.Editor.Button.Populate">Populate</Text>
+  <Text Key="Macro.Editor.Button.Populate.Title">Automatically populate macro parameters</Text>
+  <Text Key="Macro.Editor.ParamsTable.Show">Show</Text>
+  <Text Key="Macro.Editor.ParamsTable.Alias">Alias</Text>
+  <Text Key="Macro.Editor.ParamsTable.Name">Name</Text>
+  <Text Key="Macro.Editor.ParamsTable.Type">Type</Text>
+  <Text Key="Macro.Editor.Validation.AliasRequired">The Alias field is required.</Text>
+  <Text Key="Macro.Editor.Validation.NameRequired">The Name field is required.</Text>
+  <Text Key="Macro.Editor.Button.Add">Add parameter</Text>
+ 
+  <!-- Macro Partial Editor-->
+  <Text Key="MacroPartial.Create.Title">Create a new partial</Text>
+  <Text Key="Packaging.Editor.Title">Partial Editor</Text>
+  
+  <!-- User Editor -->
+  <Text Key="User.Editor.Tab.NewUser">New User</Text>
+  <Text Key="User.Editor.Tab.Backoffice">Backoffice</Text>
+  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="User.Editor.Label.UserGroups">User Groups</Text>
+  <Text Key="User.Editor.Label.StartNodeContent">Start Node in Content</Text>
+  <Text Key="User.Editor.Label.StartNodeMedia">Start Node in Media</Text>
+  <Text Key="User.Editor.Label.Sections">Sections</Text>
+  
+  <!-- User Group Editor -->
+  <Text Key="UserGroup.Editor.Tab.NewUserGroup">New User Group</Text>
+  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="UserGroup.Editor.Label.Permissions">Permissions</Text>
+  
+  <!-- Member Editor -->
+  <Text Key="Member.Editor.Tab.NewMember">New Member</Text>
+  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="Member.Editor.Label.MemberGroups">Member Groups</Text>
+  
+  <!-- Member Group Editor -->
+  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">New Member Group</Text>
+  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco Properties</Text>
+  
+  <!-- Member Type Editor -->
+  
+  
+  <Namespace Name="Umbraco.Cms.Web">
+    
+    <Text Key="CoreEntityModel.PropertyEditorId">Choose property editor</Text>
+    <Text Key="CoreEntityModel.UtcPublished">Pulication status</Text>
+    
+    <Text Key="ContentEditorModel.DocumentTypeName">Document type</Text>
+    <Text Key="ContentEditorModel.SelectedTemplateId">Template</Text>
+    <Text Key="ContentEditorModel.UtcPublishedDate">Publication status</Text>
+    <Text Key="ContentEditorModel.UtcPublishScheduled">Publish at</Text>
+    <Text Key="ContentEditorModel.UtcUnpublishScheduled">Remove at</Text>
+    <Text Key="ContentEditorModel.DocumentLinks">Links to document</Text>
+    <Text Key="CreateContentModel.SelectedDocumentTypeId">Choose document type</Text>    
+
+    <Text Key="DocumentTypeProperty.DataTypeId">Data Type</Text>
+    <Text Key="DocumentTypeProperty.TabId">Tab</Text>
+
+    <Text Key="MemberEditorModel.ConfirmPassword">Confirm password</Text>
+    <Text Key="MemberEditorModel.OldPassword">Old password</Text>
+    <Text Key="MemberEditorModel.IsApproved">Login enabled?</Text>
+    <Text Key="MemberEditorModel.LastLoginDate">Last login date</Text>
+    <Text Key="MemberEditorModel.LastActivityDate">Last activity date</Text>
+    <Text Key="MemberEditorModel.LastPasswordChangeDate">Last password change date</Text>
+
+    <Text Key="UserEditorModel.ConfirmPassword">Confirm password</Text>
+    <Text Key="UserEditorModel.OldPassword">Old password</Text>
+    <Text Key="UserEditorModel.IsApproved">Login enabled?</Text>
+    <Text Key="UserEditorModel.SessionTimeout">Session timeout (mins)</Text>
+    <Text Key="UserEditorModel.LastLoginDate">Last login date</Text>
+    <Text Key="UserEditorModel.LastActivityDate">Last activity date</Text>
+    <Text Key="UserEditorModel.LastPasswordChangeDate">Last password change date</Text>
+    <Text Key="UserEditorModel.StartContentHiveId">Start node for Content</Text>
+    <Text Key="UserEditorModel.StartMediaHiveId">Start node for Media</Text>
+    <Text Key="UserEditorModel.Applications">Sections</Text>
+    
+    <Text Key="CreateDocumentTypeModel.CreateTemplate">Create matching template</Text>
+    <Text Key="CreateDocumentTypeModel.SelectedDocumentTypeId">Master document type</Text>
+
+    <Text Key="CreateMacroModel.MacroType">Macro Type</Text>
+
+    <Text Key="MacroEditorModel.MacroType">Macro Type</Text>
+    <Text Key="MacroEditorModel.UseInEditor">Use in editor</Text>
+    <Text Key="MacroEditorModel.RenderContentInEditor">Render content in editor</Text>
+    <Text Key="MacroEditorModel.CachePeriodSeconds">Cache period in seconds</Text>
+    <Text Key="MacroEditorModel.CacheByPage">Cache by page</Text>
+    <Text Key="MacroEditorModel.CachePersonalized">Cache personalized</Text>
+
+    <Text Key="HostnamesModel.NewHostname">Add hostname</Text>
+    <Text Key="HostnamesModel.AssignedHostnames">Assigned hostnames</Text>
+
+    <Text Key="AbstractSchemaEditorModel.Name">Name</Text>
+    <Text Key="AbstractSchemaEditorModel.Alias">Alias</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon">Icon</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon.Description">The icon to display in the content tree.</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail">Thumbnail</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">The thumbnail to display on the 'Create' screen.</Text>
+    <Text Key="AbstractSchemaEditorModel.Description">Description</Text>
+    <Text Key="AbstractSchemaEditorModel.Description.Description">A description to display on the 'Create' screen.</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom">Inherit From</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">The parent types this type should inherit tabs/properties from.</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren">Allowed Children</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">The types that are allowed to be created beneath this type.</Text>
+    
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates">Allowed Templates</Text>
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">The templates that can be used by this type.</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId">Default Template</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">The default template to use when creating content of this type.</Text>
+    
+    <Text Key="MembershipCreateStatus.DuplicateUserName">Username already exists. Please enter a different username.</Text>
+    <Text Key="MembershipCreateStatus.DuplicateEmail">A user name for that e-mail address already exists. Please enter a different e-mail address.</Text>
+    <Text Key="MembershipCreateStatus.InvalidPassword">The password provided is invalid. Please enter a valid password value.</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">The e-mail address provided is invalid. Please check the value and try again.</Text>
+    <Text Key="MembershipCreateStatus.InvalidAnswer">The password retrieval answer provided is invalid. Please check the value and try again.</Text>
+    <Text Key="MembershipCreateStatus.InvalidQuestion">The password retrieval question provided is invalid. Please check the value and try again.</Text>
+    <Text Key="MembershipCreateStatus.InvalidUserName">The user name provided is invalid. Please check the value and try again.</Text>
+    <Text Key="MembershipCreateStatus.ProviderError">The authentication provider returned an error. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
+    <Text Key="MembershipCreateStatus.UserRejected">The user creation request has been canceled. Please verify your entry and try again. If the problem persists, please contact your system administrator.</Text>
+
+
+  </Namespace>
+
+  <Namespace Name="Umbraco.Cms.Web.PropertyEditors">
+    <Text Key="IsRequired">Required</Text>
+    <Text Key="RichTextPreValueModel.ShowContextMenu">Show context menu</Text>
+    <Text Key="RichTextPreValueModel.EditorSize">Editor size</Text>
+    <Text Key="RichTextPreValueModel.TinyMceItems">Rich text elements</Text>
+
+    <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regular expression validation statement</Text>
+   
+    <Text Key="ColorSwatchPickerPreValueModel.Colors">Colors</Text>
+    
+    <Text Key="DateTimePickerPreValueModel.ShowTime">Also show time selection</Text>
+
+    <Text Key="NodeNameEditorModel.UrlName">Url name</Text>
+    <Text Key="NodeNameEditorModel.UrlAliases">Url aliases</Text>
+  </Namespace>
+
+</Localizations>
+
