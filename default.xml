@@ -102,7 +102,7 @@
   <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
   <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
   <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action a they contain one or more: out, return value or LCID parameters</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action as they contain one or more: out, return value or LCID parameters</Text>
   <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
   <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
   <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
