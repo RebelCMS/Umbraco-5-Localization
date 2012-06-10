@@ -1,170 +1,170 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Localizations Language="*">
   <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
-<!-- The translation from English to Russian done by http://yaplex.com/ -->
+
   <!-- Applications -->
-  <Text Key="content">Содержание</Text>
-  <Text Key="media">Медиа</Text>
-  <Text Key="settings">Настрйки</Text>
-  <Text Key="developer">Разработчик</Text>
-  <Text Key="users">Пользователь</Text>
-  <Text Key="members">Участник</Text>
+  <Text Key="content">Content</Text>
+  <Text Key="media">Media</Text>
+  <Text Key="settings">Settings</Text>
+  <Text Key="developer">Developer</Text>
+  <Text Key="users">Users</Text>
+  <Text Key="members">Members</Text>
   
   <!-- These are used regardless of class, assembly and namespace -->
-  <Text Key="Name">Имя</Text>
-  <Text Key="CreatedBy">Создано</Text>
-  <Text Key="UtcCreated">Дата создания</Text>
-  <Text Key="UtcModified">Дата обновления</Text>
-  <Text Key="NodeName">Имя узла</Text>
-  <Text Key="UpdatedBy">Обновлено</Text>
-  <Text Key="ShowLabel">Показать метку</Text>
+  <Text Key="Name">Name</Text>
+  <Text Key="CreatedBy">Created by</Text>
+  <Text Key="UtcCreated">Date created</Text>
+  <Text Key="UtcModified">Date updated</Text>
+  <Text Key="NodeName">Node Name</Text>
+  <Text Key="UpdatedBy">Updated by</Text>
+  <Text Key="ShowLabel">Show label</Text>
   
   <!-- Messages -->
-  <Text Key="Login.Invalid">Неверное имя пользователя или пароль</Text>
-  <Text Key="Delete.Successful">Обьект успешно удален</Text>
-  <Text Key="Delete.Failed">Обьект не был удален</Text>
-  <Text Key="Validation.Errors">Произошли ошибки валидации</Text>
+  <Text Key="Login.Invalid">Invalid username or password</Text>
+  <Text Key="Delete.Successful">Item successfully deleted</Text>
+  <Text Key="Delete.Failed">Item was not deleted</Text>
+  <Text Key="Validation.Errors">Some validation errors occurred</Text>
   
-  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Произошла ошибка валидации | Произошли ошибки валидации}</Text>
-  <Text Key="Save.ErrorsOccurred.Title">Ошибки валидации</Text>
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){A validation error occurred | Validation errors occurred}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Validation errors</Text>
 
-  <Text Key="Save.ValidationSummary.Title">Пожалуйста исправьте ошибки и повторите.</Text>
+  <Text Key="Save.ValidationSummary.Title">Please correct the errors and try again.</Text>
   
-  <Text Key="Content.Save.Title">Содержимое сохранено</Text>
-  <Text Key="Content.Save.Message">Не забудьте опубликовать чтобы сделать видимым изменение</Text>
-  <Text Key="Content.SaveUnathorized.Title">Содержимое не сохранено</Text>
-  <Text Key="Content.SaveUnathorized.Message">Содержимое не сохранено из за нехватки полномочий</Text>
-  <Text Key="Content.UnSaved.Message">Содержимое не сохранено. Не забудьте сохранить содержимоеесли вы не хотите потерять изменения.</Text>
-  <Text Key="Content.NoTemplates.Message">В настоящее время шаблоны для содержимого не доступны.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">Ссылка не может быть сгенерирована для этого обьекта потому что необходимо сопоставить имя хоста к текущей ветке.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">Этот тип содержимого не содержит разрешенных дочерних типов соответствующих ему</Text>
+  <Text Key="Content.Save.Title">Content saved</Text>
+  <Text Key="Content.Save.Message">Remember to publish to make changes visible</Text>
+  <Text Key="Content.SaveUnathorized.Title">Content not saved</Text>
+  <Text Key="Content.SaveUnathorized.Message">Content was not saved due to insufficient permissions</Text>
+  <Text Key="Content.UnSaved.Message">This content is currently un-saved. Remember to save this content if you would like to be able to come back and edit it later.</Text>
+  <Text Key="Content.NoTemplates.Message">There are currently no templates available for this content.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
 
-  <Text Key="User.Save.Title">Пользователь сохранен</Text>
-  <Text Key="User.Save.Message">Информация пользователя была успешно сохранена</Text>
-  <Text Key="User.UnSaved.Message">Текущий пользователь в настоящее время не сохранен. Не забудьте сохранить его если вы не хотите потерять ваши изменения.</Text>
+  <Text Key="User.Save.Title">User saved</Text>
+  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
+  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="UserGroup.Save.Title">Группа пользователей сохранена</Text>
-  <Text Key="UserGroup.Save.Message">Информация о группе пользователей была успешно сохранена</Text>
-  <Text Key="UserGroup.UnSaved.Message">Текущая группа пользователей не сохранена. Не забудьте сохранить ее если не хотите потерять изменения.</Text>
-  <Text Key="UserGroup.Inherit.Message">Не забудьте, доступ установлен на отказ по умолчанию если нет явных разрешающих доступов которые могут быть унаследованны.</Text>
+  <Text Key="UserGroup.Save.Title">User group saved</Text>
+  <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
+  <Text Key="UserGroup.UnSaved.Message">This user group is currently un-saved. Remember to save this user group if you would like to be able to come back and edit it later.</Text>
+  <Text Key="UserGroup.Inherit.Message">Please note, permissions set to inherit will default to deny if no explicit allow permission can be inherited.</Text>
   
-  <Text Key="MemberGroup.Save.Title">Группа пользователей сохранена</Text>
-  <Text Key="MemberGroup.Save.Message">Информация о группе пользователей была успешно сохранена</Text>
-  <Text Key="MemberGroup.UnSaved.Message">Эта группа пользователей не сохранена. Не забудьте сохранить ее если вы не хотите потерять ваши изменения.</Text>
+  <Text Key="MemberGroup.Save.Title">Member group saved</Text>
+  <Text Key="MemberGroup.Save.Message">The member group information has been successfully saved</Text>
+  <Text Key="MemberGroup.UnSaved.Message">This member group is currently un-saved. Remember to save this member group if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="DataType.Save.Title">Тип данных сохранен</Text>
-  <Text Key="DataType.Save.Message">Тип данных был послан</Text>
-  <Text Key="DataType.UnSaved.Message">Этот тип данных не сохранен. Не забудьте сохранить этот тип данных если вы не хотите потерять ваши изменения.</Text>
+  <Text Key="DataType.Save.Title">Data type saved</Text>
+  <Text Key="DataType.Save.Message">Data type has been saved</Text>
+  <Text Key="DataType.UnSaved.Message">This data type is currently un-saved. Remember to save this data type if you would like to be able to come back and edit it later.</Text>
 
-  <Text Key="DocumentType.Save.Title">Тип документа сохранен</Text>
-  <Text Key="DocumentType.Save.Message">Тип документа был успешно сохранен</Text>
-  <Text Key="DocumentType.UnSaved.Message">Этот тип документа не сохранен. Не забудьте сохранить тип документа если вы не хотите потерять изменения.</Text>
-  <Text Key="DocumentType.PropertyDeleted.Title">Свойство удалено</Text>
-  <Text Key="DocumentType.PropertyDeleted.Message">Свойства типа документа удалено.</Text>
-  <Text Key="DocumentType.TabDeleted.Title">Вклдка удалена</Text>
-  <Text Key="DocumentType.TabDeleted.Message">Вкладка типа документа удалена</Text>
-  <Text Key="DocumentType.TabAdded.Title">Вкладка добавлена</Text>
-  <Text Key="DocumentType.TabAdded.Message">Вкладка типа документа была добавлена</Text>
-  <Text Key="DocumentType.Validation.DuplicateTab">Имя введенной вкладки уже существует</Text>
-  <Text Key="DocumentType.Validation.RequiredTabName">Укажите имя вкладки</Text>
+  <Text Key="DocumentType.Save.Title">Document type saved</Text>
+  <Text Key="DocumentType.Save.Message">Document type has been successfully saved</Text>
+  <Text Key="DocumentType.UnSaved.Message">This document type is currently un-saved. Remember to save this document type if you would like to be able to come back and edit it later.</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Property deleted</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">Document type property has been deleted</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Tab deleted</Text>
+  <Text Key="DocumentType.TabDeleted.Message">Document type tab has been deleted</Text>
+  <Text Key="DocumentType.TabAdded.Title">Tab added</Text>
+  <Text Key="DocumentType.TabAdded.Message">Document type tab has been added</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">The tab name entered already exists</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">A tab name must be specified</Text>
   
-  <Text Key="Permissions.Title">Права доступа обновлены</Text>
-  <Text Key="Permissions.Success.Message">Права доступа успешно сохранены в узле {Name}</Text>
-  <Text Key="Permissions.NoUserGroups.Message">Небыло найдены не администраторские группы, пожалуйста добавьте новую пользовательскую группу перед попыткой установить права доступа</Text>
-  <Text Key="PublicAccess.Title">Общедоступный доступ обновлен</Text>
-  <Text Key="PublicAccess.Success.Message">Общедоступный доступ успешно обновлен на узле {Name}</Text>
-  <Text Key="Hostname.Title">Имя хоста изменено</Text>
-  <Text Key="Hostname.Success.Message">{Count} имен хостов успешно сохранено в узле {Name}</Text>
-  <Text Key="Language.Title">Язык обновлен</Text>
-  <Text Key="Language.Success.Message">Язык успешно сохранен для узла {Name}</Text>
-  <Text Key="Sort.Title">Сортировка содержимого</Text>
-  <Text Key="Rollback.Title">Изменения содержимого отменены</Text>
-  <Text Key="Sort.Success.Message">Содержимое успешно отсортировано</Text>
-  <Text Key="Move.Success.Message">'{FromName}' был перемещен в '{ToName}'</Text>
-  <Text Key="Copy.Success.Message">'{FromName}' был скопирован в '{ToName}'</Text>
-  <Text Key="Rollback.Success.Message">Изменения содержимого успешно отменены</Text>
-  <Text Key="Publish.Title">Содержимое опубликованно</Text>
-  <Text Key="Publish.SingleSuccess.Message">'{Name}' было опубликованно</Text>
-  <Text Key="Publish.SingleUnathorized.Message">'{Name}' не было опубликованно из за нехватки прав доступа</Text>
-  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' и дочерние страницы были опубликованны</Text>
-  <Text Key="Publish.IncludeChildren.Label">Публикация '{Name}' и всех дочерних страниц</Text>
-  <Text Key="Publish.IncludeUnpublishedChildren.Label">Включая неопубликованные дочерние страницы</Text>
-  <Text Key="Unpublish.Title">Содержимое не опубликованно</Text>
-  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' не был опубликован</Text>
-  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' не был опубликован из за нехватки прав доступа</Text>
+  <Text Key="Permissions.Title">Permissions updated</Text>
+  <Text Key="Permissions.Success.Message">Permissions successfully saved on node {Name}</Text>
+  <Text Key="Permissions.NoUserGroups.Message">No non-admin user groups found, please add a new user group before attempting to set permissions</Text>
+  <Text Key="PublicAccess.Title">Public access updated</Text>
+  <Text Key="PublicAccess.Success.Message">Public access successfully updated on node {Name}</Text>
+  <Text Key="Hostname.Title">Hostnames updated</Text>
+  <Text Key="Hostname.Success.Message">{Count} hostnames successfully saved on node {Name}</Text>
+  <Text Key="Language.Title">Language updated</Text>
+  <Text Key="Language.Success.Message">Language successfully saved for node {Name}</Text>
+  <Text Key="Sort.Title">Content sorting</Text>
+  <Text Key="Rollback.Title">Content rolling back</Text>
+  <Text Key="Sort.Success.Message">Content sorted successfully</Text>
+  <Text Key="Move.Success.Message">'{FromName}' has been moved to '{ToName}'</Text>
+  <Text Key="Copy.Success.Message">'{FromName}' has been copied to '{ToName}'</Text>
+  <Text Key="Rollback.Success.Message">Content rolled back successfully</Text>
+  <Text Key="Publish.Title">Content publishing</Text>
+  <Text Key="Publish.SingleSuccess.Message">'{Name}' has been published</Text>
+  <Text Key="Publish.SingleUnathorized.Message">'{Name}' was not published due to insufficient permissions</Text>
+  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' and subpages have been published</Text>
+  <Text Key="Publish.IncludeChildren.Label">Publish '{Name}' and all its subpages</Text>
+  <Text Key="Publish.IncludeUnpublishedChildren.Label">Include unpublished child pages</Text>
+  <Text Key="Unpublish.Title">Content unpublishing</Text>
+  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' has been unpublished</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' was not unpublished due to insufficient permissions</Text>
 
-  <Text Key="Language.Save.Title">Язык сохранен</Text>
-  <Text Key="Language.Save.Message">Язык был успешно сохранен</Text>
-  <Text Key="Language.UnSaved.Message">Язык не сохранен. Не забудьте сохранить язык если вы не хотите потерять изменения</Text>
+  <Text Key="Language.Save.Title">Language saved</Text>
+  <Text Key="Language.Save.Message">The language has been successfully saved</Text>
+  <Text Key="Language.UnSaved.Message">This language is currently un-saved. Remember to save this language if you would like to be able to come back and edit it later.</Text>
   
-  <Text Key="Macro.Save.Title">Макрос сохранен</Text>
-  <Text Key="Macro.Save.Message">Макрос был успешно сохранен</Text>
-  <Text Key="Macro.UnSaved.Message">Этот макрос не сохранен. Не забудьте сохранить макрос, если вы не хотите потерять изменения.</Text>
-  <Text Key="Macro.ParamsPopulated.Title">Параметры макроса</Text>
-  <Text Key="Macro.ParamsPopulatedSuccess.Message">Параметры макроса успешно получены</Text>
-  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Не могу определить параметры для дочерних действий которые содержат один или более: возвращаемых значений или LCID параметров</Text>
-  <Text Key="Macro.ParamsFailedPartialView.Message">Не могу найти сслыку на совместное представление</Text>
-  <Text Key="Macro.RenderingFailed.Message">Произошла ошибка выполнения макроса '{MacroName}'. Ошибка: '{Error}'. Смотрите лог файлы для детальной информации.</Text>
-  <Text Key="Macro.RenderingFailed.Title">Ошибка макроса</Text>
+  <Text Key="Macro.Save.Title">Macro saved</Text>
+  <Text Key="Macro.Save.Message">Macro has been successfully saved</Text>
+  <Text Key="Macro.UnSaved.Message">This macro is currently un-saved. Remember to save this macro if you would like to be able to come back and edit it later.</Text>
+  <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters successfully retreived</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Could not determine parameters for child action as they contain one or more: out, return value or LCID parameters</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Could not find the partial view referenced</Text>
+  <Text Key="Macro.RenderingFailed.Message">An error occurred rendering the macro '{MacroName}'. ERROR: '{Error}'. See Umbraco log for full details.</Text>
+  <Text Key="Macro.RenderingFailed.Title">Macro error</Text>
   
-  <Text Key="Template.Save.Title">Шаблон сохранен</Text>
-  <Text Key="Template.Save.Message">Шаблон был успешно сохранен</Text>
+  <Text Key="Template.Save.Title">Template saved</Text>
+  <Text Key="Template.Save.Message">Template has been successfully saved</Text>
   
-  <Text Key="Partials.Save.Title">Шаблон сохранен</Text>
-  <Text Key="Partials.Save.Message">Шаблон был успешно сохранен</Text>
+  <Text Key="Partials.Save.Title">Template saved</Text>
+  <Text Key="Partials.Save.Message">Template has been successfully saved</Text>
   
-  <Text Key="Script.Save.Title">Скрипт сохранен</Text>
-  <Text Key="Script.Save.Message">Скрипт был успешно сохранен</Text>
+  <Text Key="Script.Save.Title">Script saved</Text>
+  <Text Key="Script.Save.Message">Script has been successfully saved</Text>
   
-  <Text Key="Stylesheet.Save.Title">Таблица стилей сохранена</Text>
-  <Text Key="Stylesheet.Save.Message">Таблица стилей была успешно сохранена</Text>
+  <Text Key="Stylesheet.Save.Title">Stylesheet saved</Text>
+  <Text Key="Stylesheet.Save.Message">Stylesheet has been successfully saved</Text>
 
-  <Text Key="StylesheetRule.UnSaved.Message">Это правило не сохранено. Не забудьте сохранить правило если не хотите потерять изменения.</Text>
+  <Text Key="StylesheetRule.UnSaved.Message">This rule is currently un-saved. Remember to save this rule if you would like to be able to come back and edit it later.</Text>
   
-  <Text Key="Folder.Save.Title">Папка создана</Text>
-  <Text Key="Folder.Save.Message">Папка была создана успешно</Text>
+  <Text Key="Folder.Save.Title">Folder created</Text>
+  <Text Key="Folder.Save.Message">Folder has been created successfully</Text>
 
-  <Text Key="File.UnSaved.Message">Этот файл не сохранен. Не забудьте сохранить файл если вы не хотите потерять изменения.</Text>
+  <Text Key="File.UnSaved.Message">This file is currently un-saved. Remember to save this file if you would like to be able to come back and edit it later.</Text>
 
   <!-- Global UI -->
-  <Text Key="UI.Button.Logout">Выйти</Text>
-  <Text Key="UI.Button.About">О программе</Text>
-  <Text Key="UI.Title.Sections">Выбор</Text>
-  <Text Key="UI.Title.Search">Поиск</Text>
-  <Text Key="UI.Tab.UmbracoProperties">Свойства Umbraco</Text>
-  <Text Key="UI.Tab.FileProperties">Свойства Umbraco</Text>
+  <Text Key="UI.Button.Logout">Logout</Text>
+  <Text Key="UI.Button.About">About</Text>
+  <Text Key="UI.Title.Sections">Sections</Text>
+  <Text Key="UI.Title.Search">Search</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Umbraco Properties</Text>
+  <Text Key="UI.Tab.FileProperties">Umbraco Properties</Text>
   <!-- Trees-->
   <!-- TODO -->
   
   <!-- Fixed Tree Nodes -->
-  <Text Key="Local packages">Локальные пакеты</Text>
+  <Text Key="Local packages">Local packages</Text>
 
   <!-- Menu Items-->
-  <Text Key="Audit">Аудит</Text>
-  <Text Key="Copy">Копировать</Text>
-  <Text Key="CreateFolder">Создать папку</Text>
-  <Text Key="Create">Создать</Text>
-  <Text Key="Delete">Удалить</Text>
-  <Text Key="EmptyRecycleBin">Очистить корзину</Text>
-  <Text Key="ExportDocumentType">Выгрузить тип документа</Text>
-  <Text Key="Manage hostnames">Настройка имен хоста</Text>
-  <Text Key="ImportDocumentType">Загрузить тип документа</Text>
-  <Text Key="Language">Язык</Text>
-  <Text Key="Logout">Выйти</Text>
-  <Text Key="Move">Переместить</Text>
-  <Text Key="Notify">Уведомить</Text>
-  <Text Key="Package">Пакет</Text>
-  <Text Key="Permissions">Настройки доступа</Text>
-  <Text Key="Public Access">Общедоступный доступ</Text>
-  <Text Key="Publish">Опубликовать</Text>
-  <Text Key="Refresh">Обновить</Text>
-  <Text Key="Rollback">Откатить</Text>
-  <Text Key="Save">Сохранить</Text>
-  <Text Key="SendPublish">Послать на публикацию</Text>
-  <Text Key="SendTranslate">Послать на перевод</Text>
-  <Text Key="Sort">Сортировать</Text>
-  <Text Key="Translate">Перевести</Text>
-  <Text Key="Update">Обновить</Text>
+  <Text Key="Audit">Audit</Text>
+  <Text Key="Copy">Copy</Text>
+  <Text Key="CreateFolder">Create Folder</Text>
+  <Text Key="Create">Create</Text>
+  <Text Key="Delete">Delete</Text>
+  <Text Key="EmptyRecycleBin">Empty Recycle Bin</Text>
+  <Text Key="ExportDocumentType">Export DocumentType</Text>
+  <Text Key="Manage hostnames">Manage hostnames</Text>
+  <Text Key="ImportDocumentType">Import DocumentType</Text>
+  <Text Key="Language">Language</Text>
+  <Text Key="Logout">Logout</Text>
+  <Text Key="Move">Move</Text>
+  <Text Key="Notify">Notify</Text>
+  <Text Key="Package">Package</Text>
+  <Text Key="Permissions">Permissions</Text>
+  <Text Key="Public Access">PublicAccess</Text>
+  <Text Key="Publish">Publish</Text>
+  <Text Key="Refresh">Refresh</Text>
+  <Text Key="Rollback">Rollback</Text>
+  <Text Key="Save">Save</Text>
+  <Text Key="SendPublish">Send to publish</Text>
+  <Text Key="SendTranslate">Send to Translate</Text>
+  <Text Key="Sort">Sort</Text>
+  <Text Key="Translate">Translate</Text>
+  <Text Key="Update">Update</Text>
   
   <!-- Dashboards -->
   
@@ -314,7 +314,6 @@
   <Text Key="Packaging.Editor.Labels.FileName">Filename</Text>
   <Text Key="Packaging.Editor.Button.Upload">Upload</Text>
   <Text Key="Packaging.Editor.Labels.AutoInstall">Auto install package (Please also accept the terms below)</Text>
-  <Text Key="Packaging.Editor.Title.Upload">Upload package to local repository</Text>
   <Text Key="Packaging.Editor.Title.Install">Install a local package</Text>
   <Text Key="Packaging.Editor.Notice.Install.Title">Only install packages from sources you know and trust!</Text>
   <Text Key="Packaging.Editor.Notice.Install"><![CDATA[
@@ -389,7 +388,7 @@
   <Namespace Name="Umbraco.Cms.Web">
     
     <Text Key="CoreEntityModel.PropertyEditorId">Choose property editor</Text>
-    <Text Key="CoreEntityModel.UtcPublished">Pulication status</Text>
+    <Text Key="CoreEntityModel.UtcPublished">Publication status</Text>
     
     <Text Key="ContentEditorModel.DocumentTypeName">Document type</Text>
     <Text Key="ContentEditorModel.SelectedTemplateId">Template</Text>
@@ -480,6 +479,33 @@
 
     <Text Key="NodeNameEditorModel.UrlName">Url name</Text>
     <Text Key="NodeNameEditorModel.UrlAliases">Url aliases</Text>
+    
+    <Text Key="TreePicker.SelectedTree.Description">The tree type to display the nodes from</Text>
+    
+    <Text Key="NodeSelectorPreValueModel.SelectedTree">Selected tree type</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeId">Start node ID</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails">Show thumbnails</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails.Description">Choose whether to display thumbnails for each selected item</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName">Thumbnail property name</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName.Description">The property name in which the thumbnail reference is stored</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight">Editor height</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight.Description">The height of the Node Selector displayed in the editor in pixels</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowToolTip">Show tooltip</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType">Node filter type</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType.Description">Should the filter match nodes to enable nodes or disable nodes. If Enable is selected, this means that only nodes that match the filter will be allowed to be selected in the tree picker and vise versa for Disabled</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery">Start node query</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery.Description">A csharp method to return the HiveId of the start node. The method accepts 2 Entities: the current node and the root node which you can use to determine the start node id.</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter">Node filter</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter.Description">A csharp boolean method to match criteria that will make the current node selectable (depending on what is selected for the node filter type).</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType">Start node selection type</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType.Description">Determine the start node id of the tree by using either a node picker or by defining a query</Text>    
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount">Minimum node count</Text>
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount.Description">The minimum number of node selections allowed</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount">Maximum node count</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount.Description">The maximum number of node selections allowed</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeCount.Error">The minimum number of required nodes cannot exceed the maximum number of required nodes</Text>
+    <Text Key="NodeSelectorEditorModel.MaxNodeCount.Error">The number of nodes selected exceeds the maximum allowed of {Max}</Text>
+    <Text Key="NodeSelectorEditorModel.MinNodeCount.Error">The number of nodes selected is less than the minimum allowed of {Min}</Text>
   </Namespace>
 
 </Localizations>
