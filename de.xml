@@ -472,6 +472,10 @@
     <Text Key="NodeNameEditorModel.UrlName">URL-Name</Text>
     <Text Key="NodeNameEditorModel.UrlAliases">URL-Alias</Text>
     
+  
+    <!-- ********************************************************************** -->
+    <!-- ATTENTION: untranslated strings below -->
+    
     <Text Key="TreePicker.SelectedTree.Description">The tree type to display the nodes from</Text>
     
     <Text Key="NodeSelectorPreValueModel.SelectedTree">Selected tree type</Text>
