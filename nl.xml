@@ -266,8 +266,8 @@
   <!-- Document Type Editor-->
   <Text Key="DocumentType.Editor.Description.IsAbstract">Stelt in of document type uitsluitend bedoeld is om te worden overgenomen door anderen. Indien aangevinkt zal het niet geselecteerd kunnen worden voor inhoud invoer.</Text>
   <Text Key="DocumentType.Editor.Title.AddNewProperty">Nieuwe property toevoegen</Text>
-  <Text Key="DocumentType.Editor.Button.AddNewProperty">Klik hier om een ​​nieuwe property toe te voegen</Text>
-  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Annuleer creatie nieuew property</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">Klik hier om een ​​nieuw property toe te voegen</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Annuleer het aanmaken van een nieuw property</Text>
   <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
   <Text Key="DocumentType.Editor.NoProperties">Geen properties</Text>
   <Text Key="DocumentType.Editor.Label.Tab">Gedefinieerd tabs</Text>
