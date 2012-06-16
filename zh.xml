@@ -470,6 +470,33 @@
 
     <Text Key="NodeNameEditorModel.UrlName">地址名称</Text>
     <Text Key="NodeNameEditorModel.UrlAliases">地址别名</Text>
+    
+    <Text Key="TreePicker.SelectedTree.Description">要显示节点的树类型</Text>
+    
+    <Text Key="NodeSelectorPreValueModel.SelectedTree">选中的树类型</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeId">起始节点 ID</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails">显示缩略图</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails.Description">选择是否为每个选中的项目显示缩略图</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName">缩略图属性名</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName.Description">缩略图引用的属性名已保存</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight">编辑器高度</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight.Description">节点选择器在编辑器中显示的高度(px)</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowToolTip">显示提示</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType">节点过滤器类型</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType.Description">是否激活过滤器匹配的节点，如果选中激活，则只有过滤器匹配的节点能被选择，反之，只能选择不匹配的。</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery">起始节点查询</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery.Description">C#方法返回起始节点的HiveId，该方法接受两种实体：当前节点和你可以设置起始节点Id的根节点。</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter">节点过滤器</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter.Description">C#逻辑型方法为真，则当前节点可被被择（视节点过滤器类型而定）。</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType">开始节点选择器类型</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType.Description">使用节点拾取器或查询设置树型的起始节点Id</Text>    
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount">最少节点数</Text>
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount.Description">节点选择器要选择节点的最少个数</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount">最多节点数</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount.Description">节点选择器可选择节点的最多个数</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeCount.Error">最少节点数不能超过最多节点数</Text>
+    <Text Key="NodeSelectorEditorModel.MaxNodeCount.Error">选中的节点数多于最多节点数 {Max}</Text>
+    <Text Key="NodeSelectorEditorModel.MinNodeCount.Error">选中的节点数少于最少节点数 {Min}</Text>
   </Namespace>
 
 </Localizations>
