@@ -471,7 +471,37 @@
 
     <Text Key="NodeNameEditorModel.UrlName">URL-Name</Text>
     <Text Key="NodeNameEditorModel.UrlAliases">URL-Alias</Text>
+    
+  
+    <!-- ********************************************************************** -->
+    <!-- ATTENTION: untranslated strings below -->
+    
+    <Text Key="TreePicker.SelectedTree.Description">The tree type to display the nodes from</Text>
+    
+    <Text Key="NodeSelectorPreValueModel.SelectedTree">Selected tree type</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeId">Start node ID</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails">Show thumbnails</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowThumbnails.Description">Choose whether to display thumbnails for each selected item</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName">Thumbnail property name</Text>
+    <Text Key="NodeSelectorPreValueModel.ThumbnailPropertyName.Description">The property name in which the thumbnail reference is stored</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight">Editor height</Text>
+    <Text Key="NodeSelectorPreValueModel.EditorHeight.Description">The height of the Node Selector displayed in the editor in pixels</Text>
+    <Text Key="NodeSelectorPreValueModel.ShowToolTip">Show tooltip</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType">Node filter type</Text>
+    <Text Key="NodeSelectorPreValueModel.FilterType.Description">Should the filter match nodes to enable nodes or disable nodes. If Enable is selected, this means that only nodes that match the filter will be allowed to be selected in the tree picker and vise versa for Disabled</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery">Start node query</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeQuery.Description">A csharp method to return the HiveId of the start node. The method accepts 2 Entities: the current node and the root node which you can use to determine the start node id.</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter">Node filter</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeFilter.Description">A csharp boolean method to match criteria that will make the current node selectable (depending on what is selected for the node filter type).</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType">Start node selection type</Text>
+    <Text Key="NodeSelectorPreValueModel.StartNodeSelectionType.Description">Determine the start node id of the tree by using either a node picker or by defining a query</Text>    
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount">Minimum node count</Text>
+    <Text Key="NodeSelectorPreValueModel.MinNodeCount.Description">The minimum number of node selections allowed</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount">Maximum node count</Text>
+    <Text Key="NodeSelectorPreValueModel.MaxNodeCount.Description">The maximum number of node selections allowed</Text>
+    <Text Key="NodeSelectorPreValueModel.NodeCount.Error">The minimum number of required nodes cannot exceed the maximum number of required nodes</Text>
+    <Text Key="NodeSelectorEditorModel.MaxNodeCount.Error">The number of nodes selected exceeds the maximum allowed of {Max}</Text>
+    <Text Key="NodeSelectorEditorModel.MinNodeCount.Error">The number of nodes selected is less than the minimum allowed of {Min}</Text>
   </Namespace>
 
 </Localizations>
-
