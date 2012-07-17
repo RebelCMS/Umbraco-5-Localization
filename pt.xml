@@ -36,12 +36,12 @@
   <Text Key="Content.SaveUnathorized.Message">Conteúdo não gravado por falta de permissões</Text>
   <Text Key="Content.UnSaved.Message">Este conteúdo não está gravado. Lembre-se de gravar este conteúdo se deseja voltar e editá-lo mais tarde.</Text>
   <Text Key="Content.NoTemplates.Message">De momento não existem templates disponíveis para este conteúdo.</Text>
-  <Text Key="Content.UrlResolutionFailedHostname.Message">A URL could not be generated for this node because the branch it is contained in requires that a hostname is assigned.</Text>
-  <Text Key="Content.NoChildTypesAllowed.Message">This content type does not have any allowed child content types assigned</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">Não foi possivel gerar um URL para este conteúdo porque porque o branch em que está contido precisa que um hostname esteja definido</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Este tipo de conteúdo não tem tipos de conteúdos filho associados</Text>
 
-  <Text Key="User.Save.Title">User saved</Text>
-  <Text Key="User.Save.Message">The user information has been successfully saved</Text>
-  <Text Key="User.UnSaved.Message">This user is currently un-saved. Remember to save this user if you would like to be able to come back and edit it later.</Text>
+  <Text Key="User.Save.Title">Utilizador gravado</Text>
+  <Text Key="User.Save.Message">A informação do utilizador foi gravada com sucesso</Text>
+  <Text Key="User.UnSaved.Message">Este utilizador não está gravado. Lembre-se de gravar este utilizador se quer voltar e editá-lo mais tarde.</Text>
 
   <Text Key="UserGroup.Save.Title">User group saved</Text>
   <Text Key="UserGroup.Save.Message">The user group information has been successfully saved</Text>
